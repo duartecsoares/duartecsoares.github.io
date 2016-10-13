@@ -1,0 +1,14 @@
+@charset "UTF-8";
+// builditwithme
+
+@import "settings";
+@import "../core/fold-starterkit";
+
+@import "base";
+
+@import "layout/header";
+@import "layout/container";
+@import "layout/footer";
+
+//pages
+@import  "pages/home";

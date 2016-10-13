@@ -3,7 +3,5 @@
 
 .sass-cache
 dev/
-css
-vendor
 node_modules
 scss/fold-starterkit/scenarios/*.scss

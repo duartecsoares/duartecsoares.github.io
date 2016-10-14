@@ -179,6 +179,12 @@ module.exports = function(grunt){
 
         break;
 
+        case "prod":
+
+            grunt.registerTask("prod", "Production Task", ["requirejs", "sass", "autoprefixer"]);
+
+        break;
+
          case "production":
 
             grunt.registerTask("production", "Production Task", ["requirejs", "sass", "watch", "autoprefixer"]);

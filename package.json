@@ -1,5 +1,5 @@
 {
-  "name": "fold-webApp-pack",
+  "name": "fold-webapp-pack",
   "version": "0.0.1",
   "dependencies": {
     "assert": "^1.3.0",

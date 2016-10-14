@@ -161,14 +161,14 @@ module.exports = function(grunt){
 
         case "dev":
 
-            grunt.file.copy("scripts/app.js", "dist/js/foldwebapppack.js");
+            grunt.file.copy("scripts/app.js", "dist/js/fold-webapp-pack.js");
             grunt.registerTask("default", "Development Task", ["sass", "autoprefixer", "watch"]);
 
             break;
 
         case "release":
 
-            grunt.file.copy("scripts/app.js", "dist/js/foldwebapppack.js");
+            grunt.file.copy("scripts/app.js", "dist/js/fold-webapp-pack.js");
             grunt.registerTask("release", "Release Task", ["sass", "autoprefixer"]);
 
         break;

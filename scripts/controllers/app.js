@@ -2,13 +2,12 @@ define(["fold/controller",
 		"router",
 		"layout",
 		"settings/app",
-		"controllers/pages/home",
-		"controllers/pages/features"], function(FoldController, appRouter, layout, appConfig, homeController, featuresController){
+		"controllers/pages/home"], function(FoldController, appRouter, layout, appConfig, homeController){
 	
 	var AppController = FoldController.extend({
 
 		boot : function(){
-
+			
 			layout.$dom.find("[data-view='app-loader']").remove();
 			Backbone.router = appRouter;
 			layout.build();
@@ -48,7 +47,6 @@ define(["fold/controller",
 				controllersMap  = {
 					
 					"*path"	 		: homeController,
-					"features" 		: featuresController,
 					""   	 		: homeController
 
 				},

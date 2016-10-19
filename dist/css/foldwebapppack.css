@@ -1497,6 +1497,13 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.h-inline-center {
+  text-align: center;
+  margin: auto; }
+
+.h-overflow-hidden {
+  overflow: hidden; }
+
 .text-underline {
   text-decoration: underline !important; }
 
@@ -1589,6 +1596,36 @@ select {
 
 .padding-bottom-biggest {
   padding-bottom: 60px !important; }
+
+.icon {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  background-size: 100%;
+  position: relative;
+  top: 10px;
+  margin: 2px 10px 2px auto; }
+  .icon.big {
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    margin: 5px 10px 5px auto; }
+  .icon.medium {
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    margin: 2px 10px 2px auto; }
+  .icon.small {
+    height: 20px;
+    width: 20px;
+    top: 8px;
+    margin: 2px 10px 2px auto; }
+  .icon.github {
+    background-image: url("../../resources/assets/networks/github.png"); }
+  .icon.twitter {
+    background-image: url("../../resources/assets/networks/twitter.svg"); }
+  .icon.builditwithme {
+    background-image: url("../../resources/assets/networks/builditwithme.svg"); }
 
 html, body {
   font-size: 1rem;
@@ -2507,7 +2544,8 @@ html, body {
   background-image: url(../../resources/assets/avatar/avatar.jpeg);
   visibility: visible;
   -webkit-transform: rotate(-60deg);
-  transform: rotate(-60deg); }
+  transform: rotate(-60deg);
+  background-size: 115%; }
 
 .hexagon1 {
   width: 400px;
@@ -2518,8 +2556,19 @@ html, body {
   width: 200px;
   height: 400px;
   margin: -80px 0 0 20px; }
+  .hexagon2.big {
+    width: 120px;
+    height: 160px; }
+  .hexagon2.medium {
+    width: 80px;
+    height: 120px; }
+  .hexagon2.small {
+    width: 40px;
+    height: 80px; }
 
 .fold-home-page-view .hexagon {
   margin: auto; }
-  .fold-home-page-view .hexagon .hexagon-in2 {
-    background-size: 240px; }
+
+.fold-my-links-view .icon.twitter {
+  height: 32px;
+  width: 32px; }

@@ -1,0 +1,120 @@
+{
+
+	"myLinks": {
+
+		"github": {
+
+			"label": "github.com/duartecsoares",
+			"link": "//www.github.com/duartecsoares"
+
+		},
+		
+		"twitter": {
+
+			"label": "twitter.com/duartecsoares",
+			"link": "//www.twitter.com/duartecsoares"
+
+		},
+
+		"builditwithme": {
+
+			"label": "builditwith.me/duartecsoares",
+			"link": "//builditwith.me/duartecsoares"
+
+		}
+
+	},
+	
+	"journey": {
+
+		"title": "",
+
+		"featured": {
+
+			"name": "",
+			"thumb": "",
+			"text": "",
+			"link": ""
+
+		},
+
+		"list": [
+
+			{
+
+				"name": "",
+				"thumb": "",
+				"text": "",
+				"link": ""
+
+			},
+
+			{
+
+				"name": "",
+				"thumb": "",
+				"text": "",
+				"link": ""
+
+			},
+
+			{
+
+				"name": "",
+				"thumb": "",
+				"text": "",
+				"link": ""
+
+			}
+
+		]
+
+	},
+
+	"work": {
+
+		"title": "",
+
+		"featured": {
+
+			"name": "",
+			"thumb": "",
+			"text": "",
+			"link": ""
+
+		},
+
+		"list": [
+
+			{
+
+				"name": "",
+				"thumb": "",
+				"text": "",
+				"link": ""
+
+			},
+
+			{
+
+				"name": "",
+				"thumb": "",
+				"text": "",
+				"link": ""
+
+			},
+
+			{
+
+				"name": "",
+				"thumb": "",
+				"text": "",
+				"link": ""
+
+			}
+
+		]
+
+	}
+
+}

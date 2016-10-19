@@ -1,0 +1,35 @@
+<%
+
+	var myLinks = model;
+
+	
+%>
+
+<div class="row">
+	
+	<div class="column small-6 small-offset-3">
+
+		<% 
+
+			Object.keys(myLinks).map(function(key){
+
+				var label = myLinks[key].label,
+					link  = myLinks[key].link;
+
+				%>
+
+				<div class="h-inline-center">
+			
+					<span class="icon <%= key %>"></span><a href="<%= link %>" target="_blank"><%= label %></a>
+
+				</div>
+
+				<%
+
+			});
+
+		%>
+		
+	</div>
+
+</div>		

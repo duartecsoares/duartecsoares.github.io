@@ -1497,6 +1497,12 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.h-go-left {
+  float: left; }
+
+.h-go-right {
+  float: right; }
+
 .h-inline-center {
   text-align: center;
   margin: auto; }
@@ -1658,36 +1664,36 @@ hr {
   float: left;
 } */
 .section {
-  margin-top: 48;
-  margin-bottom: 48; }
+  margin-top: 48px;
+  margin-bottom: 48px; }
   .section.big {
-    margin-top: 56;
-    margin-bottom: 56; }
+    margin-top: 56px;
+    margin-bottom: 56px; }
   .section.small {
-    margin-top: 40;
-    margin-bottom: 40; }
+    margin-top: 40px;
+    margin-bottom: 40px; }
 
 .content {
-  padding-top: 24;
-  padding-bottom: 24;
+  padding-top: 24px;
+  padding-bottom: 24px;
   overflow: hidden; }
   .content.big {
-    padding-top: 32;
-    padding-bottom: 32; }
+    padding-top: 32px;
+    padding-bottom: 32px; }
   .content.small {
-    padding-top: 20;
-    padding-bottom: 20; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 .panel {
-  padding-top: 16;
-  padding-bottom: 16;
+  padding-top: 16px;
+  padding-bottom: 16px;
   overflow: hidden; }
   .panel.big {
-    padding-top: 20;
-    padding-bottom: 20; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .panel.small {
-    padding-top: 8;
-    padding-bottom: 8; }
+    padding-top: 8px;
+    padding-bottom: 8px; }
 
 .heading.biggest {
   font-size: 2.5rem;
@@ -2065,10 +2071,8 @@ button:focus {
   border: none;
   border-radius: 0;
   background-color: transparent;
-  font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 500;
   text-align: left;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 0.75rem; }
   .nav .link.selected {
@@ -2547,6 +2551,15 @@ html, body {
   transform: rotate(-60deg);
   background-size: 115%; }
 
+.timeline {
+  width: 2px;
+  height: 400px;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
 .hexagon1 {
   width: 400px;
   height: 200px;
@@ -2554,8 +2567,12 @@ html, body {
 
 .hexagon2 {
   width: 200px;
-  height: 400px;
+  height: 180px;
   margin: -80px 0 0 20px; }
+  .hexagon2.max {
+    width: 100%; }
+  .hexagon2.half {
+    width: 50%; }
   .hexagon2.big {
     width: 120px;
     height: 160px; }
@@ -2572,3 +2589,6 @@ html, body {
 .fold-my-links-view .icon.twitter {
   height: 32px;
   width: 32px; }
+
+.fold-about-me-view .profile-description {
+  margin: 0px auto 30px auto; }

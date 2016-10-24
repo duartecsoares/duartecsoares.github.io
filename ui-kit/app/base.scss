@@ -52,6 +52,17 @@ html, body {
 
 }
 
+.timeline {
+    
+    width: 2px;
+    height: 400px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
 
 .hexagon1 {
 
@@ -64,8 +75,20 @@ html, body {
 .hexagon2 {
 
     width: 200px;
-    height: 400px;
+    height: 180px;
     margin: -80px 0 0 20px;
+
+    &.max {
+
+        width: 100%;
+
+    }
+
+    &.half {
+
+        width: 50%;
+
+    }
 
     &.big {
 

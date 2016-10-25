@@ -1,6 +1,7 @@
 define(["fold/view",
 		"text!templates/sections/journey.html",
-		"json!data/info.json"], function(FoldView, template, infoJSON){
+		"views/sections/journal-entry",
+		"json!data/info.json"], function(FoldView, template, JournalEntryView, infoJSON){
 	
 	var JourneyView = FoldView.extend({
 
@@ -10,7 +11,21 @@ define(["fold/view",
 
 			/* setup fn serves as an specific initializer */
 
-			this.model = infoJSON.journey;
+			this.model = {
+
+				title : infoJSON.journey.title
+
+			};
+
+			var children = infoJSON.journey.list.map(function(journalEntry, i){
+
+				var journalEntryView = new JournalEntryView({idView: "journal-entry-view-" + i, model: journalEntry, targetRef: "journal-container" });
+
+				return journalEntryView;
+
+			});
+
+			this.children = children;
 
 		}
 

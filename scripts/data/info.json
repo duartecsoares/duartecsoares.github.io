@@ -29,15 +29,6 @@
 
 		"title": "The Journey",
 
-		"featured": {
-
-			"name": "",
-			"thumb": "",
-			"text": "",
-			"link": ""
-
-		},
-
 		"list": [
 
 			{
@@ -45,7 +36,8 @@
 				"name": "Universidade de Aveiro",
 				"thumb": "",
 				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
-				"link": ""
+				"link": "",
+				"featured": false
 
 			},
 
@@ -54,7 +46,8 @@
 				"name": "Musikki & MeshApp",
 				"thumb": "",
 				"text": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
-				"link": ""
+				"link": "",
+				"featured": false
 
 			},
 
@@ -63,7 +56,8 @@
 				"name": "Föld",
 				"thumb": "",
 				"text": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
-				"link": ""
+				"link": "",
+				"featured": false
 
 			},
 
@@ -72,7 +66,8 @@
 				"name": "Freelancer",
 				"thumb": "",
 				"text": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
-				"link": ""
+				"link": "",
+				"featured": false
 
 			}
 
@@ -82,43 +77,47 @@
 
 	"work": {
 
-		"title": "",
-
-		"featured": {
-
-			"name": "",
-			"thumb": "",
-			"text": "",
-			"link": ""
-
-		},
+		"title": "Work",
 
 		"list": [
 
 			{
 
-				"name": "",
+				"name": "Build It With Me",
 				"thumb": "",
-				"text": "",
-				"link": ""
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+				"link": "",
+				"featured": true
 
 			},
 
 			{
 
-				"name": "",
+				"name": "Social Triggers",
 				"thumb": "",
-				"text": "",
-				"link": ""
+				"text": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+				"link": "",
+				"featured": false
 
 			},
 
 			{
 
-				"name": "",
+				"name": "Ravenna",
 				"thumb": "",
-				"text": "",
-				"link": ""
+				"text": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+				"link": "",
+				"featured": false
+
+			},
+
+			{
+
+				"name": "Eminence: Xander's Tale",
+				"thumb": "",
+				"text": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+				"link": "",
+				"featured": false
 
 			}
 

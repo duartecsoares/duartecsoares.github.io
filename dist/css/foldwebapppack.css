@@ -2527,6 +2527,9 @@ html, body {
   margin: 200px auto auto auto;
   display: block; }
 
+.section-container {
+  margin: 220px auto 220px auto; }
+
 .hexagon {
   overflow: hidden;
   visibility: hidden;
@@ -2565,8 +2568,8 @@ html, body {
   .hexagon2.half {
     width: 50%; }
   .hexagon2.big {
-    width: 120px;
-    height: 160px; }
+    width: 100px;
+    height: 125px; }
   .hexagon2.medium {
     width: 80px;
     height: 120px; }
@@ -2583,7 +2586,16 @@ html, body {
   right: 0;
   margin: auto; }
 
+.journal-entry .hexagon {
+  position: relative;
+  top: 15px; }
+  .journal-entry .hexagon.medium {
+    width: 60px; }
+.journal-entry .hexagon2 {
+  margin: auto; }
+
 .section-container .heading.medium {
+  margin-left: 65px;
   margin-bottom: 80px; }
 .section-container .heading .hexagon2 {
   display: inline-block;
@@ -2594,6 +2606,9 @@ html, body {
   .section-container .heading .hexagon2.small {
     width: 30px;
     height: 50px; }
+  .section-container .heading .hexagon2.medium {
+    width: 60px;
+    height: 80px; }
 .section-container .heading .hexagon-in2 {
   background-color: #E8B869; }
 .section-container .heading .heading-lines {
@@ -2626,7 +2641,7 @@ html, body {
     left: -20px; }
 
 .fold-profile-view {
-  min-height: 800px; }
+  min-height: 600px; }
   .fold-profile-view .hexagon {
     margin: auto; }
   .fold-profile-view .show-journey-button {
@@ -2645,16 +2660,12 @@ html, body {
 .fold-about-me-view .profile-description {
   margin: 0px auto 30px auto; }
 
-.fold-journey-view .journal-entry .hexagon {
-  position: relative;
-  top: 15px; }
-  .fold-journey-view .journal-entry .hexagon.medium {
-    width: 60px; }
-.fold-journey-view .journal-entry .hexagon2 {
-  margin: auto; }
 .fold-journey-view .timeline {
   display: none;
   height: 620px; }
 @media only screen and (min-width: 40.0625em) {
   .fold-journey-view .timeline {
     display: block; } }
+
+.fold-work-view .journal-entry {
+  margin: 30px auto 30px auto; }

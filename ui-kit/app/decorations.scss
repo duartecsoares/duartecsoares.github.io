@@ -56,8 +56,8 @@
 
     &.big {
 
-    	width: 120px;
-		height: 160px;
+        width: 100px;
+        height: 125px;
 
     }
 
@@ -89,12 +89,36 @@
 
 }
 
+.journal-entry {
+
+    .hexagon {
+
+        position: relative;
+        top: 15px;
+
+        &.medium {
+
+            width: 60px;
+
+        }
+
+    }
+
+    .hexagon2 {
+
+        margin: auto;
+
+    }
+
+}
+
 .section-container {
     
     .heading {
 
         &.medium {
 
+            margin-left: 65px;
             margin-bottom: 80px;
 
         }
@@ -111,6 +135,13 @@
 
                 width: 30px;
                 height: 50px;
+
+            }
+
+             &.medium {
+
+                width: 60px;
+                height: 80px;
 
             }
 

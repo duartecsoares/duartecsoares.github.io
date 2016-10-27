@@ -1497,6 +1497,9 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.h-text-right {
+  text-align: right; }
+
 .h-go-left {
   float: left; }
 
@@ -2640,6 +2643,47 @@ html, body {
     top: 7px;
     left: -20px; }
 
+.layout-header-view .link:hover {
+  text-decoration: underline; }
+
+.layout-footer-view {
+  margin: 60px auto; }
+  .layout-footer-view .paragraph {
+    margin-top: 5px; }
+  .layout-footer-view .line {
+    height: 1px;
+    margin-bottom: 20px;
+    background-color: #F2F2F2; }
+  .layout-footer-view .hexagon2 {
+    display: inline-block;
+    margin-right: -10px; }
+    .layout-footer-view .hexagon2 .hexagon-in2 {
+      background-color: #e6e6e6; }
+    .layout-footer-view .hexagon2.small {
+      width: 26px;
+      height: 30px; }
+  .layout-footer-view .hexagon-wrapper {
+    margin: 12px 0 0 -20px; }
+    .layout-footer-view .hexagon-wrapper .icon {
+      height: 25px;
+      width: 20px;
+      background-size: 100%;
+      position: relative;
+      top: 5px;
+      background-repeat: no-repeat;
+      display: block;
+      margin: auto; }
+      .layout-footer-view .hexagon-wrapper .icon.twitter {
+        width: 25px;
+        top: 3px;
+        left: 1px; }
+      .layout-footer-view .hexagon-wrapper .icon.builditwithme {
+        width: 16px;
+        top: 7px;
+        left: 0px; }
+  .layout-footer-view .link {
+    text-decoration: underline; }
+
 .fold-profile-view {
   min-height: 600px; }
   .fold-profile-view .hexagon {
@@ -2669,3 +2713,9 @@ html, body {
 
 .fold-work-view .journal-entry {
   margin: 30px auto 30px auto; }
+
+.fold-cta-view {
+  background-color: #D8D8D8;
+  min-height: 300px;
+  width: 100%;
+  margin-bottom: 100px; }

@@ -3,7 +3,8 @@ define(["fold/controller",
 		"views/pages/home",
 		"views/sections/profile",
 		"views/sections/journey",
-		"views/sections/work"], function(FoldController, infoJSON, HomeView, ProfileView, JourneyView, WorkView){
+		"views/sections/work",
+		"views/sections/cta"], function(FoldController, infoJSON, HomeView, ProfileView, JourneyView, WorkView, CtaView){
 	
 	var HomeController = FoldController.extend({
 
@@ -17,6 +18,6 @@ define(["fold/controller",
 
 	});
 
-	return new HomeController({ viewDetails: { constructor: HomeView, idView: "home-page-view", children: [{ constructor: ProfileView, idView: "profile-view" }, { constructor: JourneyView, idView: "journey-view" }, { constructor: WorkView, idView: "work-view" }]}});
+	return new HomeController({ viewDetails: { constructor: HomeView, idView: "home-page-view", children: [{ constructor: ProfileView, idView: "profile-view" }, { constructor: JourneyView, idView: "journey-view" }, { constructor: WorkView, idView: "work-view" }, { constructor: CtaView, idView: "cta-view"}]}});
 
 });

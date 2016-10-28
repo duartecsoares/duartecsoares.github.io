@@ -2524,7 +2524,7 @@ a.label {
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #ffffff; }
+  background-color: #F9F9F9; }
 
 .app-loader svg {
   margin: 200px auto auto auto;
@@ -2643,8 +2643,14 @@ html, body {
     top: 7px;
     left: -20px; }
 
-.layout-header-view .link:hover {
-  text-decoration: underline; }
+.layout-header-view {
+  padding: 15px 0 15px 0; }
+  .layout-header-view .link {
+    font-size: 11px;
+    margin-left: 20px;
+    text-transform: uppercase; }
+    .layout-header-view .link:hover {
+      text-decoration: underline; }
 
 .layout-footer-view {
   margin: 60px auto; }
@@ -2689,7 +2695,7 @@ html, body {
   .fold-profile-view .hexagon {
     margin: auto; }
   .fold-profile-view .show-journey-button {
-    background-color: #E8B869;
+    background-color: #dedede;
     color: #000; }
   .fold-profile-view .show-work-button {
     background-color: transparent;

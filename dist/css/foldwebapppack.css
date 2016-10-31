@@ -2644,7 +2644,8 @@ html, body {
     left: -20px; }
 
 .layout-header-view {
-  padding: 15px 0 15px 0; }
+  padding: 15px 0 15px 0;
+  background-color: #f3f3f3; }
   .layout-header-view .link {
     font-size: 11px;
     margin-left: 20px;
@@ -2653,7 +2654,9 @@ html, body {
       text-decoration: underline; }
 
 .layout-footer-view {
-  margin: 60px auto; }
+  margin: 60px auto 0px auto;
+  padding: 20px 0 40px 0;
+  background-color: #f3f3f3; }
   .layout-footer-view .paragraph {
     margin-top: 5px; }
   .layout-footer-view .line {
@@ -2695,8 +2698,9 @@ html, body {
   .fold-profile-view .hexagon {
     margin: auto; }
   .fold-profile-view .show-journey-button {
-    background-color: #dedede;
-    color: #000; }
+    background-color: #f3f3f3;
+    color: #000;
+    border: 1px solid #f1f1f1; }
   .fold-profile-view .show-work-button {
     background-color: transparent;
     color: #000; }

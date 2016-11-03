@@ -2599,7 +2599,8 @@ html, body {
 
 .section-container .heading.medium {
   margin-left: 65px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  color: #5e576d; }
 .section-container .heading .hexagon2 {
   display: inline-block;
   margin: auto;
@@ -2613,10 +2614,10 @@ html, body {
     width: 60px;
     height: 80px; }
 .section-container .heading .hexagon-in2 {
-  background-color: #E8B869; }
+  background-color: #887E9C; }
 .section-container .heading .heading-lines {
   width: 175px;
-  background-color: #E8B869;
+  background-color: #887E9C;
   height: 3px;
   display: inline-block;
   margin-left: 20px;
@@ -2625,7 +2626,7 @@ html, body {
   .section-container .heading .heading-lines:before {
     content: "";
     width: 75px;
-    background-color: #E8B869;
+    background-color: #887E9C;
     height: 3px;
     display: inline-block;
     margin-left: 20px;
@@ -2635,7 +2636,7 @@ html, body {
   .section-container .heading .heading-lines:after {
     content: "";
     width: 175px;
-    background-color: #E8B869;
+    background-color: #887E9C;
     height: 3px;
     display: inline-block;
     margin-left: 20px;
@@ -2729,3 +2730,12 @@ html, body {
   min-height: 300px;
   width: 100%;
   margin-bottom: 100px; }
+
+.fold-knowledge-view {
+  background-color: #f5f5f5;
+  padding: 40px 0 120px 0;
+  margin: 220px 0 0px 0; }
+  .fold-knowledge-view .section-container {
+    margin: 0 auto 0 auto; }
+  .fold-knowledge-view .hexagon {
+    margin: auto; }

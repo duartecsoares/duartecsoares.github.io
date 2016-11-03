@@ -24,6 +24,59 @@
 		}
 
 	},
+
+	"knowledge":{
+
+		"title": "Knowledge",
+
+		"list": [
+
+			{
+				"name": "'Fluent' in Javascript",
+				"icon": "",
+				"text": "I write javascript since 2011 working mainly in the client side but done some experiments with node aswell."
+
+			},
+
+			{
+				"name": "WebApp Builder",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "Mobile Concerned",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "Pixel Perfection",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "UI/UX Familiar",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "Versatility",
+				"icon": "",
+				"text": "I have work with several technologies such as CMS like Wordpress, mobile prototyping tools like FramerJS or even libs like BackboneJS."
+
+			}
+
+
+		]
+
+	},
 	
 	"journey": {
 
@@ -77,7 +130,7 @@
 
 	"work": {
 
-		"title": "Work",
+		"title": "Case Studies",
 
 		"list": [
 

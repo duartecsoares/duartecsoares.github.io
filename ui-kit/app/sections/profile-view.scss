@@ -1,0 +1,31 @@
+.fold-profile-view {
+	
+	min-height: 600px;
+
+	.hexagon {
+
+		margin: auto;
+		
+	}
+
+	.show-journey-button {
+
+		background-color: #f3f3f3;
+   	 	color: #000;
+   		border: 1px solid #f1f1f1;
+
+	}
+
+	.show-work-button {
+
+		background-color: transparent;
+		color: #000;
+
+		&:hover {
+
+			text-decoration: underline;
+
+		}
+	}
+
+}

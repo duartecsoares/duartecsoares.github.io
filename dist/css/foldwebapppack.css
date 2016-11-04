@@ -1497,6 +1497,22 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.h-text-right {
+  text-align: right; }
+
+.h-go-left {
+  float: left; }
+
+.h-go-right {
+  float: right; }
+
+.h-inline-center {
+  text-align: center;
+  margin: auto; }
+
+.h-overflow-hidden {
+  overflow: hidden; }
+
 .text-underline {
   text-decoration: underline !important; }
 
@@ -1590,6 +1606,36 @@ select {
 .padding-bottom-biggest {
   padding-bottom: 60px !important; }
 
+.icon {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  background-size: 100%;
+  position: relative;
+  top: 10px;
+  margin: 2px 10px 2px auto; }
+  .icon.big {
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    margin: 5px 10px 5px auto; }
+  .icon.medium {
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    margin: 2px 10px 2px auto; }
+  .icon.small {
+    height: 20px;
+    width: 20px;
+    top: 8px;
+    margin: 2px 10px 2px auto; }
+  .icon.github {
+    background-image: url("../../resources/assets/networks/github.png"); }
+  .icon.twitter {
+    background-image: url("../../resources/assets/networks/twitter.svg"); }
+  .icon.builditwithme {
+    background-image: url("../../resources/assets/networks/builditwithme.svg"); }
+
 html, body {
   font-size: 1rem;
   color: #333333;
@@ -1621,36 +1667,36 @@ hr {
   float: left;
 } */
 .section {
-  margin-top: 48;
-  margin-bottom: 48; }
+  margin-top: 48px;
+  margin-bottom: 48px; }
   .section.big {
-    margin-top: 56;
-    margin-bottom: 56; }
+    margin-top: 56px;
+    margin-bottom: 56px; }
   .section.small {
-    margin-top: 40;
-    margin-bottom: 40; }
+    margin-top: 40px;
+    margin-bottom: 40px; }
 
 .content {
-  padding-top: 24;
-  padding-bottom: 24;
+  padding-top: 24px;
+  padding-bottom: 24px;
   overflow: hidden; }
   .content.big {
-    padding-top: 32;
-    padding-bottom: 32; }
+    padding-top: 32px;
+    padding-bottom: 32px; }
   .content.small {
-    padding-top: 20;
-    padding-bottom: 20; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 .panel {
-  padding-top: 16;
-  padding-bottom: 16;
+  padding-top: 16px;
+  padding-bottom: 16px;
   overflow: hidden; }
   .panel.big {
-    padding-top: 20;
-    padding-bottom: 20; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .panel.small {
-    padding-top: 8;
-    padding-bottom: 8; }
+    padding-top: 8px;
+    padding-bottom: 8px; }
 
 .heading.biggest {
   font-size: 2.5rem;
@@ -2028,10 +2074,8 @@ button:focus {
   border: none;
   border-radius: 0;
   background-color: transparent;
-  font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 500;
   text-align: left;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 0.75rem; }
   .nav .link.selected {
@@ -2480,11 +2524,229 @@ a.label {
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #252525; }
+  background-color: #F9F9F9; }
 
 .app-loader svg {
   margin: 200px auto auto auto;
   display: block; }
 
-.fold-home-page-view {
-  margin-top: 140px; }
+.section-container {
+  margin: 220px auto 220px auto; }
+
+.hexagon {
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg); }
+
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg); }
+
+.hexagon-in2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: #D8D8D8;
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  background-size: 115%; }
+
+.hexagon1 {
+  width: 400px;
+  height: 200px;
+  margin: 0 0 0 -80px; }
+
+.hexagon2 {
+  width: 200px;
+  height: 180px;
+  margin: -80px 0 0 20px; }
+  .hexagon2.max {
+    width: 100%; }
+  .hexagon2.half {
+    width: 50%; }
+  .hexagon2.big {
+    width: 100px;
+    height: 125px; }
+  .hexagon2.medium {
+    width: 80px;
+    height: 120px; }
+  .hexagon2.small {
+    width: 40px;
+    height: 80px; }
+
+.timeline {
+  width: 2px;
+  height: 400px;
+  background-color: #D8D8D8;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.journal-entry .hexagon {
+  position: relative;
+  top: 15px; }
+  .journal-entry .hexagon.medium {
+    width: 60px; }
+.journal-entry .hexagon2 {
+  margin: auto; }
+
+.section-container .heading.medium {
+  margin-left: 65px;
+  margin-bottom: 80px;
+  color: #5e576d; }
+.section-container .heading .hexagon2 {
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  top: 16px;
+  margin-right: 20px; }
+  .section-container .heading .hexagon2.small {
+    width: 30px;
+    height: 50px; }
+  .section-container .heading .hexagon2.medium {
+    width: 60px;
+    height: 80px; }
+.section-container .heading .hexagon-in2 {
+  background-color: #887E9C; }
+.section-container .heading .heading-lines {
+  width: 175px;
+  background-color: #887E9C;
+  height: 3px;
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+  top: -5px; }
+  .section-container .heading .heading-lines:before {
+    content: "";
+    width: 75px;
+    background-color: #887E9C;
+    height: 3px;
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+    top: -7px;
+    left: -20px; }
+  .section-container .heading .heading-lines:after {
+    content: "";
+    width: 175px;
+    background-color: #887E9C;
+    height: 3px;
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+    top: 7px;
+    left: -20px; }
+
+.layout-header-view {
+  padding: 15px 0 15px 0;
+  background-color: #f3f3f3; }
+  .layout-header-view .link {
+    font-size: 11px;
+    margin-left: 20px;
+    text-transform: uppercase; }
+    .layout-header-view .link:hover {
+      text-decoration: underline; }
+
+.layout-footer-view {
+  margin: 60px auto 0px auto;
+  padding: 20px 0 40px 0;
+  background-color: #f3f3f3; }
+  .layout-footer-view .paragraph {
+    margin-top: 5px; }
+  .layout-footer-view .line {
+    height: 1px;
+    margin-bottom: 20px;
+    background-color: #F2F2F2; }
+  .layout-footer-view .hexagon2 {
+    display: inline-block;
+    margin-right: -10px; }
+    .layout-footer-view .hexagon2 .hexagon-in2 {
+      background-color: #e6e6e6; }
+    .layout-footer-view .hexagon2.small {
+      width: 26px;
+      height: 30px; }
+  .layout-footer-view .hexagon-wrapper {
+    margin: 12px 0 0 -20px; }
+    .layout-footer-view .hexagon-wrapper .icon {
+      height: 25px;
+      width: 20px;
+      background-size: 100%;
+      position: relative;
+      top: 5px;
+      background-repeat: no-repeat;
+      display: block;
+      margin: auto; }
+      .layout-footer-view .hexagon-wrapper .icon.twitter {
+        width: 25px;
+        top: 3px;
+        left: 1px; }
+      .layout-footer-view .hexagon-wrapper .icon.builditwithme {
+        width: 16px;
+        top: 7px;
+        left: 0px; }
+  .layout-footer-view .link {
+    text-decoration: underline; }
+
+.fold-soon-page-view {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #1f1f1f;
+  padding-top: 100px; }
+  .fold-soon-page-view .heading.medium {
+    text-align: center; }
+  .fold-soon-page-view .heading.small {
+    text-align: center; }
+
+.fold-profile-view {
+  min-height: 600px; }
+  .fold-profile-view .hexagon {
+    margin: auto; }
+  .fold-profile-view .show-journey-button {
+    background-color: #f3f3f3;
+    color: #000;
+    border: 1px solid #f1f1f1; }
+  .fold-profile-view .show-work-button {
+    background-color: transparent;
+    color: #000; }
+    .fold-profile-view .show-work-button:hover {
+      text-decoration: underline; }
+
+.fold-my-links-view .icon.twitter {
+  height: 32px;
+  width: 32px; }
+
+.fold-about-me-view .profile-description {
+  margin: 0px auto 30px auto; }
+
+.fold-journey-view .timeline {
+  display: none;
+  height: 620px; }
+@media only screen and (min-width: 40.0625em) {
+  .fold-journey-view .timeline {
+    display: block; } }
+
+.fold-work-view .journal-entry {
+  margin: 30px auto 30px auto; }
+
+.fold-cta-view {
+  background-color: #D8D8D8;
+  min-height: 300px;
+  width: 100%;
+  margin-bottom: 100px; }
+
+.fold-knowledge-view {
+  background-color: #f5f5f5;
+  padding: 40px 0 120px 0;
+  margin: 220px 0 0px 0; }
+  .fold-knowledge-view .section-container {
+    margin: 0 auto 0 auto; }
+  .fold-knowledge-view .hexagon {
+    margin: auto; }

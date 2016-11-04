@@ -1,6 +1,37 @@
 // StarterKit by Fold
 // helpers.scss
 
+.h-text-right {
+	
+	text-align: right;
+
+}
+
+.h-go-left {
+	
+	float: left;
+
+}
+
+.h-go-right {
+	
+	float: right;
+
+}
+
+.h-inline-center {
+	
+	text-align: center;
+	margin: auto;
+
+}
+
+.h-overflow-hidden {
+	
+	overflow: hidden;
+
+}
+
 .text-underline{
 	text-decoration: underline !important;
 }

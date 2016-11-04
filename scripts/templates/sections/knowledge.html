@@ -1,0 +1,43 @@
+<%
+	
+	var title = model.title,
+		list = model.list;
+
+%>
+
+<div class="row section-container">
+	
+	<div class="column small-12">
+		
+		<h2 class="heading medium"><div class="hexagon hexagon2 small"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div><%= title %><span class="heading-lines"></span></h2>
+
+	</div>
+
+	<!-- knowledge -->
+
+	<div data-target-ref="knowledge-container">
+		
+		<div class="row">
+
+		<% list.map(function(item){ %>
+
+
+			<div class="column small-12 medium-6 large-4 ">
+
+				<div class="hexagon hexagon2 medium"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
+				
+				<h4 class="heading small text-center"><%= item.name %></h4>
+				<p class="paragraph medium"><%= item.text %></p>
+
+			</div>
+
+
+		<% }); %>
+		</div>	
+
+	</div>
+
+	<!-- /knowledge -->
+
+</div>
+

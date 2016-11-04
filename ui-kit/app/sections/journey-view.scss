@@ -1,0 +1,20 @@
+.fold-journey-view {
+
+	.timeline {
+
+		display: none;
+		height: 620px;
+
+	}
+
+	@media #{$medium-up} {
+
+		.timeline {
+
+			display: block;
+
+		}
+
+	}	
+	
+}

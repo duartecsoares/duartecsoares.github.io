@@ -1,0 +1,181 @@
+{
+
+	"myLinks": {
+
+		"github": {
+
+			"label": "github.com/duartecsoares",
+			"link": "//www.github.com/duartecsoares"
+
+		},
+		
+		"twitter": {
+
+			"label": "twitter.com/duartecsoares",
+			"link": "//www.twitter.com/duartecsoares"
+
+		},
+
+		"builditwithme": {
+
+			"label": "builditwith.me/duartecsoares",
+			"link": "//builditwith.me/duartecsoares"
+
+		}
+
+	},
+
+	"knowledge":{
+
+		"title": "Knowledge",
+
+		"list": [
+
+			{
+				"name": "'Fluent' in Javascript",
+				"icon": "",
+				"text": "I write javascript since 2011 working mainly in the client side but done some experiments with node aswell."
+
+			},
+
+			{
+				"name": "WebApp Builder",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "Mobile Concerned",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "Pixel Perfection",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "UI/UX Familiar",
+				"icon": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
+
+			},
+
+			{
+				"name": "Versatility",
+				"icon": "",
+				"text": "I have work with several technologies such as CMS like Wordpress, mobile prototyping tools like FramerJS or even libs like BackboneJS."
+
+			}
+
+
+		]
+
+	},
+	
+	"journey": {
+
+		"title": "The Journey",
+
+		"list": [
+
+			{
+
+				"name": "Universidade de Aveiro",
+				"thumb": "",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+				"link": "",
+				"featured": false
+
+			},
+
+			{
+
+				"name": "Musikki & MeshApp",
+				"thumb": "",
+				"text": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+				"link": "",
+				"featured": false
+
+			},
+
+			{
+
+				"name": "Föld",
+				"thumb": "",
+				"text": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+				"link": "",
+				"featured": false
+
+			},
+
+			{
+
+				"name": "Freelancer",
+				"thumb": "",
+				"text": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+				"link": "",
+				"featured": false
+
+			}
+
+		]
+
+	},
+
+	"work": {
+
+		"title": "Case Studies",
+
+		"list": [
+
+			{
+
+				"name": "Build It With Me",
+				"thumb": "builditwithme.png",
+				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+				"link": "",
+				"featured": true
+
+			},
+
+			{
+
+				"name": "Social Triggers",
+				"thumb": "social-triggers.png",
+				"text": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+				"link": "",
+				"featured": false
+
+			},
+
+			{
+
+				"name": "Ravenna",
+				"thumb": "ravenna.png",
+				"text": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+				"link": "",
+				"featured": false
+
+			},
+
+			{
+
+				"name": "Eminence: Xander's Tale",
+				"thumb": "eminence.png",
+				"text": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+				"link": "",
+				"featured": false
+
+			}
+
+		]
+
+	}
+
+}

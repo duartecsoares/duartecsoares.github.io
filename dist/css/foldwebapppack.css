@@ -2694,6 +2694,17 @@ html, body {
   .layout-footer-view .link {
     text-decoration: underline; }
 
+.fold-soon-page-view {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #1f1f1f;
+  padding-top: 100px; }
+  .fold-soon-page-view .heading.medium {
+    text-align: center; }
+  .fold-soon-page-view .heading.small {
+    text-align: center; }
+
 .fold-profile-view {
   min-height: 600px; }
   .fold-profile-view .hexagon {

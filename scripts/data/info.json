@@ -33,7 +33,7 @@
 
 			{
 				"name": "'Fluent' in Javascript",
-				"icon": "",
+				"icon": "js.png",
 				"text": "I write javascript since 2011 working mainly in the client side but done some experiments with node aswell."
 
 			},
@@ -69,7 +69,7 @@
 			{
 				"name": "Versatility",
 				"icon": "",
-				"text": "I have work with several technologies such as CMS like Wordpress, mobile prototyping tools like FramerJS or even libs like BackboneJS."
+				"text": "I have worked with several technologies such as CMS like Wordpress, mobile prototyping tools like FramerJS or even libs like BackboneJS."
 
 			}
 

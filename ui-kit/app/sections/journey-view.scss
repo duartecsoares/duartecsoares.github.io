@@ -4,6 +4,23 @@
 
 		display: none;
 		height: 620px;
+		background-color: #cfc7de;
+
+		&.main {
+
+			clip: rect(0, auto, auto, 0);
+
+		}
+
+	}
+
+	.timeline-fill {
+
+    	height: 335px;
+    	position: fixed;
+    	background-color: #887E9C;
+    	width: 2px;
+    	top: 0;
 
 	}
 

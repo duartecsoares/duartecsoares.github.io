@@ -2728,7 +2728,16 @@ html, body {
 
 .fold-journey-view .timeline {
   display: none;
-  height: 620px; }
+  height: 620px;
+  background-color: #cfc7de; }
+  .fold-journey-view .timeline.main {
+    clip: rect(0, auto, auto, 0); }
+.fold-journey-view .timeline-fill {
+  height: 335px;
+  position: fixed;
+  background-color: #887E9C;
+  width: 2px;
+  top: 0; }
 @media only screen and (min-width: 40.0625em) {
   .fold-journey-view .timeline {
     display: block; } }

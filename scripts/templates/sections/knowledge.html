@@ -22,10 +22,11 @@
 
 			<% list.map(function(item){ %>
 
+				<% var size = (item.icon.size) ? item.icon.size + "%" : "40%"; %>
 
 				<div class="column small-12 medium-6 large-4 ">
 
-					<div class="hexagon hexagon2 medium"><div class="hexagon-in1"><div class="hexagon-in2" style="background-size: 40%; background-image: url('../../resources/assets/knowledge/<%= item.icon %>')"></div></div></div>
+					<div class="hexagon hexagon2 medium"><div class="hexagon-in1"><div class="hexagon-in2" style="background-size: <%= size %>; background-image: url('../../resources/assets/knowledge/<%= item.icon.src %>')"></div></div></div>
 					
 					<h4 class="heading small text-center"><%= item.name %></h4>
 					<p class="paragraph medium"><%= item.text %></p>

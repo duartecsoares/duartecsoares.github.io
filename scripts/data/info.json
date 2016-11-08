@@ -33,43 +33,73 @@
 
 			{
 				"name": "'Fluent' in Javascript",
-				"icon": "js.png",
+				"icon": {
+
+					"src" : "js.png",
+					"size": null
+
+				},
 				"text": "I write javascript since 2011 working mainly in the client side but done some experiments with node aswell."
 
 			},
 
 			{
 				"name": "WebApp Builder",
-				"icon": "",
+				"icon": {
+
+					"src" : "blueprint.png",
+					"size": "70"
+
+				},
 				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
 
 			},
 
 			{
 				"name": "Mobile Concerned",
-				"icon": "",
+				"icon": {
+
+					"src" : "mobile.png",
+					"size": "70"
+
+				},
 				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
 
 			},
 
 			{
 				"name": "Pixel Perfection",
-				"icon": "",
+				"icon": {
+
+					"src" : "pixels.png",
+					"size": "90"
+
+				},
 				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
 
 			},
 
 			{
 				"name": "UI/UX Familiar",
-				"icon": "",
+				"icon": {
+
+					"src" : "ui-ux.png",
+					"size": "50"
+
+				},
 				"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed."
 
 			},
 
 			{
 				"name": "Versatility",
-				"icon": "",
-				"text": "I have worked with several technologies such as CMS like Wordpress, mobile prototyping tools like FramerJS or even libs like BackboneJS."
+				"icon": {
+
+					"src" : "mvc.png",
+					"size": "60"
+
+				},
+				"text": "I have worked with several technologies such as CMS like Wordpress, mobile prototyping tools like FramerJS or even libs like BackboneJS, and more."
 
 			}
 

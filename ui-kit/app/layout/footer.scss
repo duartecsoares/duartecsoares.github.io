@@ -21,18 +21,11 @@
 	.hexagon2 {
 
 		display: inline-block;
-		margin-right: -10px;
+		margin-right: 10px;
 
 		.hexagon-in2 {
 
 			background-color: #e6e6e6;
-
-		}
-
-		&.small {
-
-			width: 26px;
-    		height: 30px;
 
 		}
 
@@ -41,35 +34,6 @@
 	.hexagon-wrapper {
 
 		margin: 12px 0 0 -20px;
-
-		.icon {
-
-			height: 25px;
-		    width: 20px;
-		    background-size: 100%;
-		    position: relative;
-		    top: 5px;
-		    background-repeat: no-repeat;
-		    display: block;
-		    margin: auto;
-
-		    &.twitter {
-
-		    	width: 25px;
-    			top: 3px;
-    			left: 1px;
-
-		    }
-
-		    &.builditwithme {
-
-		    	width: 16px;
-   				top: 7px;
-    			left: 0px;
-
-		    }
-
-		}
 
 	}
 

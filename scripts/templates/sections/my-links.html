@@ -6,8 +6,8 @@
 %>
 
 <div class="row">
-	
-	<div class="column small-6 small-offset-3">
+
+	<div class="column small-10 small-offset-1 medium-6 medium-offset-3">
 
 		<% 
 
@@ -18,9 +18,13 @@
 
 				%>
 
-				<div class="h-inline-center">
-			
-					<span class="icon <%= key %>"></span><a href="<%= link %>" target="_blank"><%= label %></a>
+				<div class="column small-4">
+
+					<div class="hexagon-wrapper">
+					
+						<a href="<%= link %>" target="_blank"><div class="hexagon hexagon2 small"><div class="hexagon-in1"><div class="hexagon-in2"><span class="icon <%= key %>"></span></div></div></div></a>
+
+					</div>
 
 				</div>
 
@@ -29,7 +33,7 @@
 			});
 
 		%>
-		
+
 	</div>
 
-</div>		
+</div>

@@ -1,6 +1,8 @@
 .fold-profile-view {
 	
 	min-height: 600px;
+	margin-bottom: 400px;
+	margin-top: 200px;
 
 	.hexagon {
 
@@ -27,6 +29,13 @@
 			text-decoration: underline;
 
 		}
+	}
+
+	@media screen and (max-height: 700px){
+
+		margin-top: 0px;
+		margin-bottom: 100px;
+
 	}
 
 }

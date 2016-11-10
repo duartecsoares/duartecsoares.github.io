@@ -4,7 +4,6 @@
 
 		display: none;
 		height: 620px;
-		background-color: #cfc7de;
 
 		&.main {
 
@@ -18,9 +17,15 @@
 
     	height: 335px;
     	position: fixed;
-    	background-color: #887E9C;
+    	background-color: #888888;
     	width: 2px;
-    	top: 0;
+    	top: 300px;
+
+    	@media screen and (max-height: 700px){
+
+			top: 0;
+
+		}
 
 	}
 

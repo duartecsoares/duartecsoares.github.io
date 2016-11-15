@@ -1,5 +1,5 @@
-.fold-work-view {
-	
+.fold-work-view {	
+
 	.journal-entry {
 
 		margin: 30px auto 30px auto;
@@ -9,7 +9,68 @@
 	.journal-entry-content {
 
 		margin-top: 10px;
+		cursor: pointer;
 
+		&:after {
+
+			content: "read more";
+			font-size: 10px;
+			text-align: center;
+			opacity: 0;
+			display: block;
+			position: absolute;
+			margin: auto;
+			left: 0;
+			right: 0;
+			bottom: -40px;
+			width: 60px;
+			height: 50px;
+			transition: all 0.25s;
+			transition-delay: 0.2s;
+
+
+		}
+
+		&:hover {
+
+			&:after {
+
+				opacity: 1;
+				bottom: -45px;
+
+			}
+
+		}
+
+		&:before {
+
+			content: "";
+			opacity: 0;
+			display: block;
+			position: absolute;
+			margin: auto;
+			left: 0;
+			right: 0;
+			bottom: -40px;
+			background-position: center;
+			background-image: url($assets-path + "utils/arrow.svg");
+			width: 50px;
+			height: 50px;
+			transition: all 0.2s;
+
+
+		}
+
+		&:hover {
+
+			&:before {
+
+				opacity: 1;
+				bottom: -50px;
+
+			}
+
+		}
 	}
 
 }

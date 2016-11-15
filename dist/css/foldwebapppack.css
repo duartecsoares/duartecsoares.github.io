@@ -2702,14 +2702,14 @@ html, body {
   .fold-journey-view .timeline.main {
     clip: rect(0, auto, auto, 0); }
 .fold-journey-view .timeline-fill {
-  height: 335px;
+  height: 900px;
   position: fixed;
   background-color: #888888;
   width: 2px;
-  top: 300px; }
+  top: 0px; }
   @media screen and (max-height: 700px) {
     .fold-journey-view .timeline-fill {
-      top: 0; } }
+      height: 335px; } }
 @media only screen and (min-width: 40.0625em) {
   .fold-journey-view .timeline {
     display: block; } }
@@ -2717,7 +2717,46 @@ html, body {
 .fold-work-view .journal-entry {
   margin: 30px auto 30px auto; }
 .fold-work-view .journal-entry-content {
-  margin-top: 10px; }
+  margin-top: 10px;
+  cursor: pointer; }
+  .fold-work-view .journal-entry-content:after {
+    content: "read more";
+    font-size: 10px;
+    text-align: center;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    width: 60px;
+    height: 50px;
+    -webkit-transition: all 0.25s;
+            transition: all 0.25s;
+    -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s; }
+  .fold-work-view .journal-entry-content:hover:after {
+    opacity: 1;
+    bottom: -45px; }
+  .fold-work-view .journal-entry-content:before {
+    content: "";
+    opacity: 0;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    background-position: center;
+    background-image: url("../../resources/assets/utils/arrow.svg");
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all 0.2s;
+            transition: all 0.2s; }
+  .fold-work-view .journal-entry-content:hover:before {
+    opacity: 1;
+    bottom: -50px; }
 
 .fold-cta-view {
   background-color: #D8D8D8;

@@ -57,36 +57,28 @@ define(["fold/view",
 		open : function(views, settings){
 
 			var view 		= this,
-				children 	= (views instanceof Array) ? views : [views],
-				setTheme 	= function(themeName){
+				children 	= (views instanceof Array) ? views : [views];
 
-					return (themeName) ? "theme-" + themeName : "theme-default";
-
-				};
-
-			view.model = {
-
-				title 			 : settings.title || null,
-				thumb 			 : settings.thumb || null,
-				backgroundHeader : settings.backgroundHeader || null
-
-			}
+			if (children.length > 0) {
 			
-			children = children.map(function(child){
+				children = children.map(function(child){
 
-				child.targetRef = "modal-wrapper";
+					child.targetRef = "modal-wrapper";
 
-				return child;
+					return child;
 
-			});
+				});
 
-			view.children 	= children;	
+				view.children 	= children;				
+
+			}			
+
 			layout.add([view]);
 
 			layout.trigger("layout:modal:open");
-
-			view.$el.addClass(setTheme(settings.theme));
 			layout.disableScroll();
+
+			console.log("open");
 
 		},
 
@@ -107,21 +99,16 @@ define(["fold/view",
 
 		},
 
-		close : function(){
+		close : function(){			
 
 			var view 			= this,
 				transitionEvent	= "transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd";
 
-			view.$el.one(transitionEvent, function(e){
-
-				view.model = null;						
-				view.$el.attr("class", view.$el.attr("class").replace(new RegExp(/theme-?(\w+)?/g), ""));
-
-			});
-
 			layout.trigger("layout:modal:close");
 			layout.remove(view.idView);
 			layout.enableScroll();
+
+			console.log("closgin", layout);
 			
 		}
 

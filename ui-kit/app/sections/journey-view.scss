@@ -15,15 +15,15 @@
 
 	.timeline-fill {
 
-    	height: 335px;
+    	height: 900px;
     	position: fixed;
     	background-color: #888888;
     	width: 2px;
-    	top: 300px;
+    	top: 0px;
 
     	@media screen and (max-height: 700px){
 
-			top: 0;
+			height: 335px;
 
 		}
 

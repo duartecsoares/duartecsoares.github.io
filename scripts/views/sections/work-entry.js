@@ -1,6 +1,7 @@
 define(["fold/view",
 		"text!templates/sections/work-entry.html",
-		"views/components/modal/modal"], function(FoldView, template, modalView){
+		"views/components/modal/modal",
+		"views/detail/work"], function(FoldView, template, modalView, DetailWorkView){
 	
 	var WorkEntryView = FoldView.extend({
 
@@ -16,7 +17,11 @@ define(["fold/view",
 
 				view.$el.on("click", function(e){
 
-					modalView.open([]);
+					console.log(view.model);
+
+					var detailWorkView = new DetailWorkView({ model: view.model, idView: "detail-work-view" });
+
+					modalView.open([detailWorkView]);
 
 
 				});

@@ -7,7 +7,6 @@ define(["fold/view",
 		tagName 	: "div",
 		className 	: "modal",
 		template	: _.template(template),
-		isAnimated 	: true,
 
 		setup : function(){
 
@@ -78,7 +77,9 @@ define(["fold/view",
 			layout.trigger("layout:modal:open");
 			layout.disableScroll();
 
-			console.log("open");
+			console.log("open", this);
+
+			window.layout = layout;
 
 		},
 
@@ -110,6 +111,7 @@ define(["fold/view",
 
 			console.log("closgin", layout);
 			
+
 		}
 
 	});

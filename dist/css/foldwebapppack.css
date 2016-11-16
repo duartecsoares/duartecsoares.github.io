@@ -2135,6 +2135,10 @@ button:focus {
   background-color: #fff;
   overflow-y: scroll;
   z-index: 9997;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.4s;
+          transition: transform 0.4s;
     /* &:target{
 
         .modal-bg {
@@ -2148,6 +2152,12 @@ button:focus {
         }
 
     } */ }
+  .modal.after-render {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%); }
+  .modal.before-destroy {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
   .modal .close {
     position: absolute;
     line-height: 0;

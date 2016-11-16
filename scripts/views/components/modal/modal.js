@@ -7,6 +7,7 @@ define(["fold/view",
 		tagName 	: "div",
 		className 	: "modal",
 		template	: _.template(template),
+		isAnimated	: true,
 
 		setup : function(){
 

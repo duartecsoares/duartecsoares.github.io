@@ -29,14 +29,30 @@
 
 	}
 
-	@media #{$medium-up} {
+	.journal-entry {
 
-		.timeline {
+		.heading {
 
-			display: block;
+			text-align: center;	
 
 		}
 
-	}	
+		@media #{$medium-up} {
+
+			.timeline {
+
+				display: block;
+
+			}
+
+			.heading {
+
+				text-align: left;	
+		
+			}
+
+		}	
+
+	}
 	
 }

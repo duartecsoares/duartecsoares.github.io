@@ -2,6 +2,8 @@
 
 	padding: 5px 0 5px 0;
 	background-color: #f3f3f3;
+
+	
 	
 	.link {
 
@@ -12,6 +14,75 @@
 		&:hover {
 
 			text-decoration: underline;
+
+		}
+
+	}
+
+	.mobile-menu {
+
+
+
+	}
+
+	.menu {
+		
+		display: none;
+
+	}
+
+	.mobile-toggle {
+
+		display: block;
+
+		.icon {
+
+			background-color: #000;
+			height: 2px;
+			width: 14px;
+			margin: 25px 0 25px 0;
+
+			&:after {
+
+				content: "";
+				display: block;
+				position: absolute;
+				left: 0;
+				top: 5px;
+				background-color: #000;
+				height: 2px;
+				width: 14px;
+
+			}
+
+			&:before {
+
+				content: "";
+				display: block;
+				position: absolute;
+				left: 0;
+				top: -5px;
+				background-color: #000;
+				height: 2px;
+				width: 14px;
+
+			}
+
+		}
+
+	}
+
+	@media #{$medium-up} {
+
+		.menu {
+		
+			display: block;
+
+		}
+
+		.mobile-toggle {
+
+			display: none;
 
 		}
 

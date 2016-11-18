@@ -3,12 +3,6 @@
 	.journal-entry {
 
 		margin: 30px auto 30px auto;
-
-	}
-
-	.journal-entry-content {
-
-		margin-top: 10px;
 		cursor: pointer;
 
 		&:after {
@@ -71,6 +65,29 @@
 			}
 
 		}
+
+		.heading, .paragraph {
+
+			text-align: center;	
+
+		}
+
+		.heading, .paragraph {
+
+			@media #{$medium-up} {
+
+				text-align: left;	
+
+			}			
+
+		}
+
+	}
+
+	.journal-entry-content {
+
+		margin-top: 10px;
+
 	}
 
 }

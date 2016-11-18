@@ -2169,7 +2169,8 @@ button:focus {
   visibility: visible;
   opacity: 1;
   -webkit-transition: visibility 0.2s, opacity 0.2s ease-in;
-          transition: visibility 0.2s, opacity 0.2s ease-in; }
+          transition: visibility 0.2s, opacity 0.2s ease-in;
+  padding: 60px 0; }
   .modal-dialog.show {
     visibility: visible;
     opacity: 1; }
@@ -2707,11 +2708,9 @@ html, body {
     display: block; } }
 
 .fold-work-view .journal-entry {
-  margin: 30px auto 30px auto; }
-.fold-work-view .journal-entry-content {
-  margin-top: 10px;
+  margin: 30px auto 30px auto;
   cursor: pointer; }
-  .fold-work-view .journal-entry-content:after {
+  .fold-work-view .journal-entry:after {
     content: "read more";
     font-size: 10px;
     text-align: center;
@@ -2728,10 +2727,10 @@ html, body {
             transition: all 0.25s;
     -webkit-transition-delay: 0.2s;
             transition-delay: 0.2s; }
-  .fold-work-view .journal-entry-content:hover:after {
+  .fold-work-view .journal-entry:hover:after {
     opacity: 1;
     bottom: -45px; }
-  .fold-work-view .journal-entry-content:before {
+  .fold-work-view .journal-entry:before {
     content: "";
     opacity: 0;
     display: block;
@@ -2746,9 +2745,16 @@ html, body {
     height: 50px;
     -webkit-transition: all 0.2s;
             transition: all 0.2s; }
-  .fold-work-view .journal-entry-content:hover:before {
+  .fold-work-view .journal-entry:hover:before {
     opacity: 1;
     bottom: -50px; }
+  .fold-work-view .journal-entry .heading, .fold-work-view .journal-entry .paragraph {
+    text-align: center; }
+  @media only screen and (min-width: 40.0625em) {
+    .fold-work-view .journal-entry .heading, .fold-work-view .journal-entry .paragraph {
+      text-align: left; } }
+.fold-work-view .journal-entry-content {
+  margin-top: 10px; }
 
 .fold-cta-view {
   background-color: #D8D8D8;

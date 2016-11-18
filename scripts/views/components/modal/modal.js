@@ -59,6 +59,8 @@ define(["fold/view",
 			var view 		= this,
 				children 	= (views instanceof Array) ? views : [views];
 
+			view.$el.removeClass("after-render");
+
 			if (children.length > 0) {
 			
 				children = children.map(function(child){
@@ -74,13 +76,8 @@ define(["fold/view",
 			}			
 
 			layout.add([view]);
-
 			layout.trigger("layout:modal:open");
 			layout.disableScroll();
-
-			console.log("open", this);
-
-			window.layout = layout;
 
 		},
 
@@ -106,12 +103,13 @@ define(["fold/view",
 			var view 			= this,
 				transitionEvent	= "transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd";
 
+			view.model = null;
+			
+			layout.enableScroll();	
 			layout.trigger("layout:modal:close");
 			layout.remove(view.idView);
-			layout.enableScroll();
 
 			console.log("closgin", layout);
-			
 
 		}
 

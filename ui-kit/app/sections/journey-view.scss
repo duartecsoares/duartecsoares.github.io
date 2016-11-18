@@ -39,12 +39,6 @@
 
 		@media #{$medium-up} {
 
-			.timeline {
-
-				display: block;
-
-			}
-
 			.heading {
 
 				text-align: left;	
@@ -52,6 +46,16 @@
 			}
 
 		}	
+
+	}
+
+	@media #{$medium-up} {
+
+		.timeline {
+
+			display: block;
+
+		}
 
 	}
 	

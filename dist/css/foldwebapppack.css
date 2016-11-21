@@ -2756,46 +2756,92 @@ html, body {
     display: block; } }
 
 .fold-work-view .journal-entry {
-  margin: 30px auto 30px auto;
-  cursor: pointer; }
+  margin: 0px auto 0px auto;
+  cursor: pointer;
+  padding: 30px 0 50px 0;
+  -webkit-transition: background-color 0.2s;
+          transition: background-color 0.2s;
+  	    /*
+  		&:after {
+  
+  			content: "read more";
+  			font-size: 10px;
+  			text-align: center;
+  			opacity: 0;
+  			display: block;
+  			position: absolute;
+  			margin: auto;
+  			left: 0;
+  			right: 0;
+  			bottom: -40px;
+  			width: 60px;
+  			height: 50px;
+  			transition: all 0.25s;
+  			transition-delay: 0.2s;
+  
+  
+  		}
+  
+  		&:hover {
+  
+  			&:after {
+  
+  				opacity: 1;
+  				bottom: -45px;
+  
+  			}
+  
+  		}
+  
+  		&:before {
+  
+  			content: "";
+  			opacity: 0;
+  			display: block;
+  			position: absolute;
+  			margin: auto;
+  			left: 0;
+  			right: 0;
+  			bottom: -40px;
+  			background-position: center;
+  			background-image: url($assets-path + "utils/arrow.svg");
+  			width: 50px;
+  			height: 50px;
+  			transition: all 0.2s;
+  
+  
+  		}
+  
+  		&:hover {
+  
+  			&:before {
+  
+  				opacity: 1;
+  				bottom: -50px;
+  
+  			}
+  
+  		}
+  
+  		*/ }
   .fold-work-view .journal-entry:after {
-    content: "read more";
-    font-size: 10px;
-    text-align: center;
-    opacity: 0;
-    display: block;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: -40px;
-    width: 60px;
-    height: 50px;
-    -webkit-transition: all 0.25s;
-            transition: all 0.25s;
-    -webkit-transition-delay: 0.2s;
-            transition-delay: 0.2s; }
-  .fold-work-view .journal-entry:hover:after {
-    opacity: 1;
-    bottom: -45px; }
-  .fold-work-view .journal-entry:before {
     content: "";
-    opacity: 0;
-    display: block;
     position: absolute;
-    margin: auto;
+    height: 1px;
+    width: 100%;
+    bottom: 0;
     left: 0;
-    right: 0;
-    bottom: -40px;
-    background-position: center;
-    background-image: url("../../resources/assets/utils/arrow.svg");
-    width: 50px;
-    height: 50px;
-    -webkit-transition: all 0.2s;
-            transition: all 0.2s; }
-  .fold-work-view .journal-entry:hover:before {
-    opacity: 1;
-    bottom: -50px; }
+    background: #f9f9f9;
+    /* Old browsers */
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f9f9f9 0%, #eaeaea 50%, #f9f9f9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f9f9f9 0%, #eaeaea 50%, #f9f9f9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f9f9f9',GradientType=1 );
+    /* IE6-9 */ }
+  .fold-work-view .journal-entry:hover {
+    background-color: #f5f5f5; }
   .fold-work-view .journal-entry .heading {
     text-align: center; }
   @media only screen and (min-width: 40.0625em) {

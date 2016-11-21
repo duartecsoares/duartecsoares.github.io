@@ -2,9 +2,38 @@
 
 	.journal-entry {
 
-		margin: 30px auto 30px auto;
-		cursor: pointer;
+		margin: 0px auto 0px auto;
+	    cursor: pointer;
+	    padding: 30px 0 50px 0;
 
+	    transition: background-color 0.2s;
+
+	    &:after {
+
+	    	content: "";
+	    	position: absolute;
+	    	height:1px;
+	    	width: 100%;
+	    	bottom: 0;
+	    	left: 0;
+
+			
+			background: #f9f9f9; /* Old browsers */
+			background: -moz-linear-gradient(left,  #f9f9f9 0%, #eaeaea 50%, #f9f9f9 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left,  #f9f9f9 0%,#eaeaea 50%,#f9f9f9 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right,  #f9f9f9 0%,#eaeaea 50%,#f9f9f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f9f9f9',GradientType=1 ); /* IE6-9 */
+
+
+	    }
+
+	    &:hover {
+
+	    	background-color: #f5f5f5;
+
+	    }
+
+	    /*
 		&:after {
 
 			content: "read more";
@@ -65,6 +94,8 @@
 			}
 
 		}
+
+		*/
 
 		.heading {
 

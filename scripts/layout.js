@@ -8,7 +8,10 @@ define(["fold/layout",
 		initialize : function(options){
 
 			var layout 	= this,				
-				$loader;
+				$loader,
+				headerView = new HeaderView({ idView: "layout-header-view" });
+
+			headerView.layout = this;
 			
 			layout.$win = $(window);
 			layout.$dom = $(document);
@@ -16,7 +19,7 @@ define(["fold/layout",
 			layout.$el = $("#app");
 
 			layout.addEvents();
-			layout.base = { header: new HeaderView({ idView: "layout-header-view" }), container: new ContainerView({ idView: "layout-container-view" }), footer: new FooterView({ idView: "layout-footer-view" }) }
+			layout.base = { header: headerView, container: new ContainerView({ idView: "layout-container-view" }), footer: new FooterView({ idView: "layout-footer-view" }) }
 
 			layout.cmdKeyPressed = false;
 

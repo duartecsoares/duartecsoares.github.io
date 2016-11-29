@@ -10,6 +10,8 @@ define(["fold/controller",
 
 		boot : function(){
 
+			layout.$el.addClass("theme-autumn");
+
 			var controller = this,
 				codeInterval,
 				bootNormal = function(){

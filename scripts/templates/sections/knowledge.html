@@ -16,7 +16,6 @@
 	<!-- knowledge -->
 
 	<div data-target-ref="knowledge-container">
-		
 
 		<div class="column small-12">
 
@@ -26,13 +25,16 @@
 
 				<div class="column small-12 medium-6 large-4 knowledge-item">
 
-					<div class="hexagon hexagon2 medium"><div class="hexagon-in1"><div class="hexagon-in2" style="background-size: <%= size %>; background-image: url('../../resources/assets/knowledge/<%= item.icon.src %>')"></div></div></div>
-					
-					<h4 class="heading small text-center"><%= item.name %></h4>
-					<p class="paragraph medium"><%= item.text %></p>
+					<div class="knowledge-wrapper">
+
+						<div class="hexagon hexagon2 medium"><div class="hexagon-in1"><div class="hexagon-in2" style="background-size: <%= size %>; background-image: url('../../resources/assets/knowledge/<%= item.icon.src %>')"></div></div></div>
+						
+						<h4 class="heading small text-center"><%= item.name %></h4>
+						<p class="paragraph medium"><%= item.text %></p>
+
+					</div>
 
 				</div>
-
 
 			<% }); %>
 

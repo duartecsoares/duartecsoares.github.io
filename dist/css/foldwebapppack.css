@@ -2830,6 +2830,12 @@ html, body {
     margin: auto; }
   .fold-knowledge-view .knowledge-item {
     margin: 20px auto 20px auto; }
+  .fold-knowledge-view .knowledge-wrapper {
+    background-color: #e4e4e4;
+    padding: 30px;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+    height: 370px; }
 
 .fold-menu-mobile-view {
   position: fixed;

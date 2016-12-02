@@ -1497,6 +1497,9 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.h-text-justify {
+  text-align: justify; }
+
 .h-text-right {
   text-align: right; }
 
@@ -2636,8 +2639,7 @@ html, body {
     margin-left: 65px; } }
 
 .layout-header-view {
-  padding: 5px 0 5px 0;
-  background-color: #f3f3f3; }
+  padding: 5px 0 5px 0; }
   .layout-header-view .link {
     font-size: 11px;
     margin-left: 20px;
@@ -2845,3 +2847,19 @@ html, body {
   left: 0;
   background-color: #c3c3c3;
   z-index: 500; }
+
+.theme-genji {
+  background-color: #fbfbfb; }
+  .theme-genji .fold-about-me-view .show-journey-button {
+    background-color: #f1f1f1;
+    color: #a7ce1f;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s;
+            transition: all 0.2s; }
+    .theme-genji .fold-about-me-view .show-journey-button:hover {
+      background-color: #a7ce1f;
+      color: #f1f1f1;
+      border-color: #a7ce1f; }
+  .theme-genji .fold-journey-view .timeline-fill {
+    background-color: #a7ce1f; }

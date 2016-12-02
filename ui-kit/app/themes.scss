@@ -1,7 +1,5 @@
 .theme-autumn {
 	
-	
-
 	.fold-my-links-view {
 
 		.hexagon-in2 {
@@ -17,6 +15,68 @@
 		.knowledge-wrapper {
 
 			
+
+		}
+
+	}
+
+}
+
+$theme-gengi-green: #a7ce1f;
+
+.theme-genji {
+
+	background-color: #fbfbfb;
+
+	.fold-about-me-view {
+
+		.show-journey-button {
+
+			background-color: #f1f1f1;
+		    color: $theme-gengi-green;
+		    border: 1px solid #e8e8e8;
+		    border-radius: 2px;
+
+		    transition: all 0.2s;
+
+		    &:hover {
+
+		    	background-color: $theme-gengi-green;
+		    	color: #f1f1f1;
+			    border-color: $theme-gengi-green;
+
+		    }
+
+		}
+
+	}
+	
+	.fold-my-links-view {
+
+		.hexagon-in2 {
+
+			
+
+		}
+
+	}
+
+	.fold-knowledge-view {
+
+		.knowledge-wrapper {
+
+			
+
+		}
+
+
+	}
+
+	.fold-journey-view {
+
+		.timeline-fill {
+
+			background-color: $theme-gengi-green;
 
 		}
 

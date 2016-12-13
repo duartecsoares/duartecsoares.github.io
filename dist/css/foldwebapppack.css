@@ -2717,6 +2717,22 @@ html, body {
   min-height: 600px;
   margin-bottom: 400px;
   margin-top: 200px; }
+  .fold-profile-view .cover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+  .fold-profile-view .profile-avatar {
+    display: block;
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    background-size: 100%;
+    border: 2px solid #000;
+    margin: 40px auto 40px auto; }
   .fold-profile-view .hexagon {
     margin: auto; }
   .fold-profile-view .show-journey-button {
@@ -2733,6 +2749,15 @@ html, body {
     .fold-profile-view {
       margin-top: 0px;
       margin-bottom: 100px; } }
+
+.fold-my-links-view .icon {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.20s;
+          transition: all 0.20s;
+  padding: 20px; }
+  .fold-my-links-view .icon:hover {
+    background-color: rgba(255, 255, 255, 0.2); }
 
 .fold-about-me-view .profile-description {
   margin: 0px auto 30px auto; }
@@ -2851,15 +2876,14 @@ html, body {
 .theme-genji {
   background-color: #fbfbfb; }
   .theme-genji .fold-about-me-view .show-journey-button {
-    background-color: #f1f1f1;
-    color: #a7ce1f;
-    border: 1px solid #e8e8e8;
+    background-color: #6dca79;
+    color: #f1f1f1;
+    border: 1px solid #6dca79;
     border-radius: 2px;
+    opacity: 0.9;
     -webkit-transition: all 0.2s;
             transition: all 0.2s; }
     .theme-genji .fold-about-me-view .show-journey-button:hover {
-      background-color: #a7ce1f;
-      color: #f1f1f1;
-      border-color: #a7ce1f; }
+      opacity: 1; }
   .theme-genji .fold-journey-view .timeline-fill {
-    background-color: #a7ce1f; }
+    background-color: #6dca79; }

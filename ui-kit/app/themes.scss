@@ -22,7 +22,7 @@
 
 }
 
-$theme-gengi-green: #a7ce1f;
+$theme-gengi-green: #6dca79;
 
 .theme-genji {
 
@@ -32,18 +32,19 @@ $theme-gengi-green: #a7ce1f;
 
 		.show-journey-button {
 
-			background-color: #f1f1f1;
-		    color: $theme-gengi-green;
-		    border: 1px solid #e8e8e8;
+			background-color: $theme-gengi-green;
+		    color: #f1f1f1;
+		    border: 1px solid $theme-gengi-green;
 		    border-radius: 2px;
-
+			opacity: 0.9;
 		    transition: all 0.2s;
 
 		    &:hover {
 
-		    	background-color: $theme-gengi-green;
-		    	color: #f1f1f1;
-			    border-color: $theme-gengi-green;
+		    	opacity: 1;
+		    	//background-color: #f1f1f1;
+		    	//color: $theme-gengi-green;
+			    //border-color: #f1f1f1;
 
 		    }
 

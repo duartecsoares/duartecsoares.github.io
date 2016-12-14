@@ -1,6 +1,10 @@
 .layout-header-view {
 
-	padding: 10px 0 5px 0;
+	padding: 10px 0 12px 0;
+    position: relative;
+    z-index: 100;
+    background-color: rgba(80, 80, 80, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.01);
 
 	.link {
 

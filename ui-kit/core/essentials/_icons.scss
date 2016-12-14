@@ -19,17 +19,35 @@ $icon-small-size: 20px;
 
 		background-image: url($assets-path + "networks/github.svg");
 
+		&.white {
+
+			background-image: url($assets-path + "networks/github-white.svg");
+
+		}
+
 	}
 
 	&.twitter {
 
 		background-image: url($assets-path + "networks/twitter.svg");
 
+		&.white {
+
+			background-image: url($assets-path + "networks/twitter-white.svg");
+
+		}
+
 	}
 
 	&.builditwithme {
 
 		background-image: url($assets-path + "networks/builditwithme.svg");
+
+		&.white {
+
+			background-image: url($assets-path + "networks/builditwithme-white.svg");
+
+		}
 
 	}
 

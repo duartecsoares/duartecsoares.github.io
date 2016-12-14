@@ -1619,10 +1619,16 @@ select {
   margin: auto; }
   .icon.github {
     background-image: url("../../resources/assets/networks/github.svg"); }
+    .icon.github.white {
+      background-image: url("../../resources/assets/networks/github-white.svg"); }
   .icon.twitter {
     background-image: url("../../resources/assets/networks/twitter.svg"); }
+    .icon.twitter.white {
+      background-image: url("../../resources/assets/networks/twitter-white.svg"); }
   .icon.builditwithme {
     background-image: url("../../resources/assets/networks/builditwithme.svg"); }
+    .icon.builditwithme.white {
+      background-image: url("../../resources/assets/networks/builditwithme-white.svg"); }
 
 html, body {
   font-size: 1rem;
@@ -2639,7 +2645,11 @@ html, body {
     margin-left: 65px; } }
 
 .layout-header-view {
-  padding: 10px 0 5px 0; }
+  padding: 10px 0 12px 0;
+  position: relative;
+  z-index: 100;
+  background-color: rgba(80, 80, 80, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.01); }
   .layout-header-view .link {
     font-size: 11px;
     margin-left: 20px;
@@ -2724,7 +2734,9 @@ html, body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
   .fold-profile-view .profile-avatar {
     display: block;
     height: 115px;
@@ -2732,7 +2744,9 @@ html, body {
     border-radius: 50%;
     background-size: 100%;
     border: 2px solid #000;
-    margin: 40px auto 40px auto; }
+    margin: 20px auto 30px auto; }
+  .fold-profile-view .paragraph {
+    margin-bottom: 60px; }
   .fold-profile-view .hexagon {
     margin: auto; }
   .fold-profile-view .show-journey-button {
@@ -2742,7 +2756,7 @@ html, body {
     margin-bottom: 20px; }
   .fold-profile-view .show-work-button {
     background-color: transparent;
-    color: #000; }
+    color: #fff; }
     .fold-profile-view .show-work-button:hover {
       text-decoration: underline; }
   @media screen and (max-height: 700px) {
@@ -2876,9 +2890,9 @@ html, body {
 .theme-genji {
   background-color: #fbfbfb; }
   .theme-genji .fold-about-me-view .show-journey-button {
-    background-color: #6dca79;
+    background-color: #20b56d;
     color: #f1f1f1;
-    border: 1px solid #6dca79;
+    border: 1px solid #20b56d;
     border-radius: 2px;
     opacity: 0.9;
     -webkit-transition: all 0.2s;
@@ -2886,4 +2900,4 @@ html, body {
     .theme-genji .fold-about-me-view .show-journey-button:hover {
       opacity: 1; }
   .theme-genji .fold-journey-view .timeline-fill {
-    background-color: #6dca79; }
+    background-color: #20b56d; }

@@ -2749,7 +2749,7 @@ html, body {
   border-radius: 2px;
   margin-top: 0px; }
   .fold-profile-view .paragraph span {
-    background-color: #20b56d; }
+    background-color: #0f9d58; }
 .fold-profile-view .hexagon {
   margin: auto; }
 .fold-profile-view .show-journey-button {
@@ -2866,18 +2866,20 @@ html, body {
   margin-bottom: 175px; }
 
 .fold-knowledge-view {
-  background-color: #20b56d;
   padding: 40px 0 120px 0;
-  margin: 220px 0 0px 0; }
+  margin: 220px 0 0px 0;
+  background-color: #34a06c; }
+  .fold-knowledge-view .knowledge-bg {
+    background-color: #34a06c; }
   .fold-knowledge-view .heading.medium {
-    color: #20b56d; }
+    color: #34a06c; }
     .fold-knowledge-view .heading.medium .hexagon-in2 {
-      background-color: #20b56d; }
+      background-color: #34a06c; }
     .fold-knowledge-view .heading.medium .heading-lines {
-      background-color: #20b56d; }
+      background-color: #34a06c; }
       .fold-knowledge-view .heading.medium .heading-lines:before, .fold-knowledge-view .heading.medium .heading-lines:after {
-        background-color: #20b56d; }
-  @media screen and (max-height: 700px) {
+        background-color: #34a06c; }
+  @media screen and (max-height: 1100px) {
     .fold-knowledge-view {
       margin: 0;
       padding-top: 115px; }
@@ -2918,9 +2920,9 @@ html, body {
 .theme-genji {
   background-color: #fbfbfb; }
   .theme-genji .fold-about-me-view .show-journey-button {
-    background-color: #20b56d;
+    background-color: #0f9d58;
     color: #f1f1f1;
-    border: 1px solid #20b56d;
+    border: 1px solid #0f9d58;
     border-radius: 2px;
     opacity: 0.9;
     -webkit-transition: all 0.2s;
@@ -2928,4 +2930,4 @@ html, body {
     .theme-genji .fold-about-me-view .show-journey-button:hover {
       opacity: 1; }
   .theme-genji .fold-journey-view .timeline-fill {
-    background-color: #20b56d; }
+    background-color: #0f9d58; }

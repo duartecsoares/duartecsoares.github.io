@@ -1,26 +1,32 @@
 .fold-knowledge-view {
 
-	background-color: #20b56d;
 	padding: 40px 0 120px 0;
 	margin: 220px 0 0px 0;
+	background-color: #34a06c;
+
+	.knowledge-bg {
+
+		background-color: #34a06c;
+
+	}
 
 	.heading.medium {
 
-		color: #20b56d;
+		color: #34a06c;
 
 		.hexagon-in2 {
 
-			background-color: #20b56d;
+			background-color: #34a06c;
 
 		}
 
 		.heading-lines {
 
-			background-color: #20b56d;
+			background-color: #34a06c;
 
 			&:before, &:after {
 
-				background-color: #20b56d;
+				background-color: #34a06c;
 
 			}
 
@@ -28,7 +34,7 @@
 
 	}
 
-	@media screen and (max-height: 700px){
+	@media screen and (max-height: 1100px){
 
 		margin: 0;
 		padding-top: 115px;

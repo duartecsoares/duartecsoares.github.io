@@ -2723,46 +2723,50 @@ html, body {
   .fold-soon-page-view .heading.small {
     text-align: center; }
 
-.fold-profile-view {
-  min-height: 600px;
-  margin-bottom: 400px;
-  margin-top: 200px; }
-  .fold-profile-view .cover {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    -webkit-transform: translateX(0);
-            transform: translateX(0); }
-  .fold-profile-view .profile-avatar {
-    display: block;
-    height: 115px;
-    width: 115px;
-    border-radius: 50%;
-    background-size: 100%;
-    border: 2px solid #000;
-    margin: 20px auto 30px auto; }
-  .fold-profile-view .paragraph {
-    margin-bottom: 60px; }
-  .fold-profile-view .hexagon {
-    margin: auto; }
-  .fold-profile-view .show-journey-button {
-    background-color: #f3f3f3;
-    color: #000;
-    border: 1px solid #f1f1f1;
-    margin-bottom: 20px; }
-  .fold-profile-view .show-work-button {
-    background-color: transparent;
-    color: #fff; }
-    .fold-profile-view .show-work-button:hover {
-      text-decoration: underline; }
-  @media screen and (max-height: 700px) {
-    .fold-profile-view {
-      margin-top: 0px;
-      margin-bottom: 100px; } }
+.fold-profile-view .cover {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-transform: translateX(0);
+          transform: translateX(0); }
+.fold-profile-view .profile-avatar {
+  display: block;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-size: 100%;
+  border: 2px solid #000;
+  margin: 150px auto 30px auto; }
+.fold-profile-view .paragraph {
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 15px;
+  border-radius: 2px;
+  margin-top: 0px; }
+  .fold-profile-view .paragraph span {
+    background-color: #20b56d; }
+.fold-profile-view .hexagon {
+  margin: auto; }
+.fold-profile-view .show-journey-button {
+  background-color: #f3f3f3;
+  color: #000;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px; }
+.fold-profile-view .show-work-button {
+  background-color: transparent;
+  color: #fff; }
+  .fold-profile-view .show-work-button:hover {
+    text-decoration: underline; }
+@media screen and (max-height: 700px) {
+  .fold-profile-view {
+    margin-top: 0px; }
+    .fold-profile-view .profile-avatar {
+      margin: 20px auto 30px auto; } }
 
 .fold-my-links-view .icon {
   border-radius: 50%;
@@ -2862,9 +2866,33 @@ html, body {
   margin-bottom: 175px; }
 
 .fold-knowledge-view {
-  background-color: #f5f5f5;
+  background-color: #20b56d;
   padding: 40px 0 120px 0;
   margin: 220px 0 0px 0; }
+  .fold-knowledge-view .heading.medium {
+    color: #20b56d; }
+    .fold-knowledge-view .heading.medium .hexagon-in2 {
+      background-color: #20b56d; }
+    .fold-knowledge-view .heading.medium .heading-lines {
+      background-color: #20b56d; }
+      .fold-knowledge-view .heading.medium .heading-lines:before, .fold-knowledge-view .heading.medium .heading-lines:after {
+        background-color: #20b56d; }
+  @media screen and (max-height: 700px) {
+    .fold-knowledge-view {
+      margin: 0;
+      padding-top: 115px; }
+      .fold-knowledge-view .heading.medium {
+        color: #fff; }
+        .fold-knowledge-view .heading.medium .hexagon-in2 {
+          background-color: #fff; }
+        .fold-knowledge-view .heading.medium .heading-lines {
+          background-color: #fff; }
+          .fold-knowledge-view .heading.medium .heading-lines:before, .fold-knowledge-view .heading.medium .heading-lines:after {
+            background-color: #fff; } }
+  .fold-knowledge-view .knowledge-col-wrapper {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 60px 40px;
+    border-radius: 2px; }
   .fold-knowledge-view .section-container {
     margin: 0 auto 0 auto; }
   .fold-knowledge-view .hexagon {

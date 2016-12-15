@@ -1,8 +1,4 @@
 .fold-profile-view {
-	
-	min-height: 600px;
-	margin-bottom: 400px;
-	margin-top: 200px;
 
 	.cover {
 
@@ -25,13 +21,25 @@
 		border-radius: 50%;
 		background-size: 100%;
 		border: 2px solid #000;
-		margin: 20px auto 30px auto;
+		margin: 150px auto 30px auto;
 
 	}
 
 	.paragraph {
 
-		margin-bottom: 60px;
+		margin-bottom: 40px;
+	    background-color: rgba(0,0,0,0.1);
+	    color: #fff;
+	    padding: 15px;
+	    border-radius: 2px;
+	    margin-top: 0px;
+
+	    span {
+
+	    	background-color: #20b56d;
+
+	    }
+
 
 	}
 
@@ -65,7 +73,12 @@
 	@media screen and (max-height: 700px){
 
 		margin-top: 0px;
-		margin-bottom: 100px;
+
+		.profile-avatar {
+
+			margin: 20px auto 30px auto;
+
+		}
 
 	}
 

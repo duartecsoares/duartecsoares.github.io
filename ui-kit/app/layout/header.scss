@@ -1,10 +1,40 @@
 .layout-header-view {
 
-	padding: 10px 0 12px 0;
+	padding: 6px 0 6px 0;
     position: relative;
-    z-index: 100;
+    z-index: 900;
     background-color: rgba(80, 80, 80, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+
+    &.open {
+
+    	background-color: transparent;
+
+    	.mobile-toggle {
+
+    		.icon {
+
+    			background-color: transparent;
+
+    			&:before {
+
+    				transform: rotate(40deg) translateY(3px) translateX(3px);
+    				background-color: #fff;
+
+    			}
+
+    			&:after {
+
+    				transform: rotate(-40deg) translateY(-4px) translateX(4px);
+    				background-color: #fff;
+
+    			}
+
+    		}
+
+    	}
+
+    }
 
 	.link {
 
@@ -38,12 +68,13 @@
 		position: relative;
 		z-index: 600;
 		cursor: pointer;
+		$iconWidth: 15px;
 
 		.icon {
 
 			background-color: #000;
 			height: 2px;
-			width: 14px;
+			width: $iconWidth;
 			margin: 25px 0 25px 0;
 
 			&:after {
@@ -55,7 +86,8 @@
 				top: 5px;
 				background-color: #000;
 				height: 2px;
-				width: 14px;
+				width: $iconWidth;
+				transition: all 0.2s
 
 			}
 
@@ -68,7 +100,8 @@
 				top: -5px;
 				background-color: #000;
 				height: 2px;
-				width: 14px;
+				width: $iconWidth;
+				transition: all 0.2s
 
 			}
 

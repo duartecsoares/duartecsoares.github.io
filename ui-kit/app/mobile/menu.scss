@@ -5,7 +5,24 @@
 	width: 100%;
 	top: 0;
 	left: 0;
-	background-color: #c3c3c3;
+	background-color: #0f9d58;
 	z-index: 500;
+
+	.mobile-menu-list {
+
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		list-style: none;
+		margin-top: 180px;
+		font-weight: bold;
+
+		.item {
+
+			margin-top: 20px;
+
+		}
+
+	}
 
 }

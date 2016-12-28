@@ -2645,11 +2645,23 @@ html, body {
     margin-left: 65px; } }
 
 .layout-header-view {
-  padding: 10px 0 12px 0;
+  padding: 6px 0 6px 0;
   position: relative;
-  z-index: 100;
+  z-index: 900;
   background-color: rgba(80, 80, 80, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.01); }
+  .layout-header-view.open {
+    background-color: transparent; }
+    .layout-header-view.open .mobile-toggle .icon {
+      background-color: transparent; }
+      .layout-header-view.open .mobile-toggle .icon:before {
+        -webkit-transform: rotate(40deg) translateY(3px) translateX(3px);
+                transform: rotate(40deg) translateY(3px) translateX(3px);
+        background-color: #fff; }
+      .layout-header-view.open .mobile-toggle .icon:after {
+        -webkit-transform: rotate(-40deg) translateY(-4px) translateX(4px);
+                transform: rotate(-40deg) translateY(-4px) translateX(4px);
+        background-color: #fff; }
   .layout-header-view .link {
     font-size: 11px;
     margin-left: 20px;
@@ -2666,7 +2678,7 @@ html, body {
     .layout-header-view .mobile-toggle .icon {
       background-color: #000;
       height: 2px;
-      width: 14px;
+      width: 15px;
       margin: 25px 0 25px 0; }
       .layout-header-view .mobile-toggle .icon:after {
         content: "";
@@ -2676,7 +2688,9 @@ html, body {
         top: 5px;
         background-color: #000;
         height: 2px;
-        width: 14px; }
+        width: 15px;
+        -webkit-transition: all 0.2s;
+                transition: all 0.2s; }
       .layout-header-view .mobile-toggle .icon:before {
         content: "";
         display: block;
@@ -2685,7 +2699,9 @@ html, body {
         top: -5px;
         background-color: #000;
         height: 2px;
-        width: 14px; }
+        width: 15px;
+        -webkit-transition: all 0.2s;
+                transition: all 0.2s; }
   @media only screen and (min-width: 40.0625em) {
     .layout-header-view .menu {
       display: block; }
@@ -2916,8 +2932,17 @@ html, body {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #c3c3c3;
+  background-color: #0f9d58;
   z-index: 500; }
+  .fold-menu-mobile-view .mobile-menu-list {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    margin-top: 180px;
+    font-weight: bold; }
+    .fold-menu-mobile-view .mobile-menu-list .item {
+      margin-top: 20px; }
 
 .theme-genji {
   background-color: #fbfbfb; }

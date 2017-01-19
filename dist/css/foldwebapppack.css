@@ -1513,14 +1513,17 @@ select {
   text-align: center;
   margin: auto; }
 
+.h-unscrollable {
+  overflow: hidden; }
+
 .h-overflow-hidden {
   overflow: hidden; }
 
-.text-underline {
+.h-text-underline {
   text-decoration: underline !important; }
 
-.text-center {
-  text-align: center !important; }
+.h-text-center {
+  text-align: center; }
 
 .full-width-wrap {
   display: block;
@@ -2508,14 +2511,11 @@ a.label {
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #F9F9F9; }
+  background-color: #FAFAFA; }
 
 .app-loader svg {
   margin: 200px auto auto auto;
   display: block; }
-
-.unscrollable {
-  overflow: hidden; }
 
 .layout-header-view {
   padding: 6px 0 6px 0;
@@ -2585,21 +2585,6 @@ html, body {
   margin: 60px auto 0px auto;
   padding: 20px 0 20px 0;
   background-color: #f3f3f3; }
-  .layout-footer-view .paragraph {
-    margin-top: 0px; }
-  .layout-footer-view .line {
-    height: 1px;
-    margin-bottom: 20px;
-    background-color: #F2F2F2; }
-  .layout-footer-view .hexagon2 {
-    display: inline-block;
-    margin-right: 5px; }
-    .layout-footer-view .hexagon2 .hexagon-in2 {
-      background-color: #e6e6e6; }
-  .layout-footer-view .hexagon-wrapper {
-    margin: 20px 0 0 -20px; }
-  .layout-footer-view .link {
-    text-decoration: underline; }
 
 .fold-soon-page-view {
   position: absolute;

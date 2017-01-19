@@ -5,7 +5,6 @@
 @import "../core/fold-starterkit";
 
 @import "base";
-@import "decorations";
 
 @import "layout/header";
 @import "layout/container";
@@ -16,16 +15,6 @@
 @import  "pages/soon";
 
 //sections
-@import  "sections/profile-view";
-@import  "sections/my-links-view";
-@import  "sections/about-me-view";
-@import  "sections/journey-view";
-@import  "sections/work-entry-list";
-@import  "sections/fold-cta-view";
-@import  "sections/knowledge-view";
 
 //mobile
 @import  "mobile/menu";
-
-//themes
-@import  "themes";

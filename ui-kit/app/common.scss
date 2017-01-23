@@ -1,0 +1,49 @@
+.profile-card {
+
+	border-radius: 50px;
+	border: 1px solid #DADADA;
+	padding: 6px 7px 12px 7px;
+	@include gradient-gen(#ffffff, #F2F2F2);
+	font-size: $font-medium;
+	width: 300px;
+	position: relative;
+
+	.profile-card-avatar {
+
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		position: absolute;
+		background-color: #FAFAFA;
+
+	}
+
+	.profile-card-data {
+
+		margin: 0 0 0 65px;		
+
+	}
+
+	.profile-card-name {
+
+		text-transform: capitalize;
+		font-weight: bold;
+		margin: 3px 0 -1px 0;
+
+	}
+
+	.profile-card-status {
+
+		position: absolute;
+	    right: 15px;
+	    height: 15px;
+	    width: 15px;
+	    background-color: #4BDA37;
+	    border-radius: 50%;
+	    top: 0;
+	    bottom: 0;
+	    margin: auto;
+
+	}
+
+}

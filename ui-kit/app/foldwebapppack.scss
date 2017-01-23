@@ -6,16 +6,20 @@
 
 @import "colors";
 @import "base";
+@import "type";
 
 @import "layout/header";
 @import "layout/container";
 @import "layout/footer";
+
+@import "common";
 
 //pages
 @import  "pages/home";
 @import  "pages/soon";
 
 //sections
+@import "sections/terminal";
 
 //mobile
 @import  "mobile/menu";

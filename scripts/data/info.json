@@ -2,8 +2,15 @@
 
 	"app": {
 
-		"version": "0.0.1",
-		"build" : ""
+		"version": "0.0.1"
+
+	},
+
+	"user" : {
+
+		"name": "duarte soares",
+		"email": "duartecsoares@me.com",
+		"username" : "duartecsoares"
 
 	},
 

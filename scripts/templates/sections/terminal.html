@@ -1,8 +1,56 @@
+<%
+
+	var user = model.user || {},
+		name = user.name || "unknown",
+		email= user.email || "unknown",
+		system = model.system || {
+
+			version : "unknown",
+			build: "unknown"
+
+		};
+
+%>
+
+
 <div class="row">
+
+	<div class="column small-12">
+		
+		<div class="profile-card h-inline-block">
+		
+			<img class="profile-card-avatar" src="https://pbs.twimg.com/profile_images/511878398960861184/h-aeI8ZW_bigger.jpeg">
+			
+			<div class="profile-card-data h-inline-block">
+				
+				<div class="profile-card-name"><%= name %></div>
+				<div class="profile-card-email"><%= email %></div>
+
+				<span class="profile-card-status"></span>
+
+			</div>
+
+		</div>
+
+		<div class="system-meta h-inline-block">
+	
+			<div class="system-meta-version">version v<%= system.version %></div>
+			<div class="system-meta-build">build <%= system.build %></div>		
+
+		</div>
+
+	</div>
 	
 	<div class="column small-12">
 
-		<h3>terminal view</h3>
+		<div class="terminal-monitor">
+			
+
+		</div>
+
+		<form>
+			<input type="text" name="" class="terminal-input" placeholder="/type command">
+		</form>
 
 	</div>
 

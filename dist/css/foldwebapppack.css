@@ -1497,6 +1497,9 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.h-inline-block {
+  display: inline-block; }
+
 .h-text-justify {
   text-align: justify; }
 
@@ -1636,7 +1639,7 @@ select {
 html, body {
   font-size: 1rem;
   color: #333333;
-  font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   background-color: #ffffff; }
@@ -1746,7 +1749,7 @@ a {
     text-decoration: none; }
 
 .button {
-  font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 600;
   border-style: solid;
   text-align: center;
@@ -1774,7 +1777,7 @@ a {
     background-color: #3A83E6;
     color: #ffffff; }
   .button.secondary {
-    font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 900;
     border-style: solid;
     text-align: center;
@@ -1802,7 +1805,7 @@ a {
       background-color: #F7F9FA;
       color: #333333; }
   .button.terciary {
-    font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 400;
     border-style: solid;
     text-align: left;
@@ -2110,7 +2113,7 @@ button:focus {
     border: none;
     border-radius: 0;
     background-color: transparent;
-    font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
@@ -2131,7 +2134,7 @@ button:focus {
     margin-right: 16px; }
   .nav.main .logo-link-span {
     padding-left: 12px;
-    font-family: "futura-pt", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2518,10 +2521,10 @@ html, body {
   display: block; }
 
 .layout-header-view {
-  padding: 6px 0 6px 0;
+  padding: 45px 0 25px 0;
   position: relative;
   z-index: 900;
-  background-color: rgba(80, 80, 80, 0.1);
+  background-color: #FAFAFA;
   border-bottom: 1px solid rgba(0, 0, 0, 0.01); }
   .layout-header-view.open {
     background-color: transparent; }
@@ -2582,9 +2585,47 @@ html, body {
       display: none; } }
 
 .layout-footer-view {
-  margin: 60px auto 0px auto;
   padding: 20px 0 20px 0;
   background-color: #f3f3f3; }
+
+.profile-card {
+  border-radius: 50px;
+  border: 1px solid #DADADA;
+  padding: 6px 7px 12px 7px;
+  background: #ffffff;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #F2F2F2 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #F2F2F2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=0 );
+  /* IE6-9 */
+  font-size: 14px;
+  width: 300px;
+  position: relative; }
+  .profile-card .profile-card-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #FAFAFA; }
+  .profile-card .profile-card-data {
+    margin: 0 0 0 65px; }
+  .profile-card .profile-card-name {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 3px 0 -1px 0; }
+  .profile-card .profile-card-status {
+    position: absolute;
+    right: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: #4BDA37;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
 
 .fold-soon-page-view {
   position: absolute;
@@ -2596,6 +2637,33 @@ html, body {
     text-align: center; }
   .fold-soon-page-view .heading.small {
     text-align: center; }
+
+.fold-terminal-section-view {
+  background-color: #F8F8F8;
+  padding: 60px 0; }
+  .fold-terminal-section-view .profile-card {
+    margin: 0 0 30px 0; }
+  .fold-terminal-section-view .terminal-monitor {
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-color: #FCFCFC;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px; }
+  .fold-terminal-section-view .terminal-input {
+    margin: 2px 0 0 0;
+    padding: 5px;
+    width: 100%;
+    background-color: #FCFCFC;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px; }
+    .fold-terminal-section-view .terminal-input:focus {
+      outline: 0; }
+  .fold-terminal-section-view .system-meta {
+    font-size: 12px;
+    margin: 0 0 0 20px;
+    position: relative;
+    top: -4px; }
 
 .fold-menu-mobile-view {
   position: fixed;

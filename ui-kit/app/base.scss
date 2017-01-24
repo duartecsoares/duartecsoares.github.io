@@ -22,11 +22,18 @@ html, body {
 .heading {
 	
 	color: $heading-color;
-	font-size: $heading-big;
+	font-size: $heading-medium;
 
 	&:after, &:before {
 
 		background-color: $dark-blue;
+
+	}
+
+	&.biggest {
+
+		font-size: $heading-biggest;
+		margin: 0;
 
 	}
 
@@ -38,7 +45,7 @@ html, body {
 
 	&.medium {
 
-		font-size: $heading-big;
+		font-size: $heading-medium;
 
 	}
 
@@ -54,5 +61,25 @@ html, body {
 .paragraph {
 	
 	color: $paragraph-color;
+	font-size: $paragraph-medium;
+
+	&.big {
+
+		font-size: $paragraph-big;
+
+	}
+
+	&.medium {
+
+		font-size: $paragraph-medium;
+
+	}
+
+	&.small {
+
+		font-size: $paragraph-small;
+		line-height: 18px;
+
+	}
 
 }

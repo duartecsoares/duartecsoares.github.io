@@ -2,7 +2,8 @@ define(["fold/controller",
 		"json!data/info.json",
 		"views/pages/home",
 		"views/sections/terminal",
-		"views/sections/technologies"], function(FoldController, infoJSON, HomeView, TerminalSectionView, TechnologiesSectionView){
+		"views/sections/technologies",
+		"views/sections/journey"], function(FoldController, infoJSON, HomeView, TerminalSectionView, TechnologiesSectionView, JourneySectionView){
 	
 	var HomeController = FoldController.extend({
 
@@ -16,6 +17,6 @@ define(["fold/controller",
 
 	});
 
-	return new HomeController({ viewDetails: { constructor: HomeView, idView: "home-page-view", children: [{ constructor: TerminalSectionView, idView: "terminal-section-view"}, { constructor: TechnologiesSectionView, idView: "technologies-section-view" } ]}});
+	return new HomeController({ viewDetails: { constructor: HomeView, idView: "home-page-view", children: [{ constructor: TerminalSectionView, idView: "terminal-section-view"}, { constructor: TechnologiesSectionView, idView: "technologies-section-view" }, { constructor: JourneySectionView, idView: "journey-section-view" } ]}});
 
 });

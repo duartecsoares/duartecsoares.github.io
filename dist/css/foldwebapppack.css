@@ -2519,19 +2519,30 @@ html, body {
 
 .heading {
   color: #4D545A;
-  font-size: 18px; }
+  font-size: 16px; }
   .heading:after, .heading:before {
     background-color: #4D545A; }
+  .heading.biggest {
+    font-size: 32px;
+    margin: 0; }
   .heading.big {
     font-size: 18px; }
   .heading.medium {
-    font-size: 18px; }
+    font-size: 16px; }
   .heading.small {
     font-size: 14px;
     line-height: 18px; }
 
 .paragraph {
-  color: #4D545A; }
+  color: #4D545A;
+  font-size: 14px; }
+  .paragraph.big {
+    font-size: 16px; }
+  .paragraph.medium {
+    font-size: 14px; }
+  .paragraph.small {
+    font-size: 12px;
+    line-height: 18px; }
 
 .layout-header-view {
   padding: 45px 0 25px 0;
@@ -2643,12 +2654,12 @@ html, body {
 
 .section {
   background-color: #FAFAFA; }
-  .section .heading.medium {
+  .section .heading.special {
     position: relative;
     text-align: center;
     margin: 70px auto 90px auto;
     width: 300px; }
-    .section .heading.medium:before {
+    .section .heading.special:before {
       content: "";
       width: 75px;
       height: 1px;
@@ -2657,7 +2668,7 @@ html, body {
       top: 0;
       bottom: 0;
       margin: auto; }
-    .section .heading.medium:after {
+    .section .heading.special:after {
       content: "";
       width: 75px;
       height: 1px;
@@ -2715,6 +2726,9 @@ html, body {
     display: block; }
   .fold-technologies-section-view .tech-card .heading {
     font-weight: bold; }
+
+.fold-journey-section-view .heading.biggest {
+  font-weight: normal; }
 
 .fold-menu-mobile-view {
   position: fixed;

@@ -148,11 +148,11 @@ $sk-heading-medium-letter-spacing: 		0;
 $sk-heading-small-letter-spacing: 		0;
 $sk-heading-smallest-letter-spacing: 	1px;
 		
-$sk-heading-biggest-text-transform: 	none;
-$sk-heading-big-text-transform: 		none;
-$sk-heading-medium-text-transform: 		none;
-$sk-heading-small-text-transform: 		none;
-$sk-heading-smallest-text-transform: 	uppercase;
+$sk-heading-biggest-text-transform: 	capitalize;
+$sk-heading-big-text-transform: 		capitalize;
+$sk-heading-medium-text-transform: 		capitalize;
+$sk-heading-small-text-transform: 		capitalize;
+$sk-heading-smallest-text-transform: 	capitalize;
 
 
 // 2.3 Paragraphs

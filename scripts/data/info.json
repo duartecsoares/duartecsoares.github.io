@@ -10,13 +10,13 @@
 
 		"name": "duarte soares",
 		"email": "duartecsoares@me.com",
-		"username" : "duartecsoares"
+		"username": "duartecsoares"
 
 	},
 
 	"sections": {
 
-		"terminal" : {
+		"terminal": {
 
 
 
@@ -24,8 +24,58 @@
 
 		"technologies" : {
 
-			"title": "",
-			"data" : []
+			"title": "technologies",
+			"data": [
+
+				{
+
+					"image": "framerjs@2x",
+					"name": "FramerJS",
+					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions."
+
+				},
+
+				{
+
+					"image": "",
+					"name": "FramerJS",
+					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions."
+
+				},
+
+				{
+
+					"image": "",
+					"name": "FramerJS",
+					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions."
+
+				},
+
+				{
+
+					"image": "",
+					"name": "FramerJS",
+					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions."
+
+				},
+
+				{
+
+					"image": "",
+					"name": "FramerJS",
+					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions."
+
+				},
+
+				{
+
+					"image": "",
+					"name": "FramerJS",
+					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions."
+
+				}
+
+			]
 
 		},
 

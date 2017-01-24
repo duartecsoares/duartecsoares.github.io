@@ -5,14 +5,15 @@
 @import "../core/fold-starterkit";
 
 @import "colors";
-@import "base";
 @import "type";
+@import "base";
 
 @import "layout/header";
 @import "layout/container";
 @import "layout/footer";
 
 @import "common";
+@import "sections";
 
 //pages
 @import  "pages/home";
@@ -20,6 +21,7 @@
 
 //sections
 @import "sections/terminal";
+@import "sections/technologies";
 
 //mobile
 @import  "mobile/menu";

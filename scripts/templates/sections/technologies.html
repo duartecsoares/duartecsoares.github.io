@@ -1,0 +1,49 @@
+<%
+
+	var title = model.title || "Unknown",
+		data = model.data || [];
+
+%>
+
+<div class="section">
+	
+	<div class="row">
+		
+		<div class="column small-12">
+		
+			<h2 class="heading medium"><%= title %></h2>
+
+		</div>
+
+	</div>
+	
+	<div class="row">
+	
+		<%
+
+			data.map(function(techCard){
+
+				%>
+
+					<div class="column small-6 medium-4">
+				
+						<div class="tech-card">
+
+							<img src="/resources/assets/technologies/framerjs@2x.png" class="tech-card-image">
+							
+							<h3 class="heading small h-text-center"><%= techCard.name %></h3>
+							<p class="paragraph small"><%= techCard.description %></p>
+
+						</div>
+
+					</div>
+
+				<%
+
+			});
+
+		%>
+
+	</div>
+
+</div>

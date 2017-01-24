@@ -28,18 +28,18 @@
 
 .paragraph {
 	font-size: rem-calc($sk-paragraph-size);
-	line-height: rem-calc($sk-paragraph-line-height);
+	//line-height: rem-calc($sk-paragraph-line-height);
 	margin: $sk-paragraph-margin;
 
 	&.big {
 		font-size: rem-calc($sk-paragraph-size-big);
-		line-height: rem-calc($sk-paragraph-line-height-big);
+		//line-height: rem-calc($sk-paragraph-line-height-big);
 		margin: $sk-paragraph-margin-big;
 	}
 
 	&.small {
 		font-size: rem-calc($sk-paragraph-size-small);
-		line-height: rem-calc($sk-paragraph-line-height-small);
+		//line-height: rem-calc($sk-paragraph-line-height-small);
 		margin: $sk-paragraph-margin-small;
 	}
 }

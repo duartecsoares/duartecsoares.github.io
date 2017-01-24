@@ -1,3 +1,5 @@
+$margin-adjust: 70px;
+
 html, body {
 	
 	height: 100%;
@@ -14,5 +16,43 @@ html, body {
 		display: block;
 
 	}
+
+}
+
+.heading {
+	
+	color: $heading-color;
+	font-size: $heading-big;
+
+	&:after, &:before {
+
+		background-color: $dark-blue;
+
+	}
+
+	&.big {
+
+		font-size: $heading-big;
+
+	}
+
+	&.medium {
+
+		font-size: $heading-big;
+
+	}
+
+	&.small {
+
+		font-size: $heading-small;
+		line-height: 18px;
+
+	}
+
+}
+
+.paragraph {
+	
+	color: $paragraph-color;
 
 }

@@ -2,6 +2,8 @@
 	
 	background-color: $layout-terminal-background;
 	padding: 60px 0;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
 
 	.profile-card {
 
@@ -39,7 +41,7 @@
 
 	.system-meta {
 
-		font-size: $font-small;
+		font-size: $paragraph-small;
 		margin: 0 0 0 20px;
 		position: relative;
 		top: -4px;

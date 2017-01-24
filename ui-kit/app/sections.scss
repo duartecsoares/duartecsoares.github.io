@@ -1,0 +1,44 @@
+.section {
+	
+	background-color: #FAFAFA;
+
+	.heading {
+
+		&.medium {
+
+			position: relative;
+			text-align: center;
+			margin: $margin-adjust auto 90px auto;
+			width: 300px;
+
+			&:before {
+
+				content: "";
+				width: 75px;
+				height: 1px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+
+			}
+
+			&:after {
+
+				content: "";
+				width: 75px;
+				height: 1px;
+				position: absolute;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+
+			}
+
+		}
+
+	}
+
+}

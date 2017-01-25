@@ -1,10 +1,69 @@
-.fold-journey-section-view {
+.fold-journey-section-view {	
 	
 	.heading {
 
 		&.biggest {
 
 			font-weight: normal;
+
+		}
+
+	}
+
+	.journey-content {
+
+		margin: 80px auto auto auto;
+
+		.journey-content-image {
+
+			width: 70px;
+			margin-bottom: 10px;
+
+		}
+
+		.paragraph {
+
+			margin: 7px auto 0 auto;
+
+		}
+
+	}
+
+	.timeline {
+
+		position: relative;
+		width: 100%;
+		display: block;
+
+		.timeline-main {
+
+			height:360px;
+			width: 1px;
+			margin: auto;
+			background-color: $dark-blue;
+			position: relative;
+
+		}
+
+		.timeline-dot {
+
+			width: 7px;
+		    height: 7px;
+		    border-radius: 50%;
+		    position: relative;
+		    left: -3px;
+		    background-color: #ECECEC;
+			border: 1px solid $dark-blue;
+			position: absolute;
+
+		}
+
+		.timeline-base {
+
+			height: 1px;
+			margin: auto;
+			width: 60px;
+			background-color: $dark-blue;
 
 		}
 

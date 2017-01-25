@@ -2653,11 +2653,13 @@ html, body {
     border: 1px solid #27d210; }
 
 .section {
+  margin: 0;
+  padding: 100px;
   background-color: #FAFAFA; }
   .section .heading.special {
     position: relative;
     text-align: center;
-    margin: 70px auto 90px auto;
+    margin: 0 auto 80px auto;
     width: 300px; }
     .section .heading.special:before {
       content: "";
@@ -2677,6 +2679,9 @@ html, body {
       top: 0;
       bottom: 0;
       margin: auto; }
+
+.fold-journey-section-view .section {
+  background-color: #FEFEFE; }
 
 .fold-soon-page-view {
   position: absolute;
@@ -2718,8 +2723,10 @@ html, body {
     position: relative;
     top: -4px; }
 
+.fold-technologies-section-view .section {
+  padding-bottom: 40px; }
 .fold-technologies-section-view .tech-card {
-  margin: auto auto 70px auto; }
+  margin: auto auto 60px auto; }
   .fold-technologies-section-view .tech-card .tech-card-image {
     width: 80px;
     margin: auto auto 25px auto;
@@ -2729,6 +2736,37 @@ html, body {
 
 .fold-journey-section-view .heading.biggest {
   font-weight: normal; }
+.fold-journey-section-view .journey-content {
+  margin: 80px auto auto auto; }
+  .fold-journey-section-view .journey-content .journey-content-image {
+    width: 70px;
+    margin-bottom: 10px; }
+  .fold-journey-section-view .journey-content .paragraph {
+    margin: 7px auto 0 auto; }
+.fold-journey-section-view .timeline {
+  position: relative;
+  width: 100%;
+  display: block; }
+  .fold-journey-section-view .timeline .timeline-main {
+    height: 360px;
+    width: 1px;
+    margin: auto;
+    background-color: #4D545A;
+    position: relative; }
+  .fold-journey-section-view .timeline .timeline-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: relative;
+    left: -3px;
+    background-color: #ECECEC;
+    border: 1px solid #4D545A;
+    position: absolute; }
+  .fold-journey-section-view .timeline .timeline-base {
+    height: 1px;
+    margin: auto;
+    width: 60px;
+    background-color: #4D545A; }
 
 .fold-menu-mobile-view {
   position: fixed;

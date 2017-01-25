@@ -1,5 +1,7 @@
 .section {
-	
+
+	margin:0;
+	padding: 100px;
 	background-color: #FAFAFA;
 
 	.heading {
@@ -8,7 +10,7 @@
 
 			position: relative;
 			text-align: center;
-			margin: $margin-adjust auto 90px auto;
+			margin: 0 auto 80px auto;
 			width: 300px;
 
 			&:before {
@@ -42,3 +44,17 @@
 	}
 
 }
+
+
+//bg colors
+
+.fold-journey-section-view {
+	
+	.section {
+
+		background-color: #FEFEFE;
+
+	}
+
+}
+

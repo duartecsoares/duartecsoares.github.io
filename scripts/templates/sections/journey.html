@@ -19,13 +19,41 @@
 	
 	<div class="row">
 	
-		<div class="column small-6">_</div>
+		<div class="column small-6">
+			
+			<div class="timeline">
+				
+				<div class="timeline-main">
+					
+					<%
+
+						data.map(function(dotEntry, i){
+
+							%>
+
+							<div class="timeline-dot" data-dot="<%= i %>"></div>
+
+							<%
+
+						});
+
+					%>
+
+				</div>
+				<div class="timeline-base"></div>
+
+			</div>			
+
+		</div>
 
 		<div class="column small-5 small-offset-1">
 			
+			<div class="journey-content">
 
-			<h3 class="heading biggest">Föld</h3>
-			<p class="paragraph big">Made by a small team of three developers by the name of Föld. Made by a small team of three developers by the name of Föld.</p>
+				<img src="/resources/assets/companies/meshapp@2x.png" class="journey-content-image">
+				<h3 class="heading biggest">MeshApp</h3>
+				<p class="paragraph big">Made by a small team of three developers by the name of Föld. Made by a small team of three developers by the name of Föld.</p>
+			</div>
 
 		</div>
 

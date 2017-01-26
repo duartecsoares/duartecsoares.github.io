@@ -2569,7 +2569,8 @@ html, body {
     .layout-header-view .link:hover {
       text-decoration: underline; }
   .layout-header-view .menu {
-    display: none; }
+    display: none;
+    padding: 0; }
   .layout-header-view .mobile-toggle {
     display: block;
     position: relative;
@@ -2654,7 +2655,7 @@ html, body {
 
 .section {
   margin: 0;
-  padding: 100px;
+  padding: 100px 0;
   background-color: #FAFAFA; }
   .section .heading.special {
     position: relative;
@@ -2737,10 +2738,29 @@ html, body {
 .fold-journey-section-view .heading.biggest {
   font-weight: normal; }
 .fold-journey-section-view .journey-content {
-  margin: 80px auto auto auto; }
+  margin: 30px auto auto auto; }
   .fold-journey-section-view .journey-content .journey-content-image {
     width: 70px;
     margin-bottom: 10px; }
+  .fold-journey-section-view .journey-content .heading.small {
+    margin-bottom: 10px; }
+  .fold-journey-section-view .journey-content .paragraph.big {
+    font-size: 15px; }
+  .fold-journey-section-view .journey-content .journey-content-project {
+    background-color: #FAFAFA;
+    border: 1px solid #e5edf5;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    position: relative; }
+    .fold-journey-section-view .journey-content .journey-content-project .journey-content-project-image {
+      width: 50%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
   .fold-journey-section-view .journey-content .paragraph {
     margin: 7px auto 0 auto; }
 .fold-journey-section-view .timeline {
@@ -2753,15 +2773,36 @@ html, body {
     margin: auto;
     background-color: #4D545A;
     position: relative; }
-  .fold-journey-section-view .timeline .timeline-dot {
+  .fold-journey-section-view .timeline .timeline-data-entry {
+    position: absolute; }
+    .fold-journey-section-view .timeline .timeline-data-entry:hover, .fold-journey-section-view .timeline .timeline-data-entry.active {
+      cursor: pointer; }
+      .fold-journey-section-view .timeline .timeline-data-entry:hover .timeline-data-entry-dot, .fold-journey-section-view .timeline .timeline-data-entry.active .timeline-data-entry-dot {
+        -webkit-transform: scale(1.3) translateX(-2.2px);
+                transform: scale(1.3) translateX(-2.2px);
+        background-color: #4D545A; }
+  .fold-journey-section-view .timeline .timeline-data-entry-dot {
     width: 7px;
     height: 7px;
     border-radius: 50%;
     position: relative;
-    left: -3px;
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
     background-color: #ECECEC;
     border: 1px solid #4D545A;
-    position: absolute; }
+    -webkit-transition: all .15s;
+            transition: all .15s; }
+  .fold-journey-section-view .timeline .timeline-data-entry-name {
+    position: absolute;
+    left: 20px;
+    top: -19px;
+    white-space: nowrap;
+    font-weight: bold; }
+  .fold-journey-section-view .timeline .timeline-data-entry-date {
+    position: absolute;
+    left: -100px;
+    top: -19px;
+    color: #b9b9b9; }
   .fold-journey-section-view .timeline .timeline-base {
     height: 1px;
     margin: auto;

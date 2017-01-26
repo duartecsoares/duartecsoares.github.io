@@ -19,19 +19,26 @@
 	
 	<div class="row">
 	
-		<div class="column small-6">
+		<div class="column small-7">
 			
 			<div class="timeline">
 				
 				<div class="timeline-main">
 					
 					<%
+						var l = data.length,
+							h = 360;
 
-						data.map(function(dotEntry, i){
+						data.reverse().map(function(dotEntry, i){
 
 							%>
+								<div class="timeline-data-entry" style="top: <%= i * (h / l) %>px">
+																		
+									<div class="timeline-data-entry-dot" data-dot="<%= i %>"></div>
+									<div class="timeline-data-entry-date paragraph small"><%= dotEntry.date %></div>
+									<div class="timeline-data-entry-name paragraph small"><%= dotEntry.name %></div>							
 
-							<div class="timeline-dot" data-dot="<%= i %>"></div>
+								</div>
 
 							<%
 
@@ -46,13 +53,20 @@
 
 		</div>
 
-		<div class="column small-5 small-offset-1">
+		<div class="column small-4">
 			
 			<div class="journey-content">
 
 				<img src="/resources/assets/companies/meshapp@2x.png" class="journey-content-image">
 				<h3 class="heading biggest">MeshApp</h3>
 				<p class="paragraph big">Made by a small team of three developers by the name of Föld. Made by a small team of three developers by the name of Föld.</p>
+				<h5 class="heading small">Products</h5>
+				<div class="journey-content-project">
+						
+					<img src="/resources/assets/companies/meshapp@2x.png" class="journey-content-project-image">
+
+				</div>
+
 			</div>
 
 		</div>

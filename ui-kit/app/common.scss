@@ -48,3 +48,139 @@
 	}
 
 }
+
+.content-block {
+
+	margin: 30px auto auto auto;
+
+	.heading {
+
+		&.biggest {
+
+			font-weight: normal;
+
+		}
+
+	}
+
+	.content-block-image {
+
+		width: 70px;
+		margin-bottom: 10px;
+
+	}
+
+	.heading {
+
+		&.small {
+
+			margin-bottom: 10px;
+
+		}
+
+	}
+
+	.paragraph {
+
+		&.big {
+
+			font-size: 15px;
+
+		}
+
+	}
+
+	.content-block-project {
+
+		background-color: #FAFAFA;
+		border: 1px solid #e5edf5;
+		height: 46px;
+		width: 46px;
+		border-radius: 50%;
+		position: relative;
+
+		.content-block-project-image {
+
+			width: 50%;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+
+		}
+
+	}
+
+	.paragraph {
+
+		margin: 7px auto 0 auto;
+
+	}
+
+}
+
+.browser {
+	
+	width: 100%;
+    background: #fff;
+    display: block;    
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border: 1px solid #dadada;
+
+    .browser-header {
+
+    	width: 100%;
+    	height: 20px;
+    	border-top-left-radius: 1px;
+    	border-top-right-radius: 1px;
+    	@include gradient-gen(#EDEDED, #E3E3E3);
+
+    	.browser-header-actions {
+
+    		position: relative;
+    		top: -4px;
+    		left: 5px;
+
+    	}
+
+		.browser-header-action {
+
+			height: 7px;
+			width: 7px;
+			border-radius: 50%;
+			display: inline-block;
+
+			&.green {
+
+				background-color: #86DB48;
+
+			}
+
+			&.yellow {
+
+				background-color: #DFCB00;
+
+			}
+
+			&.red {
+
+				background-color: #FF7979;
+
+			}
+
+		}	
+
+    }
+
+    .browser-content {
+
+    	height: 340px;
+    	background-size: 100%;
+    	background-size: cover;
+
+    }
+
+}

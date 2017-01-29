@@ -2653,6 +2653,76 @@ html, body {
     margin: auto;
     border: 1px solid #27d210; }
 
+.content-block {
+  margin: 30px auto auto auto; }
+  .content-block .heading.biggest {
+    font-weight: normal; }
+  .content-block .content-block-image {
+    width: 70px;
+    margin-bottom: 10px; }
+  .content-block .heading.small {
+    margin-bottom: 10px; }
+  .content-block .paragraph.big {
+    font-size: 15px; }
+  .content-block .content-block-project {
+    background-color: #FAFAFA;
+    border: 1px solid #e5edf5;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    position: relative; }
+    .content-block .content-block-project .content-block-project-image {
+      width: 50%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+  .content-block .paragraph {
+    margin: 7px auto 0 auto; }
+
+.browser {
+  width: 100%;
+  background: #fff;
+  display: block;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border: 1px solid #dadada; }
+  .browser .browser-header {
+    width: 100%;
+    height: 20px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    background: #EDEDED;
+    /* Old browsers */
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #EDEDED 0%, #E3E3E3 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #EDEDED 0%, #E3E3E3 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=0 );
+    /* IE6-9 */ }
+    .browser .browser-header .browser-header-actions {
+      position: relative;
+      top: -4px;
+      left: 5px; }
+    .browser .browser-header .browser-header-action {
+      height: 7px;
+      width: 7px;
+      border-radius: 50%;
+      display: inline-block; }
+      .browser .browser-header .browser-header-action.green {
+        background-color: #86DB48; }
+      .browser .browser-header .browser-header-action.yellow {
+        background-color: #DFCB00; }
+      .browser .browser-header .browser-header-action.red {
+        background-color: #FF7979; }
+  .browser .browser-content {
+    height: 340px;
+    background-size: 100%;
+    background-size: cover; }
+
 .section {
   margin: 0;
   padding: 100px 0;
@@ -2735,34 +2805,6 @@ html, body {
   .fold-technologies-section-view .tech-card .heading {
     font-weight: bold; }
 
-.fold-journey-section-view .heading.biggest {
-  font-weight: normal; }
-.fold-journey-section-view .journey-content {
-  margin: 30px auto auto auto; }
-  .fold-journey-section-view .journey-content .journey-content-image {
-    width: 70px;
-    margin-bottom: 10px; }
-  .fold-journey-section-view .journey-content .heading.small {
-    margin-bottom: 10px; }
-  .fold-journey-section-view .journey-content .paragraph.big {
-    font-size: 15px; }
-  .fold-journey-section-view .journey-content .journey-content-project {
-    background-color: #FAFAFA;
-    border: 1px solid #e5edf5;
-    height: 46px;
-    width: 46px;
-    border-radius: 50%;
-    position: relative; }
-    .fold-journey-section-view .journey-content .journey-content-project .journey-content-project-image {
-      width: 50%;
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      margin: auto; }
-  .fold-journey-section-view .journey-content .paragraph {
-    margin: 7px auto 0 auto; }
 .fold-journey-section-view .timeline {
   position: relative;
   width: 100%;

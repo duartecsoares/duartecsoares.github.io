@@ -1497,6 +1497,16 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+.h-text-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.h-column-center {
+  float: none;
+  display: block;
+  margin: auto; }
+
 .h-inline-block {
   display: inline-block; }
 
@@ -1639,7 +1649,7 @@ select {
 html, body {
   font-size: 1rem;
   color: #333333;
-  font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: ClearSans, Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   background-color: #ffffff; }
@@ -1746,7 +1756,7 @@ a {
     text-decoration: none; }
 
 .button {
-  font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: ClearSans, Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 600;
   border-style: solid;
   text-align: center;
@@ -1774,7 +1784,7 @@ a {
     background-color: #3A83E6;
     color: #ffffff; }
   .button.secondary {
-    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: ClearSans, Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 900;
     border-style: solid;
     text-align: center;
@@ -1802,7 +1812,7 @@ a {
       background-color: #F7F9FA;
       color: #333333; }
   .button.terciary {
-    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: ClearSans, Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 400;
     border-style: solid;
     text-align: left;
@@ -2110,7 +2120,7 @@ button:focus {
     border: none;
     border-radius: 0;
     background-color: transparent;
-    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: ClearSans, Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
@@ -2131,7 +2141,7 @@ button:focus {
     margin-right: 16px; }
   .nav.main .logo-link-span {
     padding-left: 12px;
-    font-family: "Clear Sans", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: ClearSans, Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2508,6 +2518,13 @@ a.label {
       -webkit-transform: translate(0, -50%) rotate(45deg);
               transform: translate(0, -50%) rotate(45deg); }
 
+@font-face {
+  font-family: ClearSans;
+  src: url(/resources/assets/fonts/clear-sans/ClearSans-Regular.ttf); }
+@font-face {
+  font-family: ClearSans;
+  src: url(/resources/assets/fonts/clear-sans/ClearSans-Bold.ttf);
+  font-weight: bold; }
 html, body {
   height: 100%;
   width: 100%;
@@ -2721,7 +2738,48 @@ html, body {
   .browser .browser-content {
     height: 340px;
     background-size: 100%;
-    background-size: cover; }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.tab-menu {
+  text-align: center; }
+  .tab-menu .tab-menu-content {
+    position: relative; }
+    .tab-menu .tab-menu-content:after {
+      content: "";
+      height: 1px;
+      width: 100%;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      background-color: #D5D5D5; }
+  .tab-menu .tab-menu-item {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    cursor: pointer; }
+    .tab-menu .tab-menu-item:after {
+      content: "";
+      height: 1px;
+      width: 0px;
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      background-color: #4D545A;
+      -webkit-transition: width 0.15s;
+              transition: width 0.15s;
+      z-index: 400; }
+    .tab-menu .tab-menu-item.active:after {
+      width: 100%; }
+  .tab-menu .tab-menu-item-icon {
+    width: 52px;
+    display: block;
+    margin: auto auto 12px auto;
+    border-radius: 50%;
+    border: 1px solid #efefef; }
+  .tab-menu .tab-menu-item-wrapper {
+    width: 100%; }
 
 .section {
   margin: 0;
@@ -2753,6 +2811,9 @@ html, body {
 
 .fold-journey-section-view .section {
   background-color: #FEFEFE; }
+
+.fold-achievements-section-view .section {
+  background-color: #f7f7f7; }
 
 .fold-soon-page-view {
   position: absolute;
@@ -2850,6 +2911,42 @@ html, body {
     margin: auto;
     width: 60px;
     background-color: #4D545A; }
+
+.fold-work-section-view .content-block {
+  margin-top: 60px; }
+.fold-work-section-view .tab-menu {
+  margin-top: 80px; }
+
+.fold-achievements-section-view .section {
+  padding-bottom: 40px; }
+.fold-achievements-section-view .achievement-card {
+  margin: auto auto 60px auto; }
+  .fold-achievements-section-view .achievement-card .achievement-card-image {
+    width: 80px;
+    margin: auto auto 25px auto;
+    display: block; }
+  .fold-achievements-section-view .achievement-card .heading {
+    font-weight: bold; }
+.fold-achievements-section-view .achievement-card-image {
+  width: 80px;
+  display: block;
+  margin: auto; }
+
+.fold-connect-section-view .heading.special {
+  width: auto; }
+  .fold-connect-section-view .heading.special:before, .fold-connect-section-view .heading.special:after {
+    width: 35%; }
+.fold-connect-section-view .profile-card {
+  margin: auto; }
+.fold-connect-section-view .connect-wrapper {
+  padding: 100px 0;
+  background-color: #F6F6F6; }
+.fold-connect-section-view .connect-line {
+  height: 1px;
+  width: 100%;
+  background-color: #4D545A;
+  margin-top: 95px;
+  display: block; }
 
 .fold-menu-mobile-view {
   position: fixed;

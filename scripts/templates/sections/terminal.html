@@ -3,6 +3,7 @@
 	var user = model.user || {},
 		name = user.name || "unknown",
 		email= user.email || "unknown",
+		avatar= user.avatar || "unknown",
 		system = model.system || {
 
 			version : "unknown",
@@ -19,7 +20,7 @@
 		
 		<div class="profile-card h-inline-block">
 		
-			<img class="profile-card-avatar" src="https://pbs.twimg.com/profile_images/511878398960861184/h-aeI8ZW_bigger.jpeg">
+			<img class="profile-card-avatar" src="<%= avatar %>">
 			
 			<div class="profile-card-data h-inline-block">
 				

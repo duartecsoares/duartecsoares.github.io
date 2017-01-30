@@ -1,6 +1,22 @@
 // StarterKit by Fold
 // helpers.scss
 
+.h-text-ellipsis {
+		
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.h-column-center {
+		
+	float: none;
+	display: block;
+	margin: auto;	
+
+}
+
 .h-inline-block {
 		
 	display: inline-block;

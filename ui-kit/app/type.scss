@@ -1,4 +1,19 @@
 
+@font-face {
+
+    font-family: ClearSans;
+    src: url(/resources/assets/fonts/clear-sans/ClearSans-Regular.ttf);
+
+}
+
+@font-face {
+
+    font-family: ClearSans;
+    src: url(/resources/assets/fonts/clear-sans/ClearSans-Bold.ttf);
+    font-weight: bold;
+    
+}
+
 $heading-biggest: 32px;
 $heading-big: 18px;
 $heading-medium: 16px;

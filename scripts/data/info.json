@@ -8,6 +8,7 @@
 
 	"user" : {
 
+		"avatar": "https://pbs.twimg.com/profile_images/511878398960861184/h-aeI8ZW_bigger.jpeg",
 		"name": "duarte soares",
 		"email": "duartecsoares@me.com",
 		"username": "duartecsoares"
@@ -187,15 +188,64 @@
 
 		"achievements": {
 
-			"title": "",
-			"data": []
+			"title": "Achievements",
+			"data": [
+
+				{
+
+					"icon": "",
+					"name": "project launch",
+					"description": "Owned by developing and releasing Build It With Me project."
+
+				},
+
+				{
+
+					"icon": "",
+					"name": "project launch",
+					"description": "Owned by developing and releasing Build It With Me project."
+
+				},
+
+				{
+
+					"icon": "",
+					"name": "project launch",
+					"description": "Owned by developing and releasing Build It With Me project."
+
+				},
+
+				{
+
+					"icon": "",
+					"name": "project launch",
+					"description": "Owned by developing and releasing Build It With Me project."
+
+				},
+
+				{
+
+					"icon": "",
+					"name": "project launch",
+					"description": "Owned by developing and releasing Build It With Me project."
+
+				},
+
+				{
+
+					"icon": "",
+					"name": "project launch",
+					"description": "Owned by developing and releasing Build It With Me project."
+
+				}
+
+			]
 
 		},
 
 		"connect": {
 
-			"title": "",
-			"data": []
+			"title": "Connect"
 
 		}
 	},

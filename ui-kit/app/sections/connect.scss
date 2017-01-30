@@ -1,0 +1,42 @@
+.fold-connect-section-view {
+
+	.heading {		
+
+		&.special {
+
+			width: auto;
+
+			&:before, &:after {
+
+				width: 35%;
+
+			}
+
+		}
+
+	}
+	
+	.profile-card {
+
+		margin: auto;
+
+	}
+
+	.connect-wrapper {
+
+		padding: 100px 0;
+    	background-color: #F6F6F6;
+
+	}
+
+	.connect-line {
+
+		height: 1px;
+		width: 100%;
+		background-color: $dark-blue;
+		margin-top: 95px;
+		display: block;
+
+	}
+	
+}

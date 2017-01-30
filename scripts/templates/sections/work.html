@@ -47,11 +47,48 @@
 
 				</div>
 
-				<div class="browser-content" style="background-image: url('/resources/assets/work-screens/builditwithme.gif')">
+				<div class="browser-content" style="background-image: url('/resources/assets/work-screens/builditwithme.gif')"></div>
 
 			</div>
 
 		</div>
+
+	</div>
+
+	<div class="row">
+		
+	<div class="column small-8 h-column-center">
+		
+		<div class="tab-menu">
+
+			<span class="tab-menu-content">
+				
+				<%
+
+					data.map(function(item, i){
+
+						var activeClass = "active";
+
+						%>
+
+							<span class="tab-menu-item <% if (i === 1){ %><%= activeClass %> <%}%>" title="<%= item.name %>">
+
+								<img class="tab-menu-item-icon" src="/resources/assets/logos/<%= item.thumb %>">
+								<div class="tab-menu-item-wrapper h-text-ellipsis"><span class="tab-menu-item-label paragraph"><%= item.name %></span></div>
+
+							</span>
+
+						<%
+
+					});
+
+				%>
+
+			</span>	
+
+		</div>
+
+	</div>
 
 	</div>
 

@@ -178,9 +178,90 @@
     .browser-content {
 
     	height: 340px;
-    	background-size: 100%;
-    	background-size: cover;
+   		background-size: 100%;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
 
     }
+
+}
+
+.tab-menu {
+
+	text-align: center;
+
+	.tab-menu-content {
+
+		position: relative;
+
+		&:after {
+
+			content: "";
+			height: 1px;
+			width: 100%;
+			position: absolute;
+			bottom: -8px;			
+			left: 0;
+			background-color: $light-gray;			
+
+		}
+
+	}
+
+	.tab-menu-item {
+
+		position: relative;
+		display: inline-block;
+		width: 20%;
+		cursor: pointer;
+
+		&:after {
+
+			content: "";
+			height: 1px;
+			width: 0px;
+			position: absolute;
+			bottom: -12px;			
+			left: 0;
+			background-color: $dark-blue;
+			transition: width 0.15s;
+			z-index: 400;
+
+		}
+
+		&.active {
+
+			&:after {
+
+				width:100%;
+
+			}
+
+		}
+
+	}
+	
+	.tab-menu-item-icon {
+
+		width: 52px;
+	    display: block;
+	    margin: auto auto 12px auto;
+	    border-radius: 50%;
+	    border: 1px solid #efefef;
+
+	}
+
+	.tab-menu-item-wrapper {
+
+		width: 100%;
+
+	}
+
+	.tab-menu-item-label {
+
+	
+	
+	}
 
 }

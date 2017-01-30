@@ -1,0 +1,57 @@
+<%
+
+	var title = model.title || "Unknown",
+		data = model.data || {};
+
+%>
+
+<div class="section">
+
+	<div class="row">
+		
+		<div class="column small-12">
+		
+			<h2 class="heading big special"><%= title %></h2>
+
+		</div>
+
+	</div>
+
+	<div class="connect-wrapper">
+	
+		<div class="row">
+
+			<div class="column small-12">
+				
+				<div class="profile-card">
+				
+					<img class="profile-card-avatar" src="<%= data.avatar %>">
+					
+					<div class="profile-card-data h-inline-block">
+						
+						<div class="profile-card-name"><%= data.name %></div>
+						<div class="profile-card-email"><%= data.email %></div>
+
+						<span class="profile-card-status"></span>
+
+					</div>
+
+				</div>				
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="row">
+		
+		<div class="column small-12">
+			
+			<span class="connect-line"></span>
+
+		</div>
+
+	</div>
+
+</div>

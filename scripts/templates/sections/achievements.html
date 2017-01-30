@@ -1,0 +1,49 @@
+<%
+
+	var title = model.title || "Unknown",
+		data = model.data || [];
+
+%>
+
+<div class="section">
+	
+	<div class="row">
+		
+		<div class="column small-12">
+		
+			<h2 class="heading special big"><%= title %></h2>
+
+		</div>
+
+	</div>
+	
+	<div class="row">
+	
+		<%
+
+			data.map(function(achievementCard){
+
+				%>
+
+					<div class="column small-6 medium-4">
+				
+						<div class="achievement-card">
+
+							<img src="/resources/assets/technologies/framerjs@2x.png" class="achievement-card-image">
+							
+							<h3 class="heading small h-text-center"><%= achievementCard.name %></h3>
+							<p class="paragraph medium"><%= achievementCard.description %></p>
+
+						</div>
+
+					</div>
+
+				<%
+
+			});
+
+		%>
+
+	</div>
+
+</div>

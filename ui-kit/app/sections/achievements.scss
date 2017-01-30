@@ -1,0 +1,37 @@
+.fold-achievements-section-view {
+
+	.section {
+
+		padding-bottom: 40px;
+
+	}
+		
+	.achievement-card {
+
+		margin: auto auto 60px auto;
+
+		.achievement-card-image {
+
+			width: 80px;
+		    margin: auto auto 25px auto;
+		    display: block;
+
+		}
+
+		.heading {
+
+			font-weight: bold;
+
+		}
+
+	}
+
+	.achievement-card-image {
+
+		width: 80px;
+		display: block;
+		margin: auto;
+
+	}
+
+}

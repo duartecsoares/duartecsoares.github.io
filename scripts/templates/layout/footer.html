@@ -22,7 +22,9 @@
 
 							list.data.map(function(item){
 
-								%><li class="list-item h-capitalize paragraph medium"><a href="<%= item.link %>" target="_blank"><%= item.name %></a></li><%
+								var target = (item.link.search("#") >= 0) ? "_self" : "_blank"
+
+								%><li class="list-item h-capitalize paragraph medium"><a href="<%= item.link %>" target="<%= target %>"><%= item.name %></a></li><%
 
 							});
 

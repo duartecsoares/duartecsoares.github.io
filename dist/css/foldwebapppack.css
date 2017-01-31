@@ -2790,7 +2790,9 @@ html, body {
   padding: 0;
   margin: 0 0 40px 0; }
   .list .list-item {
-    margin: 4px 0; }
+    margin: 5px 0; }
+    .list .list-item:hover {
+      text-decoration: underline; }
 
 .section {
   margin: 0;

@@ -1,8 +1,50 @@
+<%
+
+	var lists = model.lists,
+		copyright = model.copyright;
+
+%>
+
+<div class="row">
+	
+	<%
+
+		lists.map(function(list){
+
+			%>
+
+				<div class="column small-6 medium-6 large-3">
+		
+					<h4 class="heading small"><%= list.title %></h4>
+					<ul class="list">
+						
+						<%
+
+							list.data.map(function(item){
+
+								%><li class="list-item h-capitalize paragraph medium"><a href="<%= item.link %>" target="_blank"><%= item.name %></a></li><%
+
+							});
+
+						%>
+
+					</ul>
+
+				</div>
+
+			<%
+
+		});
+
+	%>	
+	
+</div>
+
 <div class="row">
 
 	<div class="column small-12">
 
-		<p class="paragraph small">Handcrafted by duartecsoares © 2016 using <a href="//github.com/duartecsoares/fold-webapp-pack" target="_blank" class="link">Föld WebApp Pack</a></p>	
+		<p class="paragraph medium"><%= copyright %></p>	
 
 	</div>
 

@@ -1,6 +1,12 @@
 // StarterKit by Fold
 // helpers.scss
 
+.h-capitalize {
+		
+	text-transform: capitalize;
+
+}
+
 .h-text-ellipsis {
 		
 	text-overflow: ellipsis;

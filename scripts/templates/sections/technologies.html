@@ -29,10 +29,14 @@
 				
 						<div class="tech-card">
 
-							<img src="/resources/assets/technologies/framerjs@2x.png" class="tech-card-image">
+							<a href="<%= techCard.link %>" target="_blank">
+								
+								<img src="/resources/assets/technologies/<%= techCard.image %>" class="tech-card-image">
 							
-							<h3 class="heading small h-text-center"><%= techCard.name %></h3>
-							<p class="paragraph medium"><%= techCard.description %></p>
+								<h3 class="heading small h-text-center"><%= techCard.name %></h3>
+								<p class="paragraph medium"><%= techCard.description %></p>
+
+							</a>
 
 						</div>
 

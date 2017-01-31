@@ -2871,7 +2871,7 @@ html, body {
 .fold-technologies-section-view .tech-card {
   margin: auto auto 60px auto; }
   .fold-technologies-section-view .tech-card .tech-card-image {
-    width: 80px;
+    width: 140px;
     margin: auto auto 25px auto;
     display: block; }
   .fold-technologies-section-view .tech-card .heading {
@@ -2932,6 +2932,12 @@ html, body {
   padding-bottom: 40px; }
 .fold-achievements-section-view .achievement-card {
   margin: auto auto 60px auto; }
+  .fold-achievements-section-view .achievement-card .achievement-badge {
+    margin-bottom: 40px; }
+  .fold-achievements-section-view .achievement-card .achievement-badge-image {
+    width: 137px;
+    margin: auto;
+    display: block; }
   .fold-achievements-section-view .achievement-card .achievement-card-image {
     width: 80px;
     margin: auto auto 25px auto;

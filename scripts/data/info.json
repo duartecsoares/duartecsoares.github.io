@@ -30,55 +30,55 @@
 
 				{
 
-					"image": "framerjs@2x",
-					"name": "FramerJS",
+					"image": "backbone@2x.png",
+					"name": "BackboneJS",
 					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
-					"link" : ""
+					"link" : "http://backbonejs.org/"
 
 				},
 
 				{
 
-					"image": "",
+					"image": "framerjs@2x.png",
 					"name": "FramerJS",
 					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
-					"link" : ""
+					"link" : "https://framer.com/"
 
 				},
 
 				{
 
-					"image": "",
-					"name": "FramerJS",
+					"image": "wordpress@2x.png",
+					"name": "Wordpress",
 					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
-					"link" : ""
+					"link" : "https://wordpress.com/"
 
 				},
 
 				{
 
-					"image": "",
-					"name": "FramerJS",
+					"image": "middleman@2x.png",
+					"name": "Middleman",
 					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
-					"link" : ""
+					"link" : "https://middlemanapp.com/"
 
 				},
 
 				{
 
-					"image": "",
-					"name": "FramerJS",
+					"image": "gruntjs@2x.png",
+					"name": "GruntJS",
 					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
-					"link" : ""
+					"link" : "http://gruntjs.com/"
 
 				},
 
 				{
 
-					"image": "",
-					"name": "FramerJS",
+					"image": "sass@2x.png",
+					"name": "SASS",
 					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
-					"link" : ""
+					"link" : "http://sass-lang.com/"
 
 				}
 

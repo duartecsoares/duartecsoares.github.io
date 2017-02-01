@@ -2583,8 +2583,8 @@ html, body {
                 transform: rotate(-40deg) translateY(-4px) translateX(4px);
         background-color: #fff; }
   .layout-header-view .link {
-    font-size: 11px;
-    margin-left: 20px;
+    font-size: 12px;
+    margin-left: 40px;
     text-transform: uppercase; }
     .layout-header-view .link:hover {
       text-decoration: underline; }
@@ -2667,12 +2667,19 @@ html, body {
     right: 15px;
     height: 15px;
     width: 15px;
-    background-color: #4BDA37;
+    background-color: #d0d0d0;
     border-radius: 50%;
     top: 0;
     bottom: 0;
     margin: auto;
-    border: 1px solid #27d210; }
+    border: 1px solid #bbbbbb;
+    -webkit-transition: all .45s;
+            transition: all .45s; }
+    .profile-card .profile-card-status.active {
+      background-color: #4BDA37;
+      border: 1px solid #27d210; }
+  .profile-card:hover .profile-card-status.active {
+    background-color: #9cec34; }
 
 .content-block {
   margin: 30px auto auto auto; }
@@ -2864,9 +2871,18 @@ html, body {
       outline: 0; }
   .fold-terminal-section-view .system-meta {
     font-size: 12px;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 15px;
     position: relative;
-    top: -4px; }
+    color: #a7a7a7; }
+  .fold-terminal-section-view .beta {
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #fff;
+    margin-left: 5px;
+    background-color: #d00d0d;
+    border-radius: 40px;
+    padding: 0px 5px 1px 5px;
+    font-weight: bold; }
 
 .fold-technologies-section-view .section {
   padding-bottom: 40px; }
@@ -2878,6 +2894,80 @@ html, body {
     display: block; }
   .fold-technologies-section-view .tech-card .heading {
     font-weight: bold; }
+  .fold-technologies-section-view .tech-card .top-left {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    overflow: hidden; }
+    .fold-technologies-section-view .tech-card .top-left:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: #4D545A;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+      -webkit-transition: -webkit-transform 0.25s;
+              transition: transform 0.25s; }
+    .fold-technologies-section-view .tech-card .top-left:after {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background-color: #4D545A;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+      -webkit-transition: -webkit-transform 0.25s;
+              transition: transform 0.25s; }
+  .fold-technologies-section-view .tech-card .bottom-right {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden; }
+    .fold-technologies-section-view .tech-card .bottom-right:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: #4D545A;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+      -webkit-transition: -webkit-transform 0.25s;
+              transition: transform 0.25s; }
+    .fold-technologies-section-view .tech-card .bottom-right:after {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background-color: #4D545A;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+      -webkit-transition: -webkit-transform 0.25s;
+              transition: transform 0.25s; }
+  .fold-technologies-section-view .tech-card:hover .top-left:before {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  .fold-technologies-section-view .tech-card:hover .top-left:after {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  .fold-technologies-section-view .tech-card:hover .bottom-right:before {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  .fold-technologies-section-view .tech-card:hover .bottom-right:after {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
 
 .fold-journey-section-view .timeline {
   position: relative;

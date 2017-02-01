@@ -42,9 +42,22 @@
 	.system-meta {
 
 		font-size: $paragraph-small;
-		margin: 0 0 0 20px;
+		margin: 0 0 0 15px;
 		position: relative;
-		top: -4px;
+		color: #a7a7a7;
+
+	}
+
+	.beta {
+
+		text-transform: uppercase;
+	    font-size: 9px;
+	    color: #fff;
+	    margin-left: 5px;
+	    background-color: #d00d0d;
+	    border-radius: 40px;
+	    padding: 0px 5px 1px 5px;
+	    font-weight: bold;
 
 	}
 

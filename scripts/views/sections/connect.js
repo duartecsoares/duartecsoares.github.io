@@ -19,6 +19,12 @@ define(["fold/view",
 
 			}
 
+			setTimeout(function(){
+
+				view.$el.find(".profile-card-status").addClass("active");
+
+			}, 3500);
+
 		}
 
 	});

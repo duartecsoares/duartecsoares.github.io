@@ -10,7 +10,10 @@ define(["fold/view",
 		setup: function(){
 
 			/* setup fn serves as an specific initializer */
-			this.model = {
+
+			var view = this;
+
+			view.model = {
 
 				user 	: dataJSON.user,
 				system  : {
@@ -21,6 +24,12 @@ define(["fold/view",
 				}
 
 			}
+
+			setTimeout(function(){
+
+				view.$el.find(".profile-card-status").addClass("active");
+
+			}, 3500);
 
 		}
 

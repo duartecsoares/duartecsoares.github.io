@@ -31,7 +31,7 @@ define(["fold/view",
 					return {
 
 						name : key,
-						link: "#/" + key
+						link: "#" + key
 
 					}
 
@@ -51,7 +51,7 @@ define(["fold/view",
 					return {
 
 						name : achievementsItem.name,
-						link : "#/" + achievementsItem.name
+						link : "#" + achievementsItem.name
 
 					}
 

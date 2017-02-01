@@ -38,12 +38,34 @@
 	    right: 15px;
 	    height: 15px;
 	    width: 15px;
-	    background-color: #4BDA37;
+	    background-color: #d0d0d0;
 	    border-radius: 50%;
 	    top: 0;
 	    bottom: 0;
 	    margin: auto;
-	    border: 1px solid #27d210;
+	    border: 1px solid #bbbbbb;
+	    transition: all .45s;
+
+	    &.active {
+
+	    	background-color: #4BDA37;
+	    	border: 1px solid #27d210;
+
+	    }
+
+	}
+
+	&:hover {
+
+		.profile-card-status {
+
+			&.active {
+
+				background-color: #9cec34;
+
+		  	}
+
+		}
 
 	}
 

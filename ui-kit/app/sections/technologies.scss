@@ -1,3 +1,6 @@
+$cornerAnimation: transform .25s;
+$cornerSize: 30px;
+
 .fold-technologies-section-view {
 
 	.section {
@@ -21,6 +24,120 @@
 		.heading {
 
 			font-weight: bold;
+
+		}
+
+		.top-left {
+
+			position: absolute;
+			height: $cornerSize;
+			width: $cornerSize;
+			top: 0;
+			left: 0;
+			overflow: hidden;
+
+			&:before {
+
+				content: "";
+				width: 100%;
+				height: 1px;
+				background-color: $dark-blue;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transform: translateX(-100%);
+				transition: $cornerAnimation;
+
+			}
+
+			&:after {
+
+				content: "";
+				width: 1px;
+				height: 100%;
+				background-color: $dark-blue;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transform: translateY(-100%);
+				transition: $cornerAnimation;
+
+			}
+
+		}
+
+		.bottom-right {
+
+			position: absolute;
+			height: $cornerSize;
+			width: $cornerSize;
+			bottom: 0;
+			right: 0;
+			overflow: hidden;
+
+			&:before {
+
+				content: "";
+				width: 100%;
+				height: 1px;
+				background-color: $dark-blue;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				transform: translateX(100%);
+				transition: $cornerAnimation;
+
+			}
+
+			&:after {
+
+				content: "";
+				width: 1px;
+				height: 100%;
+				background-color: $dark-blue;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				transform: translateY(100%);
+				transition: $cornerAnimation;
+
+			}
+
+		}
+
+		&:hover {
+
+			.top-left {
+
+				&:before {
+
+					transform: translateX(0px);
+
+				}
+
+				&:after {
+
+					transform: translateY(0px);
+
+				}
+
+			}
+
+			.bottom-right {
+
+				&:before {
+
+					transform: translateX(0px);
+
+				}
+
+				&:after {
+
+					transform: translateY(0px);
+
+				}
+
+			}
 
 		}
 

@@ -1,0 +1,21 @@
+<%
+
+	var image = model.image,
+		name = model.name,
+		description = model.description;
+
+%>
+
+<div class="content-block" data-component="journey">
+
+	<img src="/resources/assets/companies/<%= image %>" class="content-block-image" data-journey="image">
+	<h3 class="heading biggest" data-journey="name"><%= name %></h3>
+	<p class="paragraph big" data-journey="description"><%= description %></p>
+	<h5 class="heading small">Products</h5>
+	<div class="content-block-project" data-journey="projects">
+			
+		<img src="/resources/assets/companies/meshapp@2x.png" class="content-block-project-image">
+
+	</div>
+
+</div>

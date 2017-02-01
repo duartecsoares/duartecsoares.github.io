@@ -5,7 +5,7 @@ define(["fold/controller",
 		"controllers/pages/home",
 		"controllers/pages/soon"], function(FoldController, appRouter, layout, appConfig, homeController, soonController){
 	
-	var env = "prod", //dev or prod
+	var env = "dev", //dev or prod
 		AppController = FoldController.extend({
 
 		boot : function(){

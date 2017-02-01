@@ -20,7 +20,19 @@
 
 			position: absolute;
 
-			&:hover, &.active {
+			&:hover {
+
+				cursor: pointer;
+
+				.timeline-data-entry-dot {
+
+					transform: scale(1.3) translateX(-2.2px);
+					
+				}
+
+			}
+
+			&.active {
 
 				cursor: pointer;
 

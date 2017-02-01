@@ -94,49 +94,86 @@
 				{
 
 					"name": "Universidade de Aveiro",
-					"thumb": "",
-					"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+					"image": "",
+					"description": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
-					"featured": false
+					"projects": [
+
+						{
+
+							"name": "",
+							"image": "",
+							"link": ""
+
+						}
+
+					]
 
 				},
 
 				{
 
-					"name": "Musikki & MeshApp",
-					"thumb": "",
-					"text": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+					"name": "MeshApp",
+					"image": "/resources/assets/companies/meshapp@2x.png",
+					"description": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
-					"featured": false
+					"projects": [
 
+						{
+
+							"name": "",
+							"image": "",
+							"link": ""
+
+						}
+
+					]
 				},
 
 				{
 
 					"name": "Föld",
-					"thumb": "",
-					"text": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+					"image": "",
+					"description": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
-					"featured": false
+					"projects": [
 
+						{
+
+							"name": "",
+							"image": "",
+							"link": ""
+
+						}
+
+					]
 				},
 
 				{
 
 					"name": "Freelancer",
-					"thumb": "",
-					"text": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+					"image": "",
+					"description": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
 					"date": "now",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
-					"featured": false
+					"projects": [
 
+						{
+
+							"name": "",
+							"image": "",
+							"link": ""
+
+						}
+
+					]
 				}
 
 			]

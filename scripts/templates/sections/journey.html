@@ -31,8 +31,10 @@
 
 						data.reverse().map(function(dotEntry, i){
 
+							var activeClass= (i === 0) ? "active" : "";
+
 							%>
-								<div class="timeline-data-entry" style="top: <%= i * (h / l) %>px">
+								<div class="timeline-data-entry <%= activeClass %>" style="top: <%= i * (h / l) %>px" data-journey-trigger="<%= i %>">
 																		
 									<div class="timeline-data-entry-dot" data-dot="<%= i %>"></div>
 									<div class="timeline-data-entry-date paragraph small"><%= dotEntry.date %></div>
@@ -47,27 +49,16 @@
 					%>
 
 				</div>
+
 				<div class="timeline-base"></div>
 
 			</div>			
 
 		</div>
 
-		<div class="column small-4">
+		<div class="column small-4" data-target-journey="journey-card">
 			
-			<div class="content-block">
-
-				<img src="/resources/assets/companies/meshapp@2x.png" class="content-block-image">
-				<h3 class="heading biggest">MeshApp</h3>
-				<p class="paragraph big">Made by a small team of three developers by the name of Föld. Made by a small team of three developers by the name of Föld.</p>
-				<h5 class="heading small">Products</h5>
-				<div class="content-block-project">
-						
-					<img src="/resources/assets/companies/meshapp@2x.png" class="content-block-project-image">
-
-				</div>
-
-			</div>
+			
 
 		</div>
 

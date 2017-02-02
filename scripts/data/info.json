@@ -188,8 +188,9 @@
 				{
 
 					"name": "Build It With Me",
-					"thumb": "builditwithme.png",
-					"text": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+					"image": "builditwithme.png",
+					"description": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+					"video": "builditwithme.gif",
 					"link": "",
 					"featured": true
 
@@ -198,8 +199,9 @@
 				{
 
 					"name": "Social Triggers",
-					"thumb": "social-triggers.png",
-					"text": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+					"image": "social-triggers.png",
+					"description": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+					"video": "builditwithme.gif",
 					"link": "",
 					"featured": false
 
@@ -208,8 +210,9 @@
 				{
 
 					"name": "Ravenna",
-					"thumb": "ravenna.png",
-					"text": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+					"image": "ravenna.png",
+					"description": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+					"video": "builditwithme.gif",
 					"link": "",
 					"featured": false
 
@@ -218,8 +221,9 @@
 				{
 
 					"name": "Eminence: Xander's Tale",
-					"thumb": "eminence.png",
-					"text": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+					"image": "eminence.png",
+					"description": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+					"video": "builditwithme.gif",
 					"link": "",
 					"featured": false
 
@@ -237,7 +241,7 @@
 				{
 
 					"icon": "",
-					"name": "project launch",
+					"name": "one of many",
 					"description": "Owned by developing and releasing Build It With Me project."
 
 				},
@@ -245,40 +249,40 @@
 				{
 
 					"icon": "",
-					"name": "project launch",
-					"description": "Owned by developing and releasing Build It With Me project."
+					"name": "Getting older",
+					"description": "I have been working with javascript since 2011, even with coffescript."
 
 				},
 
 				{
 
 					"icon": "",
-					"name": "project launch",
-					"description": "Owned by developing and releasing Build It With Me project."
+					"name": "contributer",
+					"description": "Made my first contribution on a lib at Github called 'color-thief'."
 
 				},
 
 				{
 
 					"icon": "",
-					"name": "project launch",
-					"description": "Owned by developing and releasing Build It With Me project."
+					"name": "Bowering",
+					"description": "Added for the first time a lib to the package manager 'Bower'."
 
 				},
 
 				{
 
 					"icon": "",
-					"name": "project launch",
-					"description": "Owned by developing and releasing Build It With Me project."
+					"name": "good times",
+					"description": "Had a small development studio with Carlos Gavina and João Santiago."
 
 				},
 
 				{
 
 					"icon": "",
-					"name": "project launch",
-					"description": "Owned by developing and releasing Build It With Me project."
+					"name": "just in time...",
+					"description": "Finally lanched my own personal website, where my work is shown."
 
 				}
 

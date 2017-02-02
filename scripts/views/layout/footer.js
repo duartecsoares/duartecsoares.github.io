@@ -10,7 +10,7 @@ define(["fold/view",
 		setup : function(){
 
 			var view 			 = this,
-				copyright 		 = "Handcrafted by duartecsoares © Copyright " + new Date().getFullYear() +" using Föld WebApp Pack",
+				copyright 		 = "Handcrafted by duartecsoares © Copyright " + new Date().getFullYear() +" using Föld WebApp Pack.",
 				socialData 		 = dataJSON.links,
 				techData  		 = dataJSON.sections.technologies.data,
 				sectionsData	 = dataJSON.sections,

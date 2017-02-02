@@ -3020,6 +3020,9 @@ html, body {
     width: 60px;
     background-color: #4D545A; }
 
+.fold-work-section-view .content-block-image {
+  border-radius: 50%;
+  border: 1px solid #efefef; }
 .fold-work-section-view .content-block {
   margin-top: 60px; }
 .fold-work-section-view .tab-menu {

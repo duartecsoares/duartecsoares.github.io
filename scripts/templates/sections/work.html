@@ -6,9 +6,9 @@
 %>
 
 <div class="section">
-	
+
 	<div class="row">
-		
+	
 		<div class="column small-12">
 		
 			<h2 class="heading big special"><%= title %></h2>
@@ -17,78 +17,40 @@
 
 	</div>
 	
+	<div class="work-detail-content" data-target-work="detail-content"></div>
+
 	<div class="row">
-			
-		<div class="column small-4">
 		
-			<div class="content-block">
-
-				<img src="/resources/assets/companies/meshapp@2x.png" class="content-block-image">
-				<h3 class="heading biggest">MeshApp</h3>
-				<p class="paragraph big">Made by a small team of three developers by the name of Föld. Made by a small team of three developers by the name of Föld.</p>
-
-			</div>
-
-		</div>
-
-		<div class="column small-7 small-offset-1">
+		<div class="column small-8 h-column-center">
 			
-			<div class="browser">
-				
-				<div class="browser-header">
+			<div class="tab-menu">
+
+				<span class="tab-menu-content">
 					
-					<div class="browser-header-actions">
-						
-						<span class="browser-header-action red"></span>
-						<span class="browser-header-action yellow"></span>
-						<span class="browser-header-action green"></span>
+					<%
+						data.map(function(item, i){
 
-					</div>
+							var activeClass = (i === 0) ? "active" : "";
 
-				</div>
+							%>
+								<span class="tab-menu-item <%= activeClass %>" title="<%= item.name %>" data-work-trigger="<%= i %>">
 
-				<div class="browser-content" style="background-image: url('/resources/assets/work-screens/builditwithme.gif')"></div>
+									<img class="tab-menu-item-icon" src="/resources/assets/logos/<%= item.image %>">
+									<div class="tab-menu-item-wrapper h-text-ellipsis"><span class="tab-menu-item-label paragraph"><%= item.name %></span></div>
+
+								</span>
+
+							<%
+
+						});
+
+					%>
+
+				</span>	
 
 			</div>
 
 		</div>
-
-	</div>
-
-	<div class="row">
-		
-	<div class="column small-8 h-column-center">
-		
-		<div class="tab-menu">
-
-			<span class="tab-menu-content">
-				
-				<%
-
-					data.map(function(item, i){
-
-						var activeClass = "active";
-
-						%>
-
-							<span class="tab-menu-item <% if (i === 1){ %><%= activeClass %> <%}%>" title="<%= item.name %>">
-
-								<img class="tab-menu-item-icon" src="/resources/assets/logos/<%= item.thumb %>">
-								<div class="tab-menu-item-wrapper h-text-ellipsis"><span class="tab-menu-item-label paragraph"><%= item.name %></span></div>
-
-							</span>
-
-						<%
-
-					});
-
-				%>
-
-			</span>	
-
-		</div>
-
-	</div>
 
 	</div>
 

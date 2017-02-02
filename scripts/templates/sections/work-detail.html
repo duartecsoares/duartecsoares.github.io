@@ -1,0 +1,46 @@
+<%
+
+	var name = model.name,
+		image = model.image,
+		description = model.description,
+		video = model.video;
+
+%>
+
+<div class="row">
+		
+	<div class="column small-4">
+	
+		<div class="content-block">
+
+			<img src="/resources/assets/logos/<%= image %>" class="content-block-image">
+			<h3 class="heading biggest"><%= name %></h3>
+			<p class="paragraph big"><%= description %></p>
+
+		</div>
+
+	</div>
+
+	<div class="column small-7 small-offset-1">
+		
+		<div class="browser">
+			
+			<div class="browser-header">
+				
+				<div class="browser-header-actions">
+					
+					<span class="browser-header-action red"></span>
+					<span class="browser-header-action yellow"></span>
+					<span class="browser-header-action green"></span>
+
+				</div>
+
+			</div>
+
+			<div class="browser-content" style="background-image: url('/resources/assets/work-screens/<%= video %>')"></div>
+
+		</div>
+
+	</div>
+
+</div>

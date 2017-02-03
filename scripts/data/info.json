@@ -88,13 +88,13 @@
 
 		"journey": {
 
-			"title": "The Journey",
+			"title": "Journey",
 			"data": [
 
 				{
 
 					"name": "Universidade de Aveiro",
-					"image": "",
+					"image": "ua@2x.png",
 					"description": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
@@ -103,9 +103,17 @@
 
 						{
 
-							"name": "",
+							"name": "Economicando",
+							"image": "journey/economicando@2x.png",
+							"link": "//economicando.web.ua.pt/"
+
+						},
+
+						{
+
+							"name": "Geometrix",
 							"image": "",
-							"link": ""
+							"link": "//geometrix.web.ua.pt/"
 
 						}
 
@@ -125,9 +133,9 @@
 
 						{
 
-							"name": "",
-							"image": "",
-							"link": ""
+							"name": "MeshApp Prototype",
+							"image": "journey/meshapp_square@2x.png",
+							"link": "//www.meshapp.net"
 
 						}
 
@@ -137,7 +145,7 @@
 				{
 
 					"name": "Föld",
-					"image": "",
+					"image": "fold@2x.png",
 					"description": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
@@ -146,9 +154,33 @@
 
 						{
 
-							"name": "",
-							"image": "",
-							"link": ""
+							"name": "Build It With Me",
+							"image": "work/builditwithme.png",
+							"link": "//builditwith.me"
+
+						},
+
+						{
+
+							"name": "Social Triggers",
+							"image": "work/social-triggers.png",
+							"link": "//socialtriggers.com"
+
+						},
+
+						{
+
+							"name": "Ravenna",
+							"image": "work/ravenna.png",
+							"link": "//www.ravennasolutions.com/"
+
+						},
+
+						{
+
+							"name": "Flygrade",
+							"image": null,
+							"link": null
 
 						}
 
@@ -158,7 +190,7 @@
 				{
 
 					"name": "Freelancer",
-					"image": "",
+					"image": "avatar@2x.png",
 					"description": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
 					"date": "now",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
@@ -167,9 +199,9 @@
 
 						{
 
-							"name": "",
-							"image": "",
-							"link": ""
+							"name": "Eminence: Xander's Tale",
+							"image": "work/eminence.png",
+							"link": "//eminence.netlify.com/"
 
 						}
 
@@ -182,7 +214,7 @@
 
 		"work": {
 
-			"title": "Case Studies",
+			"title": "work",
 			"data": [
 
 				{
@@ -209,7 +241,7 @@
 
 				{
 
-					"name": "Ravenna",
+					"name": "Ravenna (Landing Page)",
 					"image": "ravenna.png",
 					"description": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
 					"video": "builditwithme.gif",
@@ -274,7 +306,7 @@
 
 					"icon": "",
 					"name": "good times",
-					"description": "Had a small development studio with Carlos Gavina and João Santiago."
+					"description": "Had a small development studio with <a href='https://twitter.com/carlosgavina' target='_blank'>Carlos Gavina</a> and <a href='https://twitter.com/joaodsantiago' target='_blank'>João Santiago</a>."
 
 				},
 

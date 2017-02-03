@@ -3,19 +3,53 @@
 	var image = model.image,
 		name = model.name,
 		description = model.description;
+		projects = model.projects;
 
 %>
 
 <div class="content-block" data-component="journey">
 
-	<img src="/resources/assets/companies/<%= image %>" class="content-block-image" data-journey="image">
+	<img src="/resources/assets/journey/<%= image %>" class="content-block-image" data-journey="image">
 	<h3 class="heading biggest" data-journey="name"><%= name %></h3>
 	<p class="paragraph big" data-journey="description"><%= description %></p>
-	<h5 class="heading small">Products</h5>
-	<div class="content-block-project" data-journey="projects">
+	<h5 class="heading small">Products</h5>	
 			
-		<img src="/resources/assets/companies/meshapp@2x.png" class="content-block-project-image">
+	<%
 
-	</div>
+		projects.map(function(project){
+
+			%>
+				<div class="content-block-project" data-journey="projects">					
+
+					<% if (project.link){ %>
+
+						<a href="<%= project.link %>" target="_blank" title="<%= project.name %>">
+
+					<% } %>
+
+						
+							<% if (!project.image){ %>
+
+								<%= project.name %>
+
+							<% }else{ %>
+
+								<img src="/resources/assets/<%= project.image %>" class="content-block-project-image">
+
+							<% } %>
+
+					<% if (project.link){ %>
+
+						</a>
+
+					<% } %>
+
+				</div>
+
+			<%
+
+		});
+
+	%>
 
 </div>

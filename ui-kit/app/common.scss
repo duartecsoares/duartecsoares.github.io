@@ -73,7 +73,7 @@
 
 .content-block {
 
-	margin: 30px auto auto auto;
+	margin: 10px auto auto auto;
 
 	.heading {
 
@@ -93,6 +93,12 @@
 	}
 
 	.heading {
+
+		&.biggest {
+
+			font-size: 25px;
+
+		}
 
 		&.small {
 
@@ -120,16 +126,24 @@
 		width: 46px;
 		border-radius: 50%;
 		position: relative;
+		display: inline-block;
+		margin-right: 10px;
+		overflow: hidden;
+		font-size: 8px;
+	    text-align: center;
+	    font-weight: bold;
+	    padding-top: 16px;
+	    cursor: default;
 
 		.content-block-project-image {
 
-			width: 50%;
 			position: absolute;
 			left: 0;
 			right: 0;
 			top: 0;
 			bottom: 0;
 			margin: auto;
+    		border-radius: 50%;
 
 		}
 
@@ -246,6 +260,8 @@
 			position: absolute;
 			bottom: -12px;			
 			left: 0;
+			right: 0;
+			margin: 5px auto 0 auto;
 			background-color: $dark-blue;
 			transition: width 0.15s;
 			z-index: 400;

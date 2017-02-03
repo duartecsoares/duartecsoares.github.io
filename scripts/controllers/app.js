@@ -5,7 +5,7 @@ define(["fold/controller",
 		"controllers/pages/home",
 		"controllers/pages/soon"], function(FoldController, appRouter, layout, appConfig, homeController, soonController){
 	
-	var env = "prod", //dev or prod
+	var env = "dev", //dev or prod
 		AppController = FoldController.extend({
 
 		boot : function(){
@@ -14,12 +14,21 @@ define(["fold/controller",
 				codeInterval,
 				bootNormal = function(){
 
-				if (codeInterval) clearInterval(codeInterval);
+				if (codeInterval) clearInterval(codeInterval);					
+
+					location.hash = "";
+
+					if (location.pathname !== "/") {
+
+						appRouter.navigate("/", false);
+
+					}
 
 					layout.build();
 					Backbone.router = appRouter;
 					controller.assignRoutes();
 					Backbone.history.loadUrl();
+
 
 				},
 				reboot = function(){

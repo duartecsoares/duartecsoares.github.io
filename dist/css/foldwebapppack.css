@@ -2682,12 +2682,14 @@ html, body {
     background-color: #9cec34; }
 
 .content-block {
-  margin: 30px auto auto auto; }
+  margin: 10px auto auto auto; }
   .content-block .heading.biggest {
     font-weight: normal; }
   .content-block .content-block-image {
     width: 70px;
     margin-bottom: 10px; }
+  .content-block .heading.biggest {
+    font-size: 25px; }
   .content-block .heading.small {
     margin-bottom: 10px; }
   .content-block .paragraph.big {
@@ -2698,15 +2700,23 @@ html, body {
     height: 46px;
     width: 46px;
     border-radius: 50%;
-    position: relative; }
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    overflow: hidden;
+    font-size: 8px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 16px;
+    cursor: default; }
     .content-block .content-block-project .content-block-project-image {
-      width: 50%;
       position: absolute;
       left: 0;
       right: 0;
       top: 0;
       bottom: 0;
-      margin: auto; }
+      margin: auto;
+      border-radius: 50%; }
   .content-block .paragraph {
     margin: 7px auto 0 auto; }
 
@@ -2777,6 +2787,8 @@ html, body {
       position: absolute;
       bottom: -12px;
       left: 0;
+      right: 0;
+      margin: 5px auto 0 auto;
       background-color: #4D545A;
       -webkit-transition: width 0.15s;
               transition: width 0.15s;
@@ -3048,6 +3060,8 @@ html, body {
   width: 80px;
   display: block;
   margin: auto; }
+.fold-achievements-section-view a {
+  text-decoration: underline; }
 
 .fold-connect-section-view .heading.special {
   width: auto; }

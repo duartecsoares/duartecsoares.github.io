@@ -3025,7 +3025,12 @@ html, body {
     position: absolute;
     left: -100px;
     top: -19px;
-    color: #b9b9b9; }
+    color: #b9b9b9;
+    white-space: nowrap; }
+  @media all and (max-width: 64em) {
+    .fold-journey-section-view .timeline .timeline-data-entry-date {
+      left: 20px;
+      top: 0; } }
   .fold-journey-section-view .timeline .timeline-base {
     height: 1px;
     margin: auto;
@@ -3039,6 +3044,9 @@ html, body {
   margin-top: 60px; }
 .fold-work-section-view .tab-menu {
   margin-top: 80px; }
+@media all and (max-width: 64em) {
+  .fold-work-section-view .content-block {
+    margin-bottom: 40px; } }
 
 .fold-achievements-section-view .section {
   padding-bottom: 40px; }

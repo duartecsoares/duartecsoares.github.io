@@ -76,6 +76,18 @@
 		    left: -100px;
 		    top: -19px;
 		    color: $regular-gray;
+		    white-space: nowrap;
+
+		}
+
+		@media all and (max-width: $medium-breakpoint){
+
+		 	.timeline-data-entry-date {
+
+		    	left: 20px;
+				top: 0;
+
+		    }
 
 		}
 

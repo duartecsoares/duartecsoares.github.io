@@ -19,4 +19,14 @@
 
 	}
 
+	@media all and (max-width: $medium-breakpoint) {
+	        
+       .content-block {
+
+       		margin-bottom: 40px;
+
+       }
+
+    }
+
 }

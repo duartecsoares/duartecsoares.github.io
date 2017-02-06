@@ -48,14 +48,8 @@ define(["fold/view",
 
 					$codeBlock.addClass("code");
 					$codeBlock.html(text);
-
 					$terminalMonitor.append($codeBlock);
-
-					console.log("rendering", $codeBlock);
-
 					$terminalMonitor.scrollTop($terminalMonitor[0].scrollHeight);
-
-					console.log($terminalMonitor[0].scrollHeight);
 
 				}
 
@@ -63,6 +57,7 @@ define(["fold/view",
 			view.listenTo(terminalController, "terminal:boot:finish", function(){
 
 				view.$el.find(".profile-card-status").addClass("active");
+				view.$el.find(".terminal-input").addClass("active");
 
 			});
 

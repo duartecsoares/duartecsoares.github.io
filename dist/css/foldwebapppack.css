@@ -2870,17 +2870,29 @@ html, body {
     width: 100%;
     height: 300px;
     display: block;
+    position: relative;
     background-color: #FCFCFC;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
-    overflow-y: hidden; }
+    overflow-y: hidden;
+    z-index: 300;
+    padding: 0 8px; }
   .fold-terminal-section-view .terminal-input {
     margin: 2px 0 0 0;
     padding: 5px;
     width: 100%;
+    position: relative;
     background-color: #FCFCFC;
     border: 2px solid #FFFFFF;
-    border-radius: 3px; }
+    border-radius: 3px;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+    z-index: 200;
+    -webkit-transition: -webkit-transform 0.25s;
+            transition: transform 0.25s; }
+    .fold-terminal-section-view .terminal-input.active {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px); }
     .fold-terminal-section-view .terminal-input:focus {
       outline: 0; }
   .fold-terminal-section-view .system-meta {

@@ -21,7 +21,7 @@ define(["fold/controller",
 					console.info("staring to boot");
 				
 					var bootingSequence = bootJSON,
-						delay = 175;
+						delay = 125;
 
 					setTimeout(function(){
 

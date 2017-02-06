@@ -16,10 +16,13 @@
 		width: 100%;
 		height: 300px;
 		display: block;
+		position: relative;
 		background-color: #FCFCFC;
 		border: 2px solid #FFFFFF;
 		border-radius: 4px;
 		overflow-y: hidden;
+		z-index: 300;
+		padding: 0 8px;
 
 	}
 
@@ -28,9 +31,19 @@
 		margin: 2px 0 0 0;
 		padding: 5px;
 		width: 100%;
+		position: relative;
 		background-color: #FCFCFC;
 		border: 2px solid #FFFFFF;
 		border-radius: 3px;
+		transform: translateY(-40px);
+    	z-index: 200;
+    	transition: transform 0.25s;
+
+    	&.active {
+
+    		transform: translateY(0px);
+
+    	}
 
 		&:focus {
 

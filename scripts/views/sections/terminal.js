@@ -12,7 +12,12 @@ define(["fold/view",
 
 			/* setup fn serves as an specific initializer */
 
-			var view = this;
+			var view = this,
+				initBoot = function(){
+
+					terminalController.trigger("terminal:boot:start");
+
+				}
 
 			view.model = {
 
@@ -24,13 +29,42 @@ define(["fold/view",
 
 				}
 
-			}
+			}		
 
-			setTimeout(function(){
+			view.addEvents();
+			view.once("view:render", initBoot);
+
+		},
+
+		addEvents: function(){
+
+			console.log("adding evenys");
+
+			var view = this,
+				renderText = function(text){
+
+					var $terminalMonitor = view.$el.find("[data-terminal='monitor']"),
+						$codeBlock		 = $("<div>");
+
+					$codeBlock.addClass("code");
+					$codeBlock.html(text);
+
+					$terminalMonitor.append($codeBlock);
+
+					console.log("rendering", $codeBlock);
+
+					$terminalMonitor.scrollTop($terminalMonitor[0].scrollHeight);
+
+					console.log($terminalMonitor[0].scrollHeight);
+
+				}
+
+			view.listenTo(terminalController, "terminal:output", renderText);
+			view.listenTo(terminalController, "terminal:boot:finish", function(){
 
 				view.$el.find(".profile-card-status").addClass("active");
 
-			}, 3500);
+			});
 
 		}
 

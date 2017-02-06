@@ -1,0 +1,43 @@
+{
+
+	"boot": {
+
+		"sequence" : [
+
+			"Loading DuarteOS",
+			"Checking File System ------------ [ok]",
+			"Checking Kernel ----------------- [ok]",
+			"Starting Remount Root and Kernel File Systems...",
+			"Welcome to DuarteOS!",
+			"Scroll down or type help to see available commands","Loading DuarteOS",
+			"Checking File System ------------ [ok]",
+			"Checking Kernel ----------------- [ok]",
+			"Starting Remount Root and Kernel File Systems...",
+			"Welcome to DuarteOS!",
+			"Scroll down or type help to see available commands","Loading DuarteOS",
+			"Checking File System ------------ [ok]",
+			"Checking Kernel ----------------- [ok]",
+			"Starting Remount Root and Kernel File Systems...",
+			"Welcome to DuarteOS!",
+			"Scroll down or type help to see available commands","Loading DuarteOS",
+			"Checking File System ------------ [ok]",
+			"Checking Kernel ----------------- [ok]",
+			"Starting Remount Root and Kernel File Systems...",
+			"Welcome to DuarteOS!",
+			"Scroll down or type help to see available commands","Loading DuarteOS",
+			"Checking File System ------------ [ok]",
+			"Checking Kernel ----------------- [ok]",
+			"Starting Remount Root and Kernel File Systems...",
+			"Welcome to DuarteOS!",
+			"Scroll down or type help to see available commands","Loading DuarteOS",
+			"Checking File System ------------ [ok]",
+			"Checking Kernel ----------------- [ok]",
+			"Starting Remount Root and Kernel File Systems...",
+			"Welcome to DuarteOS!",
+			"Scroll down or type help to see available commands"
+
+		]
+
+	}
+
+}

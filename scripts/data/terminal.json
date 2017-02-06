@@ -1,8 +1,14 @@
 {
 
-	"boot": {
+	"commands": {
 
-		"sequence" : [
+		"unknown" : "command not found: "
+
+	},
+
+	"boot": {		
+
+		"sequence": [
 
 			"Loading DuarteOS",
 			"Checking File System ------------ [ok]",

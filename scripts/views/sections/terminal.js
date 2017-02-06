@@ -38,9 +38,12 @@ define(["fold/view",
 
 		addEvents: function(){
 
-			console.log("adding evenys");
+			var view 	= this,
+				submit 	= function(data){
 
-			var view = this,
+					terminalController.trigger("terminal:input", data);
+
+				},
 				renderText = function(text){
 
 					var $terminalMonitor = view.$el.find("[data-terminal='monitor']"),
@@ -56,8 +59,26 @@ define(["fold/view",
 			view.listenTo(terminalController, "terminal:output", renderText);
 			view.listenTo(terminalController, "terminal:boot:finish", function(){
 
+				var $input = view.$el.find(".terminal-input");
+
 				view.$el.find(".profile-card-status").addClass("active");
-				view.$el.find(".terminal-input").addClass("active");
+				$input.addClass("active");
+				$input.focus();
+
+				$input.on("keydown", function(e){					
+
+					var key 	= e.keyCode,
+						value 	= $input.val(); 
+
+					if (key === 13) {
+
+						e.preventDefault();
+						submit(value);
+						$input.val("");
+
+					}
+
+				});
 
 			});
 

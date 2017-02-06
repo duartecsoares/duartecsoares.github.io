@@ -11,11 +11,38 @@ define(["fold/controller",
 
 		},
 
+		commands: {
+
+			help: function(){
+
+				var commands = this.commands,
+					s = "";
+
+				s = Object.keys(commands).reduce(function(key, s){ 
+
+					s += ", " + key;
+
+					return s;
+
+				});
+
+				this.output([s], 1);
+
+			},
+
+			curl : function(){
+
+
+
+			}
+
+		},
+
 		addEvents: function(){			
 
 			var controller = this,
 				bootJSON   = terminalJSON.boot.sequence;
-				bootingInitDelay = 1.5 * 1000,
+				bootingInitDelay = 1.5 * 200,
 				boot = function(){
 
 					console.info("staring to boot");
@@ -36,11 +63,25 @@ define(["fold/controller",
 			};
 
 			controller.on("terminal:boot:start", boot);
+			controller.on("terminal:input", controller.input);
 
 		},
 
-		input: function(data){
+		input: function(command){
 
+			var controller = this,
+				commands = controller.commands;
+
+			if (commands[command]){
+
+				commands[command].call(this);				
+
+			}else{
+				
+				controller.output([terminalJSON.commands.unknown + command], 1);
+				return;
+
+			}
 
 		},
 

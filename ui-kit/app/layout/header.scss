@@ -48,6 +48,19 @@
 
 		}
 
+		@media all and (max-width: $medium-breakpoint){
+
+			margin-left: 10px;
+
+		}
+
+		@media all and (max-width: $small-breakpoint){
+
+			margin-left: 5px;
+			text-transform: none;
+
+		}
+
 	}
 
 	.mobile-menu {
@@ -57,8 +70,7 @@
 	}
 
 	.menu {
-		
-		display: none;
+
 		padding: 0;
 
 	}
@@ -105,22 +117,6 @@
 				transition: all 0.2s
 
 			}
-
-		}
-
-	}
-
-	@media #{$medium-up} {
-
-		.menu {
-		
-			display: block;
-
-		}
-
-		.mobile-toggle {
-
-			display: none;
 
 		}
 

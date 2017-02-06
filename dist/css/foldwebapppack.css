@@ -2588,8 +2588,14 @@ html, body {
     text-transform: uppercase; }
     .layout-header-view .link:hover {
       text-decoration: underline; }
+    @media all and (max-width: 64em) {
+      .layout-header-view .link {
+        margin-left: 10px; } }
+    @media all and (max-width: 40em) {
+      .layout-header-view .link {
+        margin-left: 5px;
+        text-transform: none; } }
   .layout-header-view .menu {
-    display: none;
     padding: 0; }
   .layout-header-view .mobile-toggle {
     display: block;
@@ -2623,11 +2629,6 @@ html, body {
         width: 15px;
         -webkit-transition: all 0.2s;
                 transition: all 0.2s; }
-  @media only screen and (min-width: 40.0625em) {
-    .layout-header-view .menu {
-      display: block; }
-    .layout-header-view .mobile-toggle {
-      display: none; } }
 
 .layout-footer-view {
   padding: 50px 0 40px 0;

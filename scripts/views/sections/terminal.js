@@ -1,7 +1,8 @@
 define(["fold/view",
 		"text!templates/sections/terminal.html",
 		"json!data/info.json",
-		"json!data/build.json"], function(FoldView, template, dataJSON, buildJSON){
+		"json!data/build.json",
+		"controllers/terminal"], function(FoldView, template, dataJSON, buildJSON, terminalController){
 	
 	var TerminalSectionView = FoldView.extend({
 

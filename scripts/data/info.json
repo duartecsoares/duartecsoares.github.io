@@ -272,7 +272,7 @@
 
 				{
 
-					"icon": "",
+					"icon": "rocket@2x.png",
 					"name": "one of many",
 					"description": "Owned by developing and releasing Build It With Me project."
 
@@ -280,7 +280,7 @@
 
 				{
 
-					"icon": "",
+					"icon": "chef@2x.png",
 					"name": "Getting older",
 					"description": "I have been working with javascript since 2011, even with coffescript."
 
@@ -288,7 +288,7 @@
 
 				{
 
-					"icon": "",
+					"icon": "pull-request@2x.png",
 					"name": "contributer",
 					"description": "Made my first contribution on a lib at Github called 'color-thief'."
 
@@ -296,7 +296,7 @@
 
 				{
 
-					"icon": "",
+					"icon": "package@2x.png",
 					"name": "Bowering",
 					"description": "Added for the first time a lib to the package manager 'Bower'."
 
@@ -304,7 +304,7 @@
 
 				{
 
-					"icon": "",
+					"icon": "work@2x.png",
 					"name": "good times",
 					"description": "Had a small development studio with <a href='https://twitter.com/carlosgavina' target='_blank'>Carlos Gavina</a> and <a href='https://twitter.com/joaodsantiago' target='_blank'>João Santiago</a>."
 
@@ -312,7 +312,7 @@
 
 				{
 
-					"icon": "",
+					"icon": "hourglass@2x.png",
 					"name": "just in time...",
 					"description": "Finally lanched my own personal website, where my work is shown."
 

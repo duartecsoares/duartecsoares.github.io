@@ -3067,11 +3067,20 @@ html, body {
 .fold-achievements-section-view .achievement-card {
   margin: auto auto 60px auto; }
   .fold-achievements-section-view .achievement-card .achievement-badge {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    position: relative; }
   .fold-achievements-section-view .achievement-card .achievement-badge-image {
     width: 137px;
     margin: auto;
     display: block; }
+  .fold-achievements-section-view .achievement-card .achievement-badge-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 130px; }
   .fold-achievements-section-view .achievement-card .achievement-card-image {
     width: 80px;
     margin: auto auto 25px auto;

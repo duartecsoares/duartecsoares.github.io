@@ -2995,6 +2995,8 @@ html, body {
     -webkit-transform: translateY(0px);
             transform: translateY(0px); }
 
+.fold-journey-section-view .content-block a {
+  text-decoration: underline; }
 .fold-journey-section-view .timeline {
   position: relative;
   width: 100%;
@@ -3056,6 +3058,8 @@ html, body {
   border: 1px solid #efefef; }
 .fold-work-section-view .content-block {
   margin-top: 60px; }
+  .fold-work-section-view .content-block a {
+    text-decoration: underline; }
 .fold-work-section-view .video-player {
   min-width: 100%;
   min-height: 100%;

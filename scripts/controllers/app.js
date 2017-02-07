@@ -5,7 +5,7 @@ define(["fold/controller",
 		"controllers/pages/home",
 		"controllers/pages/soon"], function(FoldController, appRouter, layout, appConfig, homeController, soonController){
 	
-	var env = "dev", //dev or prod
+	var env = "prod", //dev or prod
 		AppController = FoldController.extend({
 
 		boot : function(){
@@ -33,7 +33,7 @@ define(["fold/controller",
 				},
 				reboot = function(){
 
-					env = "dev";
+					env = "prod";
 					soonController.disable();
 					layout.remove(soonController.view.idView);
 					bootNormal();
@@ -42,7 +42,7 @@ define(["fold/controller",
 			
 			layout.$dom.find("[data-view='app-loader']").remove();			
 			
-			if(env === "dev"){
+			if(env === "prod"){
 
 				bootNormal();
 				
@@ -56,7 +56,7 @@ define(["fold/controller",
 
 				layout.$win.on("keyup", function(e){
 
-					if (env === "dev") return;
+					if (env === "prod") return;
 
 					var keyCode = e.keyCode;
 

@@ -2,7 +2,7 @@
 
 	"app": {
 
-		"version": "0.1.1"
+		"version": "0.7.0"
 
 	},
 
@@ -32,7 +32,7 @@
 
 					"image": "backbone@2x.png",
 					"name": "BackboneJS",
-					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
+					"description": "Backbone.js gives structure to web applications by providing models, collections and views.",
 					"link" : "http://backbonejs.org/"
 
 				},
@@ -41,7 +41,7 @@
 
 					"image": "framerjs@2x.png",
 					"name": "FramerJS",
-					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
+					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web.",
 					"link" : "https://framer.com/"
 
 				},
@@ -50,7 +50,7 @@
 
 					"image": "wordpress@2x.png",
 					"name": "Wordpress",
-					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
+					"description": "WordPress is a free and open-source content management system (CMS) based on PHP and MySQL.",
 					"link" : "https://wordpress.com/"
 
 				},
@@ -59,7 +59,7 @@
 
 					"image": "middleman@2x.png",
 					"name": "Middleman",
-					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
+					"description": "Middleman is a static site generator using all the shortcuts and tools in modern web development.",
 					"link" : "https://middlemanapp.com/"
 
 				},
@@ -68,7 +68,7 @@
 
 					"image": "gruntjs@2x.png",
 					"name": "GruntJS",
-					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
+					"description": "Automation, performing repetitive tasks like minification, compilation, unit testing and linting.",
 					"link" : "http://gruntjs.com/"
 
 				},
@@ -77,7 +77,7 @@
 
 					"image": "sass@2x.png",
 					"name": "SASS",
-					"description": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web. Invent new animations and interactions.",
+					"description": "CSS with superpowers. Sass is the most mature, stable, and powerful CSS extension in the world.",
 					"link" : "http://sass-lang.com/"
 
 				}
@@ -95,7 +95,7 @@
 
 					"name": "Universidade de Aveiro",
 					"image": "ua@2x.png",
-					"description": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+					"description": "College where i gratuate and started my formation as developer by joining two non-profit projects that helps disabled kids.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
@@ -125,7 +125,7 @@
 
 					"name": "MeshApp",
 					"image": "meshapp@2x.png",
-					"description": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+					"description": "First startup i worked in after my graduation and it was the first time i built a Web Application.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
@@ -146,7 +146,7 @@
 
 					"name": "Föld",
 					"image": "fold@2x.png",
-					"description": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+					"description": "Small development studio in cooperation with <a href='https://twitter.com/carlosgavina' target='_blank'>Carlos Gavina</a> and <a href='https://twitter.com/joaodsantiago' target='_blank'>João Santiago</a> working mainly for US clients. Where we lauched <a href='//builditwith.me'>Build It With Me</a>.",
 					"date": "June, 2011",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
@@ -191,7 +191,7 @@
 
 					"name": "Freelancer",
 					"image": "avatar@2x.png",
-					"description": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+					"description": "After leaving Föld, i started working by myself remotely from home. Hopefully grabbing works from all over the world.",
 					"date": "now",
 					"projects": [{ "icon" : "", "name": "MeshApp Client" }],
 					"link": "",
@@ -221,7 +221,7 @@
 
 					"name": "Build It With Me",
 					"image": "builditwithme.png",
-					"description": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
+					"description": "Build It With Me exists to make creating apps or websites easier by connecting you with like-minded designers & developers with the same goal: create cool & useful apps.",
 					"video": "builditwithme.mov",
 					"link": "",
 					"featured": true
@@ -232,7 +232,7 @@
 
 					"name": "Social Triggers",
 					"image": "social-triggers.png",
-					"description": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
+					"description": "Social Triggers was founded by Derek Halpern. Derek is an expert marketer and entrepreneur. It was a Föld project in cooperation with <a href='https://twitter.com/behoff' target='_blank'>Brian Hoff</a>.",
 					"video": "socialtriggers.mov",
 					"link": "",
 					"featured": false
@@ -243,7 +243,7 @@
 
 					"name": "Ravenna (Landing Page)",
 					"image": "ravenna.png",
-					"description": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
+					"description": "Another Föld project, this time a landing page for students applying to private and independent PS-12 schools.",
 					"video": "ravenna.mov",
 					"link": "",
 					"featured": false
@@ -254,7 +254,7 @@
 
 					"name": "Eminence: Xander's Tale",
 					"image": "eminence.png",
-					"description": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
+					"description": "First work as freelancer to an indie game developement studio that is working on a MMO trading card game with an explorable real time world.",
 					"video": "eminence.mov",
 					"link": "",
 					"featured": false

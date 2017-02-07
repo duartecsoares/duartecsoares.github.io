@@ -2773,7 +2773,8 @@ html, body {
       height: 1px;
       width: 100%;
       position: absolute;
-      bottom: -8px;
+      -webkit-transform: translateY(99px);
+              transform: translateY(99px);
       left: 0;
       background-color: #D5D5D5; }
   .tab-menu .tab-menu-item {
@@ -3041,7 +3042,7 @@ html, body {
     font-weight: bold; }
   .fold-journey-section-view .timeline .timeline-data-entry-date {
     position: absolute;
-    left: -100px;
+    right: 40px;
     top: -19px;
     color: #b9b9b9;
     white-space: nowrap; }
@@ -3080,6 +3081,14 @@ html, body {
 .fold-work-section-view .browser-content {
   overflow: hidden;
   position: relative; }
+  .fold-work-section-view .browser-content .app-loader svg {
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -25px;
+    bottom: 0; }
 @media all and (max-width: 64em) {
   .fold-work-section-view .content-block {
     margin-bottom: 40px; } }

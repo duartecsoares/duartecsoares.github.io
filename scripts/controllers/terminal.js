@@ -88,6 +88,13 @@ define(["fold/controller",
 
 			cat: function(section){
 
+				if (section.length === 0) {
+
+					this.output(["Cat: Target file or folder is missing."], 1);
+					return;
+
+				}
+
 				var section 	 = (section[0].search(".txt") > -1) ? section[0].replace(".txt", "") : section[0],
 					sectionData  = [],
 					sectionsJSON = dataJSON.sections;
@@ -107,8 +114,8 @@ define(["fold/controller",
 				if (result.length <= 0) {
 
 					this.output([terminalJSON.errors.cat], 1);
-
 					return;
+					
 				}
 
 				result.unshift("--- " + section + " -------");

@@ -222,7 +222,7 @@
 					"name": "Build It With Me",
 					"image": "builditwithme.png",
 					"description": "But with his gaze fixed upon the dim and distant horizon, Ahab seemed not to mark this wild bird; nor, indeed, would any one else have marked it much, it being no uncommon circumstance.",
-					"video": "builditwithme.gif",
+					"video": "builditwithme.mov",
 					"link": "",
 					"featured": true
 
@@ -233,7 +233,7 @@
 					"name": "Social Triggers",
 					"image": "social-triggers.png",
 					"description": "Upon the stranger's shears were beheld the shattered, white ribs, and some few splintered planks, of what had once been a whale-boat; but you now saw through this wreck.",
-					"video": "builditwithme.gif",
+					"video": "socialtriggers.mov",
 					"link": "",
 					"featured": false
 
@@ -244,7 +244,7 @@
 					"name": "Ravenna (Landing Page)",
 					"image": "ravenna.png",
 					"description": "The intense Pequod sailed on; the rolling waves and days went by; the life-buoy-coffin still lightly swung; and another ship, most miserably misnamed the Delight, was descried.",
-					"video": "builditwithme.gif",
+					"video": "ravenna.mov",
 					"link": "",
 					"featured": false
 
@@ -255,7 +255,7 @@
 					"name": "Eminence: Xander's Tale",
 					"image": "eminence.png",
 					"description": "As she drew nigh, all eyes were fixed upon her broad beams, called shears, which, in some whaling-ships, cross the quarter-deck at the height of eight or nine feet.",
-					"video": "builditwithme.gif",
+					"video": "eminence.mov",
 					"link": "",
 					"featured": false
 

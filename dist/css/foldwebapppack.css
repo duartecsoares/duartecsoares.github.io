@@ -3060,6 +3060,9 @@ html, body {
   margin-top: 60px; }
   .fold-work-section-view .content-block a {
     text-decoration: underline; }
+  .fold-work-section-view .content-block .url-link img {
+    width: 18px;
+    margin-top: 20px; }
 .fold-work-section-view .video-player {
   min-width: 100%;
   min-height: 100%;

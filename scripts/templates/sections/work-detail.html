@@ -3,7 +3,8 @@
 	var name = model.name,
 		image = model.image,
 		description = model.description,
-		video = model.video;
+		video = model.video,
+		link = model.link;
 
 %>
 
@@ -16,6 +17,7 @@
 			<img src="/resources/assets/work/<%= image %>" class="content-block-image">
 			<h3 class="heading biggest"><%= name %></h3>
 			<p class="paragraph big"><%= description %></p>
+			<a href="<%= link %>" class="url-link" target="_blank"><img src="/resources/assets/utils/link@2x.png"></a>
 
 		</div>
 
@@ -37,14 +39,15 @@
 
 			</div>
 
-			<div class="browser-content">
-				
-				<video class="video-player" width="100%" autoplay="" loop="" playsinline="">
-					<source src="/resources/assets/work-screens/<%= video %>" type="video/mp4">
-				</video>
+			<a href="<%= link %>" target="_blank">
+				<div class="browser-content">
+					
+					<video class="video-player" width="100%" autoplay="" loop="" playsinline="">
+						<source src="/resources/assets/work-screens/<%= video %>" type="video/mp4">
+					</video>
 
-			</div>
-
+				</div>
+			</a>
 		</div>
 
 	</div>

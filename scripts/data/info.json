@@ -223,7 +223,7 @@
 					"image": "builditwithme.png",
 					"description": "Build It With Me exists to make creating apps or websites easier by connecting you with like-minded designers & developers with the same goal: create cool & useful apps.",
 					"video": "builditwithme.mov",
-					"link": "",
+					"link": "//www.builditwith.me",
 					"featured": true
 
 				},
@@ -234,7 +234,7 @@
 					"image": "social-triggers.png",
 					"description": "Social Triggers was founded by Derek Halpern. Derek is an expert marketer and entrepreneur. It was a Föld project in cooperation with <a href='https://twitter.com/behoff' target='_blank'>Brian Hoff</a>.",
 					"video": "socialtriggers.mov",
-					"link": "",
+					"link": "//www.socialtriggers.com",
 					"featured": false
 
 				},
@@ -245,7 +245,7 @@
 					"image": "ravenna.png",
 					"description": "Another Föld project, this time a landing page for students applying to private and independent PS-12 schools.",
 					"video": "ravenna.mov",
-					"link": "",
+					"link": "//www.ravennasolutions.com",
 					"featured": false
 
 				},
@@ -256,7 +256,7 @@
 					"image": "eminence.png",
 					"description": "First work as freelancer to an indie game developement studio that is working on a MMO trading card game with an explorable real time world.",
 					"video": "eminence.mov",
-					"link": "",
+					"link": "//eminence.netlify.com",
 					"featured": false
 
 				}

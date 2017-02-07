@@ -1,11 +1,10 @@
 define(["fold/controller",
-		"json!data/terminal.json"], function(FoldController, terminalJSON){
+		"json!data/terminal.json",
+		"json!data/info.json"], function(FoldController, terminalJSON, dataJSON){
 	
 	var TerminalController = FoldController.extend({
 
 		setup: function(){
-
-			console.log("terminal controller init");
 
 			this.addEvents();
 
@@ -30,9 +29,92 @@ define(["fold/controller",
 
 			},
 
-			curl : function(){
+			curl : function(link){
 
+				window.open("//" + link);
 
+			},
+
+			ls: function(value){
+
+				var sections = [],
+					sectionsJSON = dataJSON.sections;
+
+				if (value.length > 0) {
+
+					this.output([terminalJSON.errors.ls], 1);
+
+					return;
+
+				}
+
+				Object.keys(sectionsJSON).map(function(key){
+
+					if(sectionsJSON[key].data) sections.push(key);
+
+				});
+
+				sections = sections.map(function(section, i){
+
+					return (i > 0) ? " " + section + ".txt" : section + ".txt";
+
+				});
+
+				this.output([sections.toString()], 1);
+
+			},
+
+			man: function(command){
+
+				command = command[0];
+
+				if(terminalJSON.descriptions[command]){
+
+					this.output([terminalJSON.descriptions[command]], 1);
+
+				}else{
+
+					this.output([terminalJSON.errors.man + command], 1);
+
+				}				
+
+			},
+
+			connect: function(){
+
+				window.location.href = "mailto:duartecsoares@me.com";
+
+			},
+
+			cat: function(section){
+
+				var section 	 = (section[0].search(".txt") > -1) ? section[0].replace(".txt", "") : section[0],
+					sectionData  = [],
+					sectionsJSON = dataJSON.sections;
+
+				Object.keys(sectionsJSON).map(function(key){
+
+					if(sectionsJSON[key].data && (key === section)) sectionData = sectionsJSON[key].data;
+
+				});
+
+				var result = sectionData.map(function(itemData){
+
+					return itemData.name;
+
+				});
+
+				if (result.length <= 0) {
+
+					this.output([terminalJSON.errors.cat], 1);
+
+					return;
+				}
+
+				result.unshift("--- " + section + " -------");
+				result.push("-----------------");
+
+				this.output(result, 1);
 
 			}
 
@@ -67,18 +149,29 @@ define(["fold/controller",
 
 		},
 
-		input: function(command){
+		input: function(value){
 
-			var controller = this,
-				commands = controller.commands;
+			var controller 		 = this,
+				commands 		 = controller.commands,
+				deconstructValue = value.split(" "),
+				command 		 = deconstructValue[0].toLowerCase(),
+				params 			 = [];
+
+			controller.output([value], 1);
+
+			deconstructValue.map(function(param, i){
+
+				if(i > 0) params.push(param);
+
+			});
 
 			if (commands[command]){
 
-				commands[command].call(this);				
+				commands[command].call(this, params);				
 
 			}else{
 				
-				controller.output([terminalJSON.commands.unknown + command], 1);
+				controller.output([terminalJSON.errors.unknown + command], 1);
 				return;
 
 			}

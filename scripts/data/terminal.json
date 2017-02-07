@@ -1,8 +1,21 @@
 {
 
-	"commands": {
+	"errors": {
 
-		"unknown" : "command not found: "
+		"cat": "No such file or directory",
+		"ls": "Invalid arguments",
+		"man": "Command not found: ",
+		"unknown": "Command not found: "
+
+	},
+
+	"descriptions": {
+
+		"help": "No manual entry for help",
+		"curl": "Opens a given url within a new tab on your default browser.",
+		"connect": "Opens your email client.",
+		"cat": "The cat utility reads files sequentially, writing them to the standard output.",
+		"ls": " For each operand that names a file of a type other than directory, ls displays its name as well as any requested, associated information."
 
 	},
 
@@ -15,33 +28,8 @@
 			"Checking Kernel ----------------- [ok]",
 			"Starting Remount Root and Kernel File Systems...",
 			"Welcome to DuarteOS!",
-			"Scroll down or type help to see available commands","Loading DuarteOS",
-			"Checking File System ------------ [ok]",
-			"Checking Kernel ----------------- [ok]",
-			"Starting Remount Root and Kernel File Systems...",
-			"Welcome to DuarteOS!",
-			"Scroll down or type help to see available commands","Loading DuarteOS",
-			"Checking File System ------------ [ok]",
-			"Checking Kernel ----------------- [ok]",
-			"Starting Remount Root and Kernel File Systems...",
-			"Welcome to DuarteOS!",
-			"Scroll down or type help to see available commands","Loading DuarteOS",
-			"Checking File System ------------ [ok]",
-			"Checking Kernel ----------------- [ok]",
-			"Starting Remount Root and Kernel File Systems...",
-			"Welcome to DuarteOS!",
-			"Scroll down or type help to see available commands","Loading DuarteOS",
-			"Checking File System ------------ [ok]",
-			"Checking Kernel ----------------- [ok]",
-			"Starting Remount Root and Kernel File Systems...",
-			"Welcome to DuarteOS!",
-			"Scroll down or type help to see available commands","Loading DuarteOS",
-			"Checking File System ------------ [ok]",
-			"Checking Kernel ----------------- [ok]",
-			"Starting Remount Root and Kernel File Systems...",
-			"Welcome to DuarteOS!",
-			"Scroll down or type help to see available commands"
-
+			"Type HELP to see available commands and MAN < command > to see what each one of them does.",
+			"Or just simply scroll down for UI."
 		]
 
 	}

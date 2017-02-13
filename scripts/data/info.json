@@ -282,7 +282,7 @@
 
 					"icon": "chef@2x.png",
 					"name": "'chef a la cart'",
-					"description": "I have been working with javascript many ways even in coffescript, since 2011."
+					"description": "I have been working with javascript many ways, since 2011."
 
 				},
 
@@ -290,7 +290,7 @@
 
 					"icon": "pull-request@2x.png",
 					"name": "contributer",
-					"description": "Made my first contribution on a lib at Github called 'color-thief'."
+					"description": "Made my first contribution on a repository ('color-thief') at Github."
 
 				},
 

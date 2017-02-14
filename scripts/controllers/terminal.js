@@ -29,6 +29,12 @@ define(["fold/controller",
 
 			},
 
+			clear : function(){
+
+				this.trigger("terminal:command:clear");
+
+			},
+
 			curl : function(link){
 
 				window.open("//" + link);

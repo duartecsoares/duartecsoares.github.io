@@ -23,13 +23,26 @@
 
 		"sequence": [
 
-			"Loading DuarteOS",
-			"Checking File System ------------ [ok]",
+			"Loading duartecsoaresOS",
 			"Checking Kernel ----------------- [ok]",
-			"Starting Remount Root and Kernel File Systems...",
-			"Welcome to DuarteOS!",
+			"Checking File System ------------ [ok]",
+			"Mounting Local File Systems",			
+			"Cleaning Up Temporary Files ----------------- [ok]",
+			"Synthesizing The Initial Hotplug events ----------------- [ok]",
+			"Wainting For /dev To Be Fully Populated ----------------- [ok]",
+			"Activating Swap ----------------- [ok]",
+			"Configurating network interfaces ----------------- [ok]",
+			"Starting Enhanced SysLogd: Rsyslogd",
+			"Starting Periodic Command Scheduler: cron",
+			"Starting Remount Root and Kernel File Systems...",			
+			"Welcome to duartecsoaresOS!",
+			"</br>",
+			"You can use the Terminal or the UI in order to get access to information about me...",
+			"------------------------------------------------",
 			"Type HELP to see available commands and MAN < command > to see what each one of them does.",
-			"Or just simply scroll down for UI."
+			"Or just simply scroll down for UI.",
+			"------------------------------------------------",
+			"</br>"
 		]
 
 	}

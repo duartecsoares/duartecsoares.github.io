@@ -54,9 +54,21 @@ define(["fold/view",
 					$terminalMonitor.append($codeBlock);
 					$terminalMonitor.scrollTop($terminalMonitor[0].scrollHeight);
 
-				}
+				},
+				clearTerminal = function(){
+
+					var $terminalMonitor = view.$el.find("[data-terminal='monitor']");
+
+					setTimeout(function(){
+
+						$terminalMonitor.html("");
+
+					});
+
+				};
 
 			view.listenTo(terminalController, "terminal:output", renderText);
+			view.listenTo(terminalController, "terminal:command:clear", clearTerminal);
 			view.listenTo(terminalController, "terminal:boot:finish", function(){
 
 				var $input = view.$el.find(".terminal-input");

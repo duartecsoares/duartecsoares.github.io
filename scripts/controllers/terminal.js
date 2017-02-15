@@ -41,6 +41,12 @@ define(["fold/controller",
 
 			},
 
+			echo: function(s){
+
+				this.output([s], 1);
+
+			},
+
 			ls: function(value){
 
 				var sections = [],
@@ -80,7 +86,15 @@ define(["fold/controller",
 
 				}else{
 
-					this.output([terminalJSON.errors.man + command], 1);
+					if (command) {
+
+						this.output([terminalJSON.errors.man + command], 1);
+
+					}else{
+
+						this.output(["Man: Argument is missing"], 1);
+
+					}
 
 				}				
 

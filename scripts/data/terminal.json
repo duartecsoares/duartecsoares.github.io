@@ -4,17 +4,20 @@
 
 		"cat": "No such file or directory",
 		"ls": "Invalid arguments",
-		"man": "Command not found: ",
+		"man": "Command has no man registry: ",
 		"unknown": "Command not found: "
 
 	},
 
 	"descriptions": {
 
-		"help": "No manual entry for help",
+		"help": "No manual entry for help.",
 		"curl": "Opens a given url within a new tab on your default browser.",
+		"echo": "Write arguments to the standard output.",
 		"connect": "Opens your email client.",
 		"cat": "The cat utility reads files sequentially, writing them to the standard output.",
+		"man": "Formats and displays the on-line manual pages.",
+		"clear": "Clears your screen if this is possible.",
 		"ls": " For each operand that names a file of a type other than directory, ls displays its name as well as any requested, associated information."
 
 	},

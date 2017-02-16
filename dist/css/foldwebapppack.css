@@ -3091,7 +3091,23 @@ html, body {
     bottom: 0; }
 @media all and (max-width: 64em) {
   .fold-work-section-view .content-block {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  .fold-work-section-view .work-detail-content-col {
+    text-align: center;
+    display: block;
+    margin: auto;
+    float: none; }
+  .fold-work-section-view .work-detail-display-col {
+    text-align: center;
+    display: block;
+    margin: auto;
+    float: none; } }
+@media all and (max-width: 40em) {
+  .fold-work-section-view .work-detail-display-col {
+    text-align: center;
+    display: block;
+    margin: auto;
+    float: none !important; } }
 
 .fold-achievements-section-view .section {
   padding-bottom: 40px; }

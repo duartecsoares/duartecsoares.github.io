@@ -30,6 +30,17 @@
 
 	}
 
+	.work-detail-content-col {
+
+
+	}
+
+	.work-detail-display-col {
+
+
+
+	}
+
 	.video-player {
 
 		min-width: 100%;
@@ -79,6 +90,38 @@
        		margin-bottom: 40px;
 
        }
+
+
+       .work-detail-content-col {
+
+       		text-align: center;
+       		display: block;
+       		margin: auto;
+       		float: none;
+
+		}
+
+		.work-detail-display-col {
+
+			text-align: center;
+       		display: block;
+       		margin: auto;
+       		float: none;
+
+		}
+
+    }
+
+    @media all and (max-width: $small-breakpoint) {
+
+		.work-detail-display-col {
+
+			text-align: center;
+       		display: block;
+       		margin: auto;
+       		float: none !important;
+
+		}
 
     }
 

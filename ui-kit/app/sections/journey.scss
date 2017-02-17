@@ -112,4 +112,31 @@
 
 	}
 
+	@media all and (max-width: $medium-breakpoint){
+
+	    .content-block {
+
+	    	.content-block-image {
+
+	    		margin: auto;
+	    		display: block;
+
+	    	}
+
+	    	.paragraph, .heading {
+
+	    		text-align: center;
+
+	    	}
+
+	    	.projects-wrapper {
+
+	    		text-align: center;
+
+	    	}
+
+	    }
+
+	}
+
 }

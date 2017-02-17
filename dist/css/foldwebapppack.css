@@ -3055,6 +3055,14 @@ html, body {
     margin: auto;
     width: 60px;
     background-color: #4D545A; }
+@media all and (max-width: 64em) {
+  .fold-journey-section-view .content-block .content-block-image {
+    margin: auto;
+    display: block; }
+  .fold-journey-section-view .content-block .paragraph, .fold-journey-section-view .content-block .heading {
+    text-align: center; }
+  .fold-journey-section-view .content-block .projects-wrapper {
+    text-align: center; } }
 
 .fold-work-section-view .content-block-image {
   border-radius: 50%;

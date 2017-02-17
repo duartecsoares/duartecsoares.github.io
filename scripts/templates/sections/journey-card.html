@@ -13,43 +13,47 @@
 	<h3 class="heading biggest" data-journey="name"><%= name %></h3>
 	<p class="paragraph big" data-journey="description"><%= description %></p>
 	<h5 class="heading small">Products</h5>	
-			
-	<%
+		
+	<div class="projects-wrapper">
 
-		projects.map(function(project){
+		<%
 
-			%>
-				<div class="content-block-project" data-journey="projects">					
+			projects.map(function(project){
 
-					<% if (project.link){ %>
+				%>
+					<div class="content-block-project" data-journey="projects">					
 
-						<a href="<%= project.link %>" target="_blank" title="<%= project.name %>">
+						<% if (project.link){ %>
 
-					<% } %>
+							<a href="<%= project.link %>" target="_blank" title="<%= project.name %>">
 
-						
-							<% if (!project.image){ %>
+						<% } %>
 
-								<%= project.name %>
+							
+								<% if (!project.image){ %>
 
-							<% }else{ %>
+									<%= project.name %>
 
-								<img src="/resources/assets/<%= project.image %>" class="content-block-project-image">
+								<% }else{ %>
 
-							<% } %>
+									<img src="/resources/assets/<%= project.image %>" class="content-block-project-image">
 
-					<% if (project.link){ %>
+								<% } %>
 
-						</a>
+						<% if (project.link){ %>
 
-					<% } %>
+							</a>
 
-				</div>
+						<% } %>
 
-			<%
+					</div>
 
-		});
+				<%
 
-	%>
+			});
+
+		%>
+
+	</div>
 
 </div>

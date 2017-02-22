@@ -2634,6 +2634,9 @@ html, body {
   padding: 50px 0 40px 0;
   background-color: #F6F6F6;
   border-top: 1px solid #E9E9E9; }
+  @media all and (max-width: 64em) {
+    .layout-footer-view .column {
+      text-align: center; } }
 
 .profile-card {
   border-radius: 50px;
@@ -3164,6 +3167,25 @@ html, body {
   background-color: #4D545A;
   margin-top: 95px;
   display: block; }
+.fold-connect-section-view .connect-social {
+  width: 300px;
+  margin: auto; }
+  .fold-connect-section-view .connect-social .connect-social-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #ececec;
+    border-radius: 50%;
+    background-color: #fafafa;
+    display: inline-block;
+    position: relative; }
+    .fold-connect-section-view .connect-social .connect-social-icon img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
 
 .fold-menu-mobile-view {
   position: fixed;

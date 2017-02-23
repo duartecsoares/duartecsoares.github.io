@@ -67,4 +67,14 @@
 
 	}
 
+	@media all and (max-width: $medium-breakpoint){ 
+
+		.achievement-card {
+
+			text-align: center;
+
+		}
+
+	}
+
 }

@@ -3000,6 +3000,9 @@ html, body {
   .fold-technologies-section-view .tech-card:hover .bottom-right:after {
     -webkit-transform: translateY(0px);
             transform: translateY(0px); }
+@media all and (max-width: 64em) {
+  .fold-technologies-section-view .tech-card {
+    text-align: center; } }
 
 .fold-journey-section-view .content-block a {
   text-decoration: underline; }
@@ -3151,6 +3154,9 @@ html, body {
   margin: auto; }
 .fold-achievements-section-view a {
   text-decoration: underline; }
+@media all and (max-width: 64em) {
+  .fold-achievements-section-view .achievement-card {
+    text-align: center; } }
 
 .fold-connect-section-view .heading.special {
   width: auto; }

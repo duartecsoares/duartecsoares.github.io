@@ -143,4 +143,14 @@ $cornerSize: 30px;
 
 	}
 
+	@media all and (max-width: $medium-breakpoint){ 
+
+		.tech-card {
+
+			text-align: center;
+
+		}
+
+	}
+
 }

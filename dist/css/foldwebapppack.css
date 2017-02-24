@@ -2634,6 +2634,8 @@ html, body {
   padding: 50px 0 40px 0;
   background-color: #F6F6F6;
   border-top: 1px solid #E9E9E9; }
+  .layout-footer-view .copyright a {
+    text-decoration: underline; }
   @media all and (max-width: 64em) {
     .layout-footer-view .column {
       text-align: center; } }

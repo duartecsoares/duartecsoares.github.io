@@ -12,6 +12,7 @@
 	"descriptions": {
 
 		"help": "No manual entry for help.",
+		"cv": "Downloads and opens duartecsoares curriculum vitae.",
 		"curl": "Opens a given url within a new tab on your default browser.",
 		"echo": "Write arguments to the standard output.",
 		"connect": "Opens your email client.",

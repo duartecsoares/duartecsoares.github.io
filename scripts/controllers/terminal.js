@@ -12,6 +12,13 @@ define(["fold/controller",
 
 		commands: {
 
+			cv: function(){
+
+				this.output(["Downloading file... 100%!", "Extracting file... 100%!", "Opening Curriculum Vitae... done!"], 1);
+				window.open("/resources/docs/resume.pdf");
+
+			},
+
 			help: function(){
 
 				var commands = this.commands,

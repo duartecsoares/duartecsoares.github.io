@@ -3192,6 +3192,25 @@ html, body {
       top: 0;
       bottom: 0;
       margin: auto; }
+.fold-connect-section-view .resume {
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+  left: -20px;
+  color: #a9a9a9;
+  position: relative; }
+  .fold-connect-section-view .resume:hover {
+    text-decoration: underline; }
+  .fold-connect-section-view .resume:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+    background-color: #a9a9a9;
+    height: 15px;
+    width: 1px;
+    margin: auto; }
 
 .fold-menu-mobile-view {
   position: fixed;
